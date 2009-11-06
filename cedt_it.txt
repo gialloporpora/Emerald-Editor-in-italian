@@ -1,0 +1,906 @@
+&File
+&File
+----------
+&New\tCtrl+N
+&Nuovo\tCtrl+N
+----------
+&Open...\tCtrl+O
+&Apri...\tCtrl+O
+----------
+Open &Template...\tAlt+Shift+O
+Apri &Modello...\tAlt+Maiusc+O
+----------
+&Close\tCtrl+F4
+Chi&udi\tCtrl+F4
+----------
+Close &Other
+Chiu&di altro
+----------
+Clos&e All
+Chiudi &tutto
+----------
+&Reload
+&Aggiorna
+----------
+Reloa&d As...
+Aggior&na come...
+----------
+&Save\tCtrl+S
+&Salva\tCtrl+S
+----------
+Save &As...\tAlt+Shift+S
+Sal&va con nome...\tAlt+Maiusc+S
+----------
+Save A&ll
+Salva &tutto
+----------
+&Print...\tCtrl+P
+Stam&pa...\tCtrl+P
+----------
+Print Pre&view
+Antep&rima di stampa
+----------
+Print Set&up...
+I&mpostazioni pagina...
+----------
+&FTP
+&FTP
+----------
+&Open Remote...\tCtrl+Shift+O
+Apri file &remoto...\tCtrl+Maiusc+O
+----------
+Save &As Remote...\tCtrl+Shift+S
+Salva file rem&oto...\tCtrl+Maiusc+S
+----------
+FTP &Settings...
+I&mpostazioni FTP ...
+----------
+Recent F&iles
+F&ile recenti
+----------
+E&xit\tAlt+F4
+&Esci\tAlt+F4
+----------
+&Edit
+M&odifica
+----------
+&Undo\tCtrl+Z
+&Annulla\tCtrl+Z
+----------
+&Redo\tCtrl+Y
+&Ripristina\tCtrl+Y
+----------
+Cu&t\tCtrl+X
+&Taglia\tCtrl+X
+----------
+&Copy\tCtrl+C
+&Copia\tCtrl+C
+----------
+&Paste\tCtrl+V
+I&ncolla\tCtrl+V
+----------
+&Delete\tDel
+&EliminatDel
+----------
+&Append
+&Accoda agli appunti
+----------
+Cu&t Append\tCtrl+Shift+X
+&Taglia e accoda\tCtrl+Maiusc+X
+----------
+&Copy Append\tCtrl+Shift+C
+&Copia e accoda\tCtrl+Maiusc+C
+----------
+&Line Oriented
+&Operazioni sulle righe
+----------
+Cu&t
+&Taglia
+----------
+&Copy
+&Copia
+----------
+&Paste
+I&ncolla
+----------
+&Select
+&Seleziona
+----------
+Select &All\tCtrl+A
+Seleziona &tutto\tCtrl+A
+----------
+Select &Line\tCtrl+E
+Seleziona &riga\tCtrl+E
+----------
+Select &Word\tCtrl+D
+Seleziona &parolatCtrl+D
+----------
+Select &Block\tCtrl+B
+Seleziona &blocco\tCtrl+B
+----------
+C&hange Case
+&Maiuscole/minuscole
+----------
+&Upper Case\tCtrl+U
+In mai&uscolo\tCtrl+U
+----------
+&Lower Case\tCtrl+L
+In &minuscolo\tCtrl+L
+----------
+&Capitalize\tCtrl+Shift+U
+&Prima lettera maiuscola\tCtrl+Maiusc+U
+----------
+&Invert Case\tCtrl+Shift+L
+In&verti maiuscole/minuscole\tCtrl+Maiusc+L
+----------
+&Insert
+&Inserisci
+----------
+Insert &Date\tAlt+Shift+D
+&Data\tAlt+Maiusc+D
+----------
+Insert &Time\tAlt+Shift+T
+&Orario\tAlt+Maiusc+T
+----------
+Insert &File...\tAlt+Shift+F
+&File...\tAlt+Maiusc+F
+----------
+Ad&vanced
+A&avanzate
+----------
+&Increase Indent\tCtrl+.
+&Aumenta indentazione\tCtrl+.
+----------
+&Decrease Indent\tCtrl+,
+&Diminuisci indentazione\tCtrl+,
+----------
+D&elete Line\tAlt+Del
+&Elimina riga\tAlt+Del
+----------
+D&uplicate Line\tAlt+Ins
+Clona &riga\tAlt+Ins
+----------
+Delete &Word\tCtrl+Del
+Elimina &parola\tCtrl+Del
+----------
+Delete &Prev Word\tCtrl+Back
+Elimina parola p&recedente\tCtrl+Back
+----------
+Delete to E&nd of Line\tCtrl+Shift+Del
+Elimina &fino a fine riga\tCtrl+Shift+Del
+----------
+Delete to &Begin of Line\tCtrl+Shift+Back
+Elimina da ini&zio riga\tCtrl+Shift+Back
+----------
+&Join Lines\tAlt+J
+&Unisci righe\tAlt+J
+----------
+&Split Line\tAlt+K
+&Spezza riga\tAlt+K
+----------
+&Make Comment\tCtrl+M
+Co&mmenta\tCtrl+M
+----------
+&Release Comment\tCtrl+Shift+M
+&Rimuovi commento\tCtrl+Shift+M
+----------
+Column &Mode\tAlt+C
+&Modalità colonna\tAlt+C
+----------
+&Search
+&Cerca
+----------
+&Find...\tCtrl+F
+&Trova...\tCtrl+F
+----------
+&Replace...\tCtrl+R
+&Sostituisci...\tCtrl+R
+----------
+Find &Next\tF3
+Trova &successivo\tF3
+----------
+Find &Prev\tShift+F3
+Trova &precedente\tMaiusc+F3
+----------
+Find &in Files...\tCtrl+Shift+F
+Trova nei &file...\tCtrl+Maiusc+F
+----------
+&Go To...\tCtrl+G
+&Vai a...\tCtrl+G
+----------
+&Toggle Bookmark\tCtrl+F2
+&Aggiungi/rimuovi segnalibro\tCtrl+F2
+----------
+Ne&xt Bookmark\tF2
+Segnalibro s&uccessivo\tF2
+----------
+Pr&ev Bookmark\tShift+F2
+Segnalibro p&recedente\tMaiusc+F2
+----------
+&Prev Editing Position\tCtrl+\\
+&Ritorna alla posizione precedente\tCtrl+\\
+----------
+Pairs &Begin Position\tCtrl+[
+&Retrocedi dopo la parentesi\tCtrl+[
+----------
+Pairs &End Position\tCtrl+]
+&Avanza prima della parentesi\tCtrl+]
+----------
+&View
+&Visualizza
+----------
+&Toolbars/Views
+&Barre degli strumenti/Mostra
+----------
+&Toolbar
+&Barra degli strumenti
+----------
+&MDI File Tabs
+Barra delle sc&hede
+----------
+&Status Bar
+Barra di stat&o
+----------
+&Directory Window\tAlt+Shift+1
+Albero directory\tAlt+Maiusc+1
+----------
+&Remote Window\tAlt+Shift+2
+&Finestra struttura &remota\tAlt+Maiusc+2
+----------
+&Project Window\tAlt+Shift+3
+Finestra &progetti\tAlt+Maiusc+3
+----------
+&Output Window\tAlt+Shift+0
+Finestra &outputtAlt+Maiusc+0
+----------
+&Word Wrap\tAlt+Shift+W
+&Word Wrap\tAlt+Shift+W
+----------
+Spell Chec&k\tAlt+Shift+K
+&Controllo ortografico\tAlt+Maiusc+K
+----------
+Line &Numbers\tAlt+Shift+L
+&Numero di riga\tAlt+Maiusc+L
+----------
+Column &Markers...
+&Indicatori colonna...
+----------
+Screen &Fonts
+&Caratteri schermo
+----------
+&Default
+&Predefinito
+----------
+Custom &1
+Personalizzato &1
+----------
+Custom &2
+Personalizzato &2
+----------
+Custom &3
+Personalizzato &3
+----------
+Custom &4
+Personlalizzato &4
+----------
+Custom &5
+Personalizzato &5
+----------
+&Set Fonts...
+I&mposta carattere...
+----------
+&Printer Fonts
+Carattere per la &stampa
+----------
+Line &Spacing
+In&terlinea
+----------
+1&00% Line Spacing
+1&00%
+----------
+1&10% Line Spacing
+1&10%
+----------
+1&20% Line Spacing
+1&20%
+----------
+1&50% Line Spacing
+1&50% Line Spacing
+----------
+200% &Line Spacing
+200% &Line Spacing
+----------
+&Custom Line Spacing...
+Interlinea &personalizzata...
+----------
+Ta&b Size
+&Tabulazione
+----------
+Tab Size [&2]
+[&2]
+----------
+Tab Size [&4]
+[&4]
+----------
+Tab Size [&8]
+[&8]
+----------
+Tab Size [1&6]
+[1&6]
+----------
+&Custom Tab Size...
+Tabulazione &personalizzata...
+----------
+Set &Colors...
+mp&ostazione colori...
+----------
+&Others
+&Altri
+----------
+Embolden &Keywords\tAlt+Shift+B
+Parole chiave in gra&ssetto\tAlt+Maiusc+B
+----------
+Italicize &Comment\tAlt+Shift+I
+&Commenti in corsivo\tAlt+Shift+I
+----------
+Show &Spaces\tCtrl+Shift+W
+Mostra &spazi\tCtrl+Maiiusc+W
+----------
+Show &Tab Characters\tCtrl+Shift+T
+Mostra caratteri di &tabulazione\tCtrl+Maiusc+T
+----------
+Show Line &Break\tCtrl+Shift+B
+Mostra carattere 'a capo'\tCtrl+Shift+B
+----------
+&Document
+&Documento
+----------
+&Syntax Type
+&Sintassi
+----------
+&Auto Detect
+&Rileva automaticamente
+----------
+&Plain Text
+File di &testo
+----------
+&Customize...
+&Personalizza...
+----------
+&Reload Document
+&Aggiorna documento
+----------
+&Reload Syntaxes
+Aggiorna &sintassi
+----------
+&Lock Document
+&Blocca documento
+----------
+&Encoding Type
+&Codifica
+----------
+&ASCII
+&ASCII
+----------
+&Unicode (Little Endian)
+&Unicode (Little Endian)
+----------
+U&nicode (Big Endian)
+U&nicode (Big Endian)
+----------
+U&TF-8 (with BOM)
+U&TF-8 (con BOM)
+----------
+UTF-&8 (w/o BOM)
+UTF-&8 (senza BOM)
+----------
+&File Format
+&Formato file
+----------
+&DOS Format (CR/LF)
+&DOS (CR/LF)
+----------
+&Unix Format (LF only)
+&Unix (solo LF)
+----------
+&Mac Format (CR only)
+&Mac (solo CR)
+----------
+&Tabs && Spaces
+&Spazi e tabulazione
+----------
+Convert &Tabs to Spaces
+Conver&ti tabulazioni in spazi
+----------
+Convert &Spaces to Tabs
+Converte spazi in tabulazioni
+----------
+&Leading Spaces to Tabs
+&Leading Spaces to Tabs
+----------
+&Remove Trailing Spaces
+&Remove Trailing Spaces
+----------
+S&ummary...
+S&ommario...
+----------
+&Project
+&Progetto
+----------
+&New Project...
+&Nuovo progetto...
+----------
+&Open Project...
+&Apri progetto...
+----------
+&Close Project
+&Chiudi progetto
+----------
+N&ew Category...
+Nuova &categoria...
+----------
+&Add to Project...
+Aggiungi al progetto...
+----------
+Add Ac&tive File
+Aggiungi file &corrente
+----------
+Add A&ll Open Files
+Aggi&ungi tutti i file
+----------
+&Tools
+&Strumenti
+----------
+&Preferences...
+&Preferenze...
+----------
+&Evaluate Line\tCtrl+Enter
+&Valuta espressione\tCtrl+Enter
+----------
+MS-DOS &Shell\tF10
+&Shell MS-DOS\tF10
+----------
+View in &Browser\tAlt+B
+Mostra nel &browser\tAlt+B
+----------
+&Load User Tools
+&Esegui comando
+----------
+&Conf. User Tools...
+&Configura comando
+----------
+&1 - Empty -\tCtrl+1
+&1 - non disponibile -\tCtrl+1
+----------
+&2 - Empty -\tCtrl+2
+&2 - non disponibile -\tCtrl+2
+----------
+&3 - Empty -\tCtrl+3
+&3 - non disponibile -\tCtrl+3
+----------
+&4 - Empty -\tCtrl+4
+&4 - non disponibile -\tCtrl+4
+----------
+&5 - Empty -\tCtrl+5
+&5 - non disponibile -\tCtrl+5
+----------
+&6 - Empty -\tCtrl+6
+&6 - non disponibile -\tCtrl+6
+----------
+&7 - Empty -\tCtrl+7
+&7 - non disponibile -\tCtrl+7
+----------
+&8 - Empty -\tCtrl+8
+&8 - non disponibile -\tCtrl+8
+----------
+&9 - Empty -\tCtrl+9
+&9 - non disponibile -\tCtrl+9
+----------
+&0 - Empty -\tCtrl+0
+&0 - non disponibile -\tCtrl+0
+----------
+&Macros
+&Macro
+----------
+&Begin Recording...
+Ini&zia registrazione...
+----------
+&End Recording
+&Termina registrazione
+----------
+&Replay Macro\tAlt+Enter
+&Ripeti Macro\tAlt+Enter
+----------
+&Load User Macros
+&Esegui macro
+----------
+&Conf. User Macros...
+&Configura Macro...
+----------
+&1 - Empty -\tAlt+1
+&1 - non disponibile -\tAlt+1
+----------
+&2 - Empty -\tAlt+2
+&2 - non disponibile -\tAlt+2
+----------
+&3 - Empty -\tAlt+3
+&3 - non disponibile -\tAlt+3
+----------
+&4 - Empty -\tAlt+4
+&4 - non disponibile -\tAlt+4
+----------
+&5 - Empty -\tAlt+5
+&5 - non disponibile -\tAlt+5
+----------
+&6 - Empty -\tAlt+6
+&6 - non disponibile -\tAlt+6
+----------
+&7 - Empty -\tAlt+7
+&7 - non disponibile -\tAlt+7
+----------
+&8 - Empty -\tAlt+8
+&8 - non disponibile -\tAlt+8
+----------
+&9 - Empty -\tAlt+9
+&9 - non disponibile -\tAlt+9
+----------
+&0 - Empty -\tAlt+0
+&0 - non disponibile -\tAlt+0
+----------
+&Window
+Fi&nestre
+----------
+&New Window
+&Nuova finestra
+----------
+S&plit
+&Dividi
+----------
+Cl&ose\tCtrl+W
+Chi&udi\tCtrl+W
+----------
+&Last Visited\tCtrl+Tab
+Utilizzata &precedentemente\tCtrl+Tab
+----------
+Ne&xt Window\tCtrl+F6
+Finestra &successiva\tCtrl+F6
+----------
+Pre&v Window\tCtrl+F5
+Finestra precedente\tCtrl+F5
+----------
+&Cascade
+&Cascata
+----------
+Tile &Horizontal
+Tile &Horizontal
+----------
+&Tile Vertical
+&Tile Vertical
+----------
+&Help
+&Aiuto
+----------
+Help &Topics...
+&Guida...
+----------
+&Visit Homepage...
+&Visita la homepage...
+----------
+&Feedback...
+&Feedback...
+----------
+&About Crimson Editor...
+&Informazioni su Crimson Editor...
+----------
+&New
+&Nuova
+----------
+&Open...
+&Apri...
+----------
+Open &Template...
+Apri &Modello...
+----------
+Open &Remote...
+Apri &file remoto...
+----------
+&Close
+&Chiudi
+----------
+&Save
+&Salva
+----------
+Save &As...
+&Salva con nome...
+----------
+Save As Re&mote...
+Salva fil&e remoto con nome...
+----------
+&Print...
+Stam&pa...
+----------
+Add &To Project
+&Aggiungi al progetto
+----------
+Copy &File Path
+C&opia il percorso del file
+----------
+&Toggle Bookmark
+Aggiungi/rimuovi segnali&bro
+----------
+Ne&xt Bookmark
+&Segnalibro successivo
+----------
+Pr&ev Bookmark
+Segnalibro &precedente
+----------
+Line &Numbers
+Numeri di riga
+----------
+&Go To...
+&Vai a...
+----------
+Select &All
+Seleziona t&utto
+----------
+Select &Line
+Seleziona &riga
+----------
+Select &Word
+Seleziona &parola
+----------
+Select &Block
+Seleziona &blocco
+----------
+Insert &Date
+Inserisci &data
+----------
+Insert &Time
+Inserisci &Orario
+----------
+Insert &File...
+Inserisci &File...
+----------
+D&elete Line
+&Elimina riga
+----------
+D&uplicate Line
+Cl&ona riga
+----------
+&Join Lines
+&Unisci righe
+----------
+&Split Line
+&Dividi rga
+----------
+&Delete
+&Elimina
+----------
+Cu&t Append
+T&aglia e accoda
+----------
+&Copy Append
+C&opia e accoda
+----------
+&Upper Case
+In &maiuscolo
+----------
+&Lower Case
+I&n minuscolo
+----------
+Capitali&ze
+&Prima lettera maiuscola
+----------
+&Invert Case
+In&verti maiuscole/minuscole
+----------
+I&ncrease Indent
+&Aumenta indentazione
+----------
+D&ecrease Indent
+&Diminuisci indentazione
+----------
+&Make Comment
+&Commenta
+----------
+&Release Comment
+&Rimuovi commento
+----------
+&Refresh
+&Aggiorna
+----------
+&Hide
+&Nascondi
+----------
+&Explore...
+&Esplora...
+----------
+&Find...
+&Trova...
+----------
+Set as &Work Dir
+Imposta come directory predefinita
+----------
+&Copy To...
+&Copia in...
+----------
+&Move To...
+&Sposta in...
+----------
+Re&name
+Ri&nomina
+----------
+&Open
+&Apri
+----------
+Shell &Execute
+&Esegui da Shell
+----------
+Re&move from Project
+Ri&muovi dal progetto
+----------
+&Sync
+&Sincronizza
+----------
+&Copy Contents
+&Copia contenuti
+----------
+Cl&ear Contents
+&Cancella contenuti
+----------
+Send &Input...
+&Invia input...
+----------
+&Kill Process
+&Termina processo
+----------
+&Enter Line Number (1 - 1):
+&Inserire numero di riga (1 - 1):
+----------
+Fi&nd what:
+&Cose da  cercare:
+----------
+Re&place with:
+Sos&tituire con:
+----------
+Match &whole word only
+Match &whole word only
+----------
+Match &case
+Match &case
+----------
+Regular &expression
+&Espressione regolare
+----------
+&Selection
+&Selezione
+----------
+Wh&ole file
+T&utto il file
+----------
+All open f&iles
+In t&utti i file aperti
+----------
+&Find Next
+Trova &successivo
+----------
+Replace &All
+Sostituisci tutt&o
+----------
+&Up
+&Su
+----------
+&Down
+&Giu
+----------
+&Once
+&Solo una volta
+----------
+&Stop
+&Stop
+----------
+&Yes
+&Si
+----------
+&No
+&No
+----------
+&All
+&Tutte
+----------
+&OK
+&OK
+----------
+&Categories
+&Categorie
+----------
+Enable drag && drop text editing
+Enable drag && drop text editing
+----------
+Highlighted && shadowed colors:
+Highlighted && shadowed colors:
+----------
+&Account:
+&Account:
+----------
+&Connect
+&Connect
+----------
+&Directory:
+&Directory:
+----------
+File &Name:
+&Nome file:
+----------
+File &Type:
+&Tipo di file:
+----------
+&Remove
+&Rimuovi
+----------
+&Description:
+&Descrizione:
+----------
+&FTP server:
+Server &FT:
+----------
+&User name:
+Nome &utente:
+----------
+&Password:
+&Password:
+----------
+Sav&e password
+Salva pass&word
+----------
+&Subdirectory:
+&Subdirectory:
+----------
+Ad&vanced...
+Avan&zate...
+----------
+Server &type:
+Tipo di &server:
+----------
+Use &WinInet
+Usa &WinInet
+----------
+Passive FTP &mode
+&Modalità FTP passiva
+----------
+Port &number:
+&Porta:
+----------
+&Default port number
+P&orta predefinita
+----------
+File &type:
+Tipo &file:
+----------
+F&older:
+C&artella:
+----------
+&Find
+&Trova
+----------
+Look in &subfolders
+Cerca nelle &sottocartelle
+----------
+&Enter password for:
+&Inserisci la password per:
+----------
+&Encoding Type:
+Codifica:
+----------
+Reload syntaxes & active document\nReload Syntaxes
+Reload syntaxes & active document\nReload Syntaxes
+----------
+&Enter Line Number (%d - %d):
+&Inserisci numero di riga (%d - %d):
+----------
+&Default (%s, %d)
+&Predefinito (%s, %d)
+----------
+Custom &%d (%s, %d)
+Personalizzato&%d (%s, %d)
+----------

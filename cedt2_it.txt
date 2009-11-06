@@ -1,0 +1,2376 @@
+resource.h
+resource.h
+----------
+afxres.h
+afxres.h
+----------
+resource.h\0
+resource.h\0
+----------
+#include 
+#include 
+----------
+\r\n
+\r\n
+----------
+\0
+\0
+----------
+#define _AFX_NO_SPLITTER_RESOURCES\r\n
+#define _AFX_NO_SPLITTER_RESOURCES\r\n
+----------
+#define _AFX_NO_OLE_RESOURCES\r\n
+#define _AFX_NO_OLE_RESOURCES\r\n
+----------
+#define _AFX_NO_TRACKER_RESOURCES\r\n
+#define _AFX_NO_TRACKER_RESOURCES\r\n
+----------
+#define _AFX_NO_PROPERTY_RESOURCES\r\n
+#define _AFX_NO_PROPERTY_RESOURCES\r\n
+----------
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n
+----------
+#ifdef _WIN32\r\n
+#ifdef _WIN32\r\n
+----------
+LANGUAGE 9, 1\r\n
+LANGUAGE 9, 1\r\n
+----------
+#pragma code_page(1252)\r\n
+#pragma code_page(1252)\r\n
+----------
+#endif //_WIN32\r\n
+#endif //_WIN32\r\n
+----------
+cedt.rc2
+cedt.rc2
+----------
+  // non-Microsoft Visual C++ edited resources\r\n
+  // non-Microsoft Visual C++ edited resources\r\n
+----------
+afxres.rc
+afxres.rc
+----------
+         // Standard components\r\n
+         // Standard components\r\n
+----------
+afxprint.rc
+afxprint.rc
+----------
+       // printing/print preview resources\r\n
+       // printing/print preview resources\r\n
+----------
+#endif\r\n
+#endif\r\n
+----------
+mainfrm.ico
+mainfrm.ico
+----------
+cedttype.ico
+cedttype.ico
+----------
+Toolbar.bmp
+Toolbar.bmp
+----------
+mdifiletab.bmp
+mdifiletab.bmp
+----------
+fwincategory.bmp
+fwincategory.bmp
+----------
+genbuttons.bmp
+genbuttons.bmp
+----------
+remoteitem.bmp
+remoteitem.bmp
+----------
+remotehost.bmp
+remotehost.bmp
+----------
+remoteopen.bmp
+remoteopen.bmp
+----------
+fwintooldir.bmp
+fwintooldir.bmp
+----------
+winbuttons.bmp
+winbuttons.bmp
+----------
+cedtlogo.bmp
+cedtlogo.bmp
+----------
+cedticon.bmp
+cedticon.bmp
+----------
+fwintoolprj.bmp
+fwintoolprj.bmp
+----------
+projectitem.bmp
+projectitem.bmp
+----------
+emerald.bmp
+emerald.bmp
+----------
+Recent File
+Recent File
+----------
+User Tools
+User Tools
+----------
+User Macros
+User Macros
+----------
+TIMER
+TIMER
+----------
+ID_TIMER_AUTO_SCROLL
+ID_TIMER_AUTO_SCROLL
+----------
+ID_TIMER_CAPTURE_OUTPUT
+ID_TIMER_CAPTURE_OUTPUT
+----------
+SEARCH
+SEARCH
+----------
+ID_SEARCH_ASK_REPLACE
+ID_SEARCH_ASK_REPLACE
+----------
+ID_SEARCH_REPLACE_THIS
+ID_SEARCH_REPLACE_THIS
+----------
+ID_SEARCH_REPALL_IN_SELECTION
+ID_SEARCH_REPALL_IN_SELECTION
+----------
+ID_SEARCH_REPALL_IN_FILE
+ID_SEARCH_REPALL_IN_FILE
+----------
+ID_SEARCH_REPALL_IN_OPEN_FILES
+ID_SEARCH_REPALL_IN_OPEN_FILES
+----------
+ID_SEARCH_REPALL_IN_FILE_OUTPUT
+ID_SEARCH_REPALL_IN_FILE_OUTPUT
+----------
+ID_SEARCH_NEXT_OCCURRENCE
+ID_SEARCH_NEXT_OCCURRENCE
+----------
+ID_SEARCH_PREV_OCCURRENCE
+ID_SEARCH_PREV_OCCURRENCE
+----------
+DOCU1
+DOCU1
+----------
+ID_DOCU_SYNTAX_TYPE0
+ID_DOCU_SYNTAX_TYPE0
+----------
+ID_DOCU_SYNTAX_TYPE1
+ID_DOCU_SYNTAX_TYPE1
+----------
+ID_DOCU_SYNTAX_TYPE2
+ID_DOCU_SYNTAX_TYPE2
+----------
+ID_DOCU_SYNTAX_TYPE3
+ID_DOCU_SYNTAX_TYPE3
+----------
+ID_DOCU_SYNTAX_TYPE4
+ID_DOCU_SYNTAX_TYPE4
+----------
+ID_DOCU_SYNTAX_TYPE5
+ID_DOCU_SYNTAX_TYPE5
+----------
+ID_DOCU_SYNTAX_TYPE6
+ID_DOCU_SYNTAX_TYPE6
+----------
+ID_DOCU_SYNTAX_TYPE7
+ID_DOCU_SYNTAX_TYPE7
+----------
+ID_DOCU_SYNTAX_TYPE8
+ID_DOCU_SYNTAX_TYPE8
+----------
+ID_DOCU_SYNTAX_TYPE9
+ID_DOCU_SYNTAX_TYPE9
+----------
+ID_DOCU_SYNTAX_TYPE10
+ID_DOCU_SYNTAX_TYPE10
+----------
+ID_DOCU_SYNTAX_TYPE11
+ID_DOCU_SYNTAX_TYPE11
+----------
+ID_DOCU_SYNTAX_TYPE12
+ID_DOCU_SYNTAX_TYPE12
+----------
+ID_DOCU_SYNTAX_TYPE13
+ID_DOCU_SYNTAX_TYPE13
+----------
+ID_DOCU_SYNTAX_TYPE14
+ID_DOCU_SYNTAX_TYPE14
+----------
+ID_DOCU_SYNTAX_TYPE15
+ID_DOCU_SYNTAX_TYPE15
+----------
+ID_DOCU_SYNTAX_TYPE16
+ID_DOCU_SYNTAX_TYPE16
+----------
+DOCU2
+DOCU2
+----------
+ID_DOCU_SYNTAX_TYPE17
+ID_DOCU_SYNTAX_TYPE17
+----------
+ID_DOCU_SYNTAX_TYPE18
+ID_DOCU_SYNTAX_TYPE18
+----------
+ID_DOCU_SYNTAX_TYPE19
+ID_DOCU_SYNTAX_TYPE19
+----------
+ID_DOCU_SYNTAX_TYPE20
+ID_DOCU_SYNTAX_TYPE20
+----------
+ID_DOCU_SYNTAX_TYPE21
+ID_DOCU_SYNTAX_TYPE21
+----------
+ID_DOCU_SYNTAX_TYPE22
+ID_DOCU_SYNTAX_TYPE22
+----------
+ID_DOCU_SYNTAX_TYPE23
+ID_DOCU_SYNTAX_TYPE23
+----------
+ID_DOCU_SYNTAX_TYPE24
+ID_DOCU_SYNTAX_TYPE24
+----------
+ID_DOCU_SYNTAX_TYPE25
+ID_DOCU_SYNTAX_TYPE25
+----------
+ID_DOCU_SYNTAX_TYPE26
+ID_DOCU_SYNTAX_TYPE26
+----------
+ID_DOCU_SYNTAX_TYPE27
+ID_DOCU_SYNTAX_TYPE27
+----------
+ID_DOCU_SYNTAX_TYPE28
+ID_DOCU_SYNTAX_TYPE28
+----------
+ID_DOCU_SYNTAX_TYPE29
+ID_DOCU_SYNTAX_TYPE29
+----------
+ID_DOCU_SYNTAX_TYPE30
+ID_DOCU_SYNTAX_TYPE30
+----------
+ID_DOCU_SYNTAX_TYPE31
+ID_DOCU_SYNTAX_TYPE31
+----------
+COMMAND
+COMMAND
+----------
+ID_COMMAND_USER_FILE0
+ID_COMMAND_USER_FILE0
+----------
+ID_COMMAND_USER_FILE1
+ID_COMMAND_USER_FILE1
+----------
+ID_COMMAND_USER_FILE2
+ID_COMMAND_USER_FILE2
+----------
+ID_COMMAND_USER_FILE3
+ID_COMMAND_USER_FILE3
+----------
+ID_COMMAND_USER_FILE4
+ID_COMMAND_USER_FILE4
+----------
+ID_COMMAND_USER_FILE5
+ID_COMMAND_USER_FILE5
+----------
+ID_COMMAND_USER_FILE6
+ID_COMMAND_USER_FILE6
+----------
+ID_COMMAND_USER_FILE7
+ID_COMMAND_USER_FILE7
+----------
+MACRO
+MACRO
+----------
+ID_MACRO_USER_FILE0
+ID_MACRO_USER_FILE0
+----------
+ID_MACRO_USER_FILE1
+ID_MACRO_USER_FILE1
+----------
+ID_MACRO_USER_FILE2
+ID_MACRO_USER_FILE2
+----------
+ID_MACRO_USER_FILE3
+ID_MACRO_USER_FILE3
+----------
+ID_MACRO_USER_FILE4
+ID_MACRO_USER_FILE4
+----------
+ID_MACRO_USER_FILE5
+ID_MACRO_USER_FILE5
+----------
+ID_MACRO_USER_FILE6
+ID_MACRO_USER_FILE6
+----------
+ID_MACRO_USER_FILE7
+ID_MACRO_USER_FILE7
+----------
+WINDOW
+WINDOW
+----------
+ID_FILE_WINDOW
+ID_FILE_WINDOW
+----------
+ID_OUTPUT_WINDOW
+ID_OUTPUT_WINDOW
+----------
+SCROLL
+SCROLL
+----------
+ID_SCROLL_SCREEN_TOP
+ID_SCROLL_SCREEN_TOP
+----------
+ID_SCROLL_SCREEN_BOTTOM
+ID_SCROLL_SCREEN_BOTTOM
+----------
+ID_SCROLL_SCREEN_CENTER
+ID_SCROLL_SCREEN_CENTER
+----------
+TAB_NULL
+TAB_NULL
+----------
+TAB_ITEM
+TAB_ITEM
+----------
+VIEW_LEFT
+VIEW_LEFT
+----------
+VIEW_CLIENT
+VIEW_CLIENT
+----------
+VIEW_SELECTED
+VIEW_SELECTED
+----------
+DIR_NULL
+DIR_NULL
+----------
+DIR_ROOT
+DIR_ROOT
+----------
+DIR_FOLDER
+DIR_FOLDER
+----------
+DIR_FILE
+DIR_FILE
+----------
+PRJ_NULL
+PRJ_NULL
+----------
+PRJ_ROOT0
+PRJ_ROOT0
+----------
+PRJ_ROOT1
+PRJ_ROOT1
+----------
+PRJ_CATEGORY
+PRJ_CATEGORY
+----------
+PRJ_LOCAL
+PRJ_LOCAL
+----------
+PRJ_REMOTE
+PRJ_REMOTE
+----------
+DUMMY
+DUMMY
+----------
+ARGUMENT
+ARGUMENT
+----------
+File Path
+File Path
+----------
+File Directory
+File Directory
+----------
+File Name
+File Name
+----------
+File Title
+File Title
+----------
+Line Number
+Line Number
+----------
+Current Word
+Current Word
+----------
+User Input
+User Input
+----------
+Select Path1
+Select Path1
+----------
+Select Path2
+Select Path2
+----------
+Select Directory1
+Select Directory1
+----------
+Select Directory2
+Select Directory2
+----------
+DIRECTORY
+DIRECTORY
+----------
+Browse...
+Browse...
+----------
+HEADER0
+HEADER0
+----------
+Page Number
+Page Number
+----------
+Total Page
+Total Page
+----------
+Current Date
+Current Date
+----------
+Current Time
+Current Time
+----------
+HEADER1
+HEADER1
+----------
+HEADER2
+HEADER2
+----------
+FOOTER0
+FOOTER0
+----------
+FOOTER1
+FOOTER1
+----------
+FOOTER2
+FOOTER2
+----------
+OUT_PROCESS
+OUT_PROCESS
+----------
+OUT_NULL
+OUT_NULL
+----------
+SEARCH_FIND
+SEARCH_FIND
+----------
+Tab Character
+Tab Character
+----------
+Any Character
+Any Character
+----------
+Beginning of Line
+Beginning of Line
+----------
+End of Line
+End of Line
+----------
+0 or More Matches
+0 or More Matches
+----------
+1 or More Matches
+1 or More Matches
+----------
+0 or 1 Match
+0 or 1 Match
+----------
+Or
+Or
+----------
+Character in Range
+Character in Range
+----------
+Character Not in Range
+Character Not in Range
+----------
+Whitespace
+Whitespace
+----------
+Alphanumeric Character
+Alphanumeric Character
+----------
+Alphabetic Character
+Alphabetic Character
+----------
+Decimal Digit
+Decimal Digit
+----------
+Hexadecimal Digit
+Hexadecimal Digit
+----------
+Tagged Expression
+Tagged Expression
+----------
+SEARCH_REPLACE
+SEARCH_REPLACE
+----------
+Entire Text Matched
+Entire Text Matched
+----------
+Tagged Expression 1
+Tagged Expression 1
+----------
+Tagged Expression 2
+Tagged Expression 2
+----------
+Tagged Expression 3
+Tagged Expression 3
+----------
+Tagged Expression 4
+Tagged Expression 4
+----------
+Tagged Expression 5
+Tagged Expression 5
+----------
+Tagged Expression 6
+Tagged Expression 6
+----------
+Tagged Expression 7
+Tagged Expression 7
+----------
+Tagged Expression 8
+Tagged Expression 8
+----------
+Tagged Expression 9
+Tagged Expression 9
+----------
+0
+0
+----------
+1
+1
+----------
+2
+2
+----------
+3
+3
+----------
+4
+4
+----------
+5
+5
+----------
+6
+6
+----------
+7
+7
+----------
+8
+8
+----------
+9
+9
+----------
+A
+A
+----------
+B
+B
+----------
+C
+C
+----------
+D
+D
+----------
+E
+E
+----------
+F
+F
+----------
+G
+G
+----------
+H
+H
+----------
+I
+I
+----------
+J
+J
+----------
+K
+K
+----------
+L
+L
+----------
+M
+M
+----------
+N
+N
+----------
+O
+O
+----------
+P
+P
+----------
+Q
+Q
+----------
+R
+R
+----------
+S
+S
+----------
+T
+T
+----------
+U
+U
+----------
+V
+V
+----------
+W
+W
+----------
+X
+X
+----------
+Y
+Y
+----------
+Z
+Z
+----------
+MS Sans Serif
+MS Sans Serif
+----------
+Tab1
+Tab1
+----------
+SysTabControl32
+SysTabControl32
+----------
+Go To Line
+Go To Line
+----------
+Replace
+Replace
+----------
+Button
+Button
+----------
+Replace in
+Replace in
+----------
+Cancel
+Cancel
+----------
+Button1
+Button1
+----------
+Find
+Find
+----------
+Direction
+Direction
+----------
+Replace this occurrence?
+Replace this occurrence?
+----------
+Replace? (Yes/No/All/Once/Stop)
+Replace? (Yes/No/All/Once/Stop)
+----------
+About Crimson Editor
+About Crimson Editor
+----------
+Static
+Static
+----------
+Homepage
+Homepage
+----------
+Feedback
+Feedback
+----------
+Release Notes
+Release Notes
+----------
+Define Macro
+Define Macro
+----------
+List1
+List1
+----------
+SysListView32
+SysListView32
+----------
+Preferences
+Preferences
+----------
+Tree1
+Tree1
+----------
+SysTreeView32
+SysTreeView32
+----------
+Tab size (1~64):
+Tab size (1~64):
+----------
+Use spaces in place of tab
+Use spaces in place of tab
+----------
+Word wrap indentation (0~16):
+Word wrap indentation (0~16):
+----------
+Use fixed wrap width (16~200):
+Use fixed wrap width (16~200):
+----------
+Open document word wrapped
+Open document word wrapped
+----------
+Allow multiple instances
+Allow multiple instances
+----------
+Enable auto indent
+Enable auto indent
+----------
+Home key goes to first position
+Home key goes to first position
+----------
+Search wraps at end of file
+Search wraps at end of file
+----------
+
+
+----------
+Associate
+Associate
+----------
+Managed by Crimson Editor:
+Managed by Crimson Editor:
+----------
+Restore
+Restore
+----------
+Description:
+Description:
+----------
+Associated:
+Associated:
+----------
+...
+...
+----------
+Default Icon:
+Default Icon:
+----------
+Initial working directory:
+Initial working directory:
+----------
+Remote backup directory:
+Remote backup directory:
+----------
+- NULL to make backup files in [$(InstallDir)\\remote]
+- NULL to make backup files in [$(InstallDir)\\remote]
+----------
+Create new document on startup
+Create new document on startup
+----------
+Reload last working files on startup
+Reload last working files on startup
+----------
+Convert tabs to spaces before saving
+Convert tabs to spaces before saving
+----------
+Remove trailing white spaces before saving
+Remove trailing white spaces before saving
+----------
+Save files in Unix format
+Save files in Unix format
+----------
+Save remote files in Unix format
+Save remote files in Unix format
+----------
+Use Crimson Editor in Internet Explorer (View Source)
+Use Crimson Editor in Internet Explorer (View Source)
+----------
+Add Crimson Editor to the right mouse button menu
+Add Crimson Editor to the right mouse button menu
+----------
+(context menu) of Windows Explorer
+(context menu) of Windows Explorer
+----------
+Do not make any backup file
+Do not make any backup file
+----------
+Make backup file before saving a file
+Make backup file before saving a file
+----------
+Make backup file before opening a file
+Make backup file before opening a file
+----------
+Backup extension:
+Backup extension:
+----------
+- NULL to use 'bak' as default extension
+- NULL to use 'bak' as default extension
+----------
+- Use '$$$' to indicate a incremental number
+- Use '$$$' to indicate a incremental number
+----------
+Backup file name:
+Backup file name:
+----------
+$(FileTitle).$(FileExt).$(BackupExt)
+$(FileTitle).$(FileExt).$(BackupExt)
+----------
+$(FileTitle)_$(BackupExt).$(FileExt)
+$(FileTitle)_$(BackupExt).$(FileExt)
+----------
+Backup directory:
+Backup directory:
+----------
+- NULL to make backup file in the source directory
+- NULL to make backup file in the source directory
+----------
+Remove
+Remove
+----------
+Up
+Up
+----------
+Down
+Down
+----------
+Menu Text:
+Menu Text:
+----------
+Hot Key:
+Hot Key:
+----------
+HotKey1
+HotKey1
+----------
+msctls_hotkey32
+msctls_hotkey32
+----------
+Load Macros...
+Load Macros...
+----------
+Save Macros...
+Save Macros...
+----------
+Command:
+Command:
+----------
+Argument:
+Argument:
+----------
+>
+>
+----------
+Initial Dir:
+Initial Dir:
+----------
+Close on exit
+Close on exit
+----------
+Use short filename (8.3)
+Use short filename (8.3)
+----------
+Capture output
+Capture output
+----------
+Save before execute
+Save before execute
+----------
+Load Tools...
+Load Tools...
+----------
+Save Tools...
+Save Tools...
+----------
+Lang Spec:
+Lang Spec:
+----------
+Keywords:
+Keywords:
+----------
+Extensions:
+Extensions:
+----------
+Default Ext:
+Default Ext:
+----------
+Background colors:
+Background colors:
+----------
+background
+background
+----------
+active line
+active line
+----------
+Text colors:
+Text colors:
+----------
+normal text
+normal text
+----------
+constant
+constant
+----------
+/* comment */
+/* comment */
+----------
+string
+string
+----------
+delimiters
+delimiters
+----------
+$(variable)
+$(variable)
+----------
+Keyword colors:
+Keyword colors:
+----------
+keyword0
+keyword0
+----------
+keyword1
+keyword1
+----------
+keyword2
+keyword2
+----------
+keyword3
+keyword3
+----------
+keyword4
+keyword4
+----------
+keyword5
+keyword5
+----------
+keyword6
+keyword6
+----------
+keyword7
+keyword7
+----------
+keyword8
+keyword8
+----------
+keyword9
+keyword9
+----------
+Left margin colors:
+Left margin colors:
+----------
+left margin
+left margin
+----------
+line number
+line number
+----------
+Range background colors:
+Range background colors:
+----------
+range1 bkgr
+range1 bkgr
+----------
+range2 bkgr
+range2 bkgr
+----------
+highlighted
+highlighted
+----------
+shadowed
+shadowed
+----------
+Load color scheme:
+Load color scheme:
+----------
+Load...
+Load...
+----------
+Save current color scheme as:
+Save current color scheme as:
+----------
+Save...
+Save...
+----------
+Line spacing (50~200%):
+Line spacing (50~200%):
+----------
+Caret width (1~100%):
+Caret width (1~100%):
+----------
+- Percentage of average character width
+- Percentage of average character width
+----------
+Line number digit count (2~8):
+Line number digit count (2~8):
+----------
+File tab max string size (12~60):
+File tab max string size (12~60):
+----------
+1st column marker at (0~200):
+1st column marker at (0~200):
+----------
+2nd column marker at (0~200):
+2nd column marker at (0~200):
+----------
+Show line numbers
+Show line numbers
+----------
+Show selection margin
+Show selection margin
+----------
+Highlight active line
+Highlight active line
+----------
+Highlight matching pairs
+Highlight matching pairs
+----------
+Embolden keywords
+Embolden keywords
+----------
+Italicize comment
+Italicize comment
+----------
+Show tab characters
+Show tab characters
+----------
+Show line break
+Show line break
+----------
+- double click to change screen font
+- double click to change screen font
+----------
+- double click to change printer font
+- double click to change printer font
+----------
+- double click to change miscellaneous font
+- double click to change miscellaneous font
+----------
+Page margin (0~100mm)
+Page margin (0~100mm)
+----------
+Left:
+Left:
+----------
+Right:
+Right:
+----------
+Top:
+Top:
+----------
+Bottom:
+Bottom:
+----------
+Print page header
+Print page header
+----------
+Center:
+Center:
+----------
+Print page footer
+Print page footer
+----------
+Print line numbers
+Print line numbers
+----------
+Print syntax highlight
+Print syntax highlight
+----------
+separator
+separator
+----------
+OK
+OK
+----------
+Apply
+Apply
+----------
+Keep settings separated by user
+Keep settings separated by user
+----------
+Include blank lines in comment blocks
+Include blank lines in comment blocks
+----------
+Number of backups of FTP sites to keep (per site):
+Number of backups of FTP sites to keep (per site):
+----------
+Directory to keep FTP site backups:
+Directory to keep FTP site backups:
+----------
+Open DOS shell in active file's directory
+Open DOS shell in active file's directory
+----------
+Dialog
+Dialog
+----------
+Toolbar
+Toolbar
+----------
+Caption Text
+Caption Text
+----------
+Open Remote
+Open Remote
+----------
+Parent Directory
+Parent Directory
+----------
+Create Directory
+Create Directory
+----------
+FTP Settings
+FTP Settings
+----------
+FTP Advanced
+FTP Advanced
+----------
+Find in Files
+Find in Files
+----------
+FTP Password
+FTP Password
+----------
+Document Summary
+Document Summary
+----------
+Pathname:
+Pathname:
+----------
+Encoding type:
+Encoding type:
+----------
+File format:
+File format:
+----------
+File size:
+File size:
+----------
+Line count:
+Line count:
+----------
+Word count:
+Word count:
+----------
+Byte count:
+Byte count:
+----------
+File attribute:
+File attribute:
+----------
+Read Only
+Read Only
+----------
+Hidden
+Hidden
+----------
+System
+System
+----------
+Last mod date:
+Last mod date:
+----------
+FTP Transfer
+FTP Transfer
+----------
+Progress1
+Progress1
+----------
+msctls_progress32
+msctls_progress32
+----------
+Reload As
+Reload As
+----------
+rightarrow.cur
+rightarrow.cur
+----------
+arrowmacro.cur
+arrowmacro.cur
+----------
+ibeammacro.cur
+ibeammacro.cur
+----------
+\000
+\000
+----------
+Crimson Editor
+Crimson Editor
+----------
+\nText\nCedt\n\n\nCedt.Document\nCedt Document
+\nText\nCedt\n\n\nCedt.Document\nCedt Document
+----------
+Edit with Crimson Editor
+Edit with Crimson Editor
+----------
+Ready
+Ready
+----------
+EXT
+EXT
+----------
+CAP
+CAP
+----------
+NUM
+NUM
+----------
+SCRL
+SCRL
+----------
+OVR
+OVR
+----------
+REC
+REC
+----------
+Ln ######,  Ch ######
+Ln ######,  Ch ######
+----------
+#######
+#######
+----------
+COL
+COL
+----------
+Unicode, UNIX
+Unicode, UNIX
+----------
+READ
+READ
+----------
+Show or hide the toolbar\nToggle ToolBar
+Show or hide the toolbar\nToggle ToolBar
+----------
+Show or hide the status bar\nToggle StatusBar
+Show or hide the status bar\nToggle StatusBar
+----------
+Find the specified text\nFind
+Find the specified text\nFind
+----------
+Replace the specified text with different text\nReplace
+Replace the specified text with different text\nReplace
+----------
+Find the next matching text\nFind Next
+Find the next matching text\nFind Next
+----------
+Find the previous matching text\nFind Prev
+Find the previous matching text\nFind Prev
+----------
+Search for a string in multiple files\nFind in Files
+Search for a string in multiple files\nFind in Files
+----------
+Move to a specified location\nGo To
+Move to a specified location\nGo To
+----------
+Set or clear bookmark at current line\nToggle Bookmark
+Set or clear bookmark at current line\nToggle Bookmark
+----------
+Go to next bookmark position\nNext Bookmark
+Go to next bookmark position\nNext Bookmark
+----------
+Go to previous bookmark position\nPrev Bookmark
+Go to previous bookmark position\nPrev Bookmark
+----------
+Go to matching brace beginning position\nPairs Begin Position
+Go to matching brace beginning position\nPairs Begin Position
+----------
+Go to matching brace end position\nPairs End Position
+Go to matching brace end position\nPairs End Position
+----------
+Go to previous editing position\nPrev Editing Position
+Go to previous editing position\nPrev Editing Position
+----------
+Create a new document\nNew
+Create a new document\nNew
+----------
+Open an existing document\nOpen
+Open an existing document\nOpen
+----------
+Close the active document\nClose
+Close the active document\nClose
+----------
+Save the active document\nSave
+Save the active document\nSave
+----------
+Save the active document with a new name\nSave As
+Save the active document with a new name\nSave As
+----------
+Change the printing options\nPage Setup
+Change the printing options\nPage Setup
+----------
+Change the printer and printing options\nPrint Setup
+Change the printer and printing options\nPrint Setup
+----------
+Print the active document\nPrint
+Print the active document\nPrint
+----------
+Display full pages\nPrint Preview
+Display full pages\nPrint Preview
+----------
+null
+null
+----------
+Save all the active documents\nSave All
+Save all the active documents\nSave All
+----------
+Open an existing document from FTP server\nOpen Remote
+Open an existing document from FTP server\nOpen Remote
+----------
+Save the active document to FTP server\nSave As Remote
+Save the active document to FTP server\nSave As Remote
+----------
+Set the FTP accounts\nFTP Settings
+Set the FTP accounts\nFTP Settings
+----------
+Reload the active document\nReload
+Reload the active document\nReload
+----------
+Open an existing document template\nOpen Template
+Open an existing document template\nOpen Template
+----------
+Close all open files\nClose All
+Close all open files\nClose All
+----------
+Reload the active document using a converter\nReload As
+Reload the active document using a converter\nReload As
+----------
+Close all other files\nClose Other
+Close all other files\nClose Other
+----------
+Display program information, version number and copyright\nAbout
+Display program information, version number and copyright\nAbout
+----------
+Quit the application; prompts to save documents\nExit
+Quit the application; prompts to save documents\nExit
+----------
+detab key
+detab key
+----------
+escape key
+escape key
+----------
+Insert current date\nInsert Date
+Insert current date\nInsert Date
+----------
+Insert current time\nInsert Time
+Insert current time\nInsert Time
+----------
+Insert a file into current cursor position\nInsert File
+Insert a file into current cursor position\nInsert File
+----------
+Join two lines\nJoin Lines
+Join two lines\nJoin Lines
+----------
+Split current line\nSplit Line
+Split current line\nSplit Line
+----------
+Delete current line\nDelete Line
+Delete current line\nDelete Line
+----------
+Duplicate current line\nDuplicate Line
+Duplicate current line\nDuplicate Line
+----------
+Convert the selected text to upper case\nUpper Case
+Convert the selected text to upper case\nUpper Case
+----------
+Convert the selected text to lower case\nLower Case
+Convert the selected text to lower case\nLower Case
+----------
+Capitalize the selected text\nCapitalize
+Capitalize the selected text\nCapitalize
+----------
+Invert the case of the selected text\nInvert Case
+Invert the case of the selected text\nInvert Case
+----------
+Add comment delimiter in the beginning of the lines\nMake Comment
+Add comment delimiter in the beginning of the lines\nMake Comment
+----------
+Remove comment delimiter in the beginning of the lines\nRelease Comment
+Remove comment delimiter in the beginning of the lines\nRelease Comment
+----------
+Increase the indentation of current line or selected block\nIncrease Indent
+Increase the indentation of current line or selected block\nIncrease Indent
+----------
+Decrease the indentation of current line or selected block\nDecrease Indent
+Decrease the indentation of current line or selected block\nDecrease Indent
+----------
+Select the current block enclosed with brackets\nSelect Block
+Select the current block enclosed with brackets\nSelect Block
+----------
+Convert tabs to spaces in the active document\nTabs to Spaces
+Convert tabs to spaces in the active document\nTabs to Spaces
+----------
+Remove trailing white spaces in the active document\nRemove Trailing Spaces
+Remove trailing white spaces in the active document\nRemove Trailing Spaces
+----------
+Copy file full pathname\nCopy File Path
+Copy file full pathname\nCopy File Path
+----------
+Delete current word\nDelete Word
+Delete current word\nDelete Word
+----------
+Delete to end of line\nDelete to End of Line
+Delete to end of line\nDelete to End of Line
+----------
+Delete previous word\nDelete Prev Word
+Delete previous word\nDelete Prev Word
+----------
+Convert spaces to tabs in the active document\nSpaces to Tabs
+Convert spaces to tabs in the active document\nSpaces to Tabs
+----------
+Convert leading spaces to tabs in the active document\nLeading Spaces to Tabs
+Convert leading spaces to tabs in the active document\nLeading Spaces to Tabs
+----------
+Toggle column mode editing\nColumn Mode
+Toggle column mode editing\nColumn Mode
+----------
+Delete to beginning of line\nDelete to Begin of Line
+Delete to beginning of line\nDelete to Begin of Line
+----------
+Open this document
+Open this document
+----------
+Switch to the next window pane\nNext Pane
+Switch to the next window pane\nNext Pane
+----------
+Switch back to the previous window pane\nPrevious Pane
+Switch back to the previous window pane\nPrevious Pane
+----------
+Switch to the next document window\nNext Window
+Switch to the next document window\nNext Window
+----------
+Switch to the last visited window\nLast Visited Window
+Switch to the last visited window\nLast Visited Window
+----------
+Switch to the previous document window\nPrevious Window
+Switch to the previous document window\nPrevious Window
+----------
+Close the active window\nClose Window
+Close the active window\nClose Window
+----------
+Move Caret Left
+Move Caret Left
+----------
+Move Caret Right
+Move Caret Right
+----------
+Move Caret Up
+Move Caret Up
+----------
+Move Caret Down
+Move Caret Down
+----------
+Move Caret Home
+Move Caret Home
+----------
+Move Caret End
+Move Caret End
+----------
+Move Caret Prior
+Move Caret Prior
+----------
+Move Caret Next
+Move Caret Next
+----------
+Scroll Screen Top
+Scroll Screen Top
+----------
+Scroll Screen Bottom
+Scroll Screen Bottom
+----------
+Scroll Screen Center
+Scroll Screen Center
+----------
+Open another window for the active document\nNew Window
+Open another window for the active document\nNew Window
+----------
+Arrange icons at the bottom of the window\nArrange Icons
+Arrange icons at the bottom of the window\nArrange Icons
+----------
+Arrange windows so they overlap\nCascade Windows
+Arrange windows so they overlap\nCascade Windows
+----------
+Arrange windows as horizontal, non-overlapping tiles\nTile Horizontal
+Arrange windows as horizontal, non-overlapping tiles\nTile Horizontal
+----------
+Arrange windows as vertical, non-overlapping tiles\nTile Vertical
+Arrange windows as vertical, non-overlapping tiles\nTile Vertical
+----------
+Split the active window into panes\nSplit
+Split the active window into panes\nSplit
+----------
+Delete the selection\nDelete
+Delete the selection\nDelete
+----------
+Cut the selection and append it to the Clipboard\nCut Append
+Cut the selection and append it to the Clipboard\nCut Append
+----------
+Copy the selection and append it to the Clipboard\nCopy Append
+Copy the selection and append it to the Clipboard\nCopy Append
+----------
+Select the current line\nSelect Line
+Select the current line\nSelect Line
+----------
+Select the current word\nSelect Word
+Select the current word\nSelect Word
+----------
+return key
+return key
+----------
+back key
+back key
+----------
+tab key
+tab key
+----------
+Copy the selection and put it on the Clipboard\nCopy
+Copy the selection and put it on the Clipboard\nCopy
+----------
+Cut the selection and put it on the Clipboard\nCut
+Cut the selection and put it on the Clipboard\nCut
+----------
+Insert Clipboard contents\nPaste
+Insert Clipboard contents\nPaste
+----------
+Select the entire document\nSelect All
+Select the entire document\nSelect All
+----------
+Undo the last action\nUndo
+Undo the last action\nUndo
+----------
+Redo the previously undone action\nRedo
+Redo the previously undone action\nRedo
+----------
+Show or hide the MDI file selection tabs\nToggle MDI File Tabs
+Show or hide the MDI file selection tabs\nToggle MDI File Tabs
+----------
+Show or hide the directory window\nDirectory Window
+Show or hide the directory window\nDirectory Window
+----------
+Show or hide the remote window\nRemote Window
+Show or hide the remote window\nRemote Window
+----------
+Show or hide the project window\nProject Window
+Show or hide the project window\nProject Window
+----------
+Show or hide the output window\nOutput Window
+Show or hide the output window\nOutput Window
+----------
+Toggle word wrap\nWord Wrap
+Toggle word wrap\nWord Wrap
+----------
+Enable spell checker\nSpell Check
+Enable spell checker\nSpell Check
+----------
+Show line numbers\nLine Numbers
+Show line numbers\nLine Numbers
+----------
+Show or hide column markers\nColumn Markers
+Show or hide column markers\nColumn Markers
+----------
+Default screen font\nDefault Screen Font
+Default screen font\nDefault Screen Font
+----------
+Custom screen font 1\nCustom Screen Font 1
+Custom screen font 1\nCustom Screen Font 1
+----------
+Custom screen font 2\nCustom Screen Font 2
+Custom screen font 2\nCustom Screen Font 2
+----------
+Custom screen font 3\nCustom Screen Font 3
+Custom screen font 3\nCustom Screen Font 3
+----------
+Custom screen font 4\nCustom Screen Font 4
+Custom screen font 4\nCustom Screen Font 4
+----------
+Custom screen font 5\nCustom Screen Font 5
+Custom screen font 5\nCustom Screen Font 5
+----------
+Default printer font\nDefault Printer Font
+Default printer font\nDefault Printer Font
+----------
+Custom printer font 1\nCustom Printer Font1
+Custom printer font 1\nCustom Printer Font1
+----------
+Custom printer font 2\nCustom Printer Font2
+Custom printer font 2\nCustom Printer Font2
+----------
+Custom printer font 3\nCustom Printer Font3
+Custom printer font 3\nCustom Printer Font3
+----------
+Configure screen font settings\nSet Fonts
+Configure screen font settings\nSet Fonts
+----------
+Configure printer font settings\nSet Fonts
+Configure printer font settings\nSet Fonts
+----------
+Configure screen color settings\nSet Colors
+Configure screen color settings\nSet Colors
+----------
+100% line spacing\n100% Line Spacing
+100% line spacing\n100% Line Spacing
+----------
+110% line spacing\n110% Line Spacing
+110% line spacing\n110% Line Spacing
+----------
+120% line spacing\n120% Line Spacing
+120% line spacing\n120% Line Spacing
+----------
+150% line spacing\n150% Line Spacing
+150% line spacing\n150% Line Spacing
+----------
+200% line spacing\n200% Line Spacing
+200% line spacing\n200% Line Spacing
+----------
+Set custom line spacing\nSet Line Spacing
+Set custom line spacing\nSet Line Spacing
+----------
+Set tab size to 2\nSet Tab Size [2]
+Set tab size to 2\nSet Tab Size [2]
+----------
+Set tab size to 4\nSet Tab Size [4]
+Set tab size to 4\nSet Tab Size [4]
+----------
+Set tab size to 8\nSet Tab Size [8]
+Set tab size to 8\nSet Tab Size [8]
+----------
+Set tab size to 16\nSet Tab Size [16]
+Set tab size to 16\nSet Tab Size [16]
+----------
+Set custom tab size\nSet Tab Size
+Set custom tab size\nSet Tab Size
+----------
+Show spaces\nShow Spaces
+Show spaces\nShow Spaces
+----------
+Show tab characters\nShow Tab Characters
+Show tab characters\nShow Tab Characters
+----------
+Show line break\nShow Line Break
+Show line break\nShow Line Break
+----------
+Embolden keywords\nEmbolden Keywords
+Embolden keywords\nEmbolden Keywords
+----------
+Italicize comment\nItalicize Comment
+Italicize comment\nItalicize Comment
+----------
+Change the window size
+Change the window size
+----------
+Change the window position
+Change the window position
+----------
+Reduce the window to an icon
+Reduce the window to an icon
+----------
+Enlarge the window to full size
+Enlarge the window to full size
+----------
+Switch to the next document window
+Switch to the next document window
+----------
+Switch to the previous document window
+Switch to the previous document window
+----------
+Close the active window and prompts to save the documents
+Close the active window and prompts to save the documents
+----------
+Restore the window to normal size
+Restore the window to normal size
+----------
+Activate Task List
+Activate Task List
+----------
+Activate this window
+Activate this window
+----------
+Close print preview mode\nCancel Preview
+Close print preview mode\nCancel Preview
+----------
+Set the preferences\nSet Preferences
+Set the preferences\nSet Preferences
+----------
+Evaluate the current expression\nEvaluate Line
+Evaluate the current expression\nEvaluate Line
+----------
+Execute MS-DOS shell\nMS-DOS Shell
+Execute MS-DOS shell\nMS-DOS Shell
+----------
+View the active document in default browser\nView in Browser
+View the active document in default browser\nView in Browser
+----------
+Add or remove user defined commands\nConfigure Commands
+Add or remove user defined commands\nConfigure Commands
+----------
+Send input to current process\nSend Input
+Send input to current process\nSend Input
+----------
+Kill current process\nKill Process
+Kill current process\nKill Process
+----------
+Run this user defined command\nExecute Command
+Run this user defined command\nExecute Command
+----------
+Start keystroke recording\nBegin Recording
+Start keystroke recording\nBegin Recording
+----------
+Stop keystroke recording\nEnd Recording
+Stop keystroke recording\nEnd Recording
+----------
+Configure Macros\nConfigure Macros
+Configure Macros\nConfigure Macros
+----------
+Play back the keystroke recording\nReplay Macro
+Play back the keystroke recording\nReplay Macro
+----------
+Play back this keystroke recording\nReplay Macro
+Play back this keystroke recording\nReplay Macro
+----------
+Ask replace for this occurrence
+Ask replace for this occurrence
+----------
+Find the next matching text
+Find the next matching text
+----------
+Find the previous matching text
+Find the previous matching text
+----------
+Replace all in selection
+Replace all in selection
+----------
+Replace all in file
+Replace all in file
+----------
+Replace all in open files
+Replace all in open files
+----------
+Replace all in file and report to output window
+Replace all in file and report to output window
+----------
+Replace this occurrence
+Replace this occurrence
+----------
+Search next occurrence
+Search next occurrence
+----------
+Search prev occurrence
+Search prev occurrence
+----------
+Open the selected file\nOpen
+Open the selected file\nOpen
+----------
+Execute the selected item\nShell Execute
+Execute the selected item\nShell Execute
+----------
+Displays the file or folder's properties\nProperties
+Displays the file or folder's properties\nProperties
+----------
+Copy the selected item\nCopy To
+Copy the selected item\nCopy To
+----------
+Move the selected item\nMove To
+Move the selected item\nMove To
+----------
+Delete the selected item\nDelete
+Delete the selected item\nDelete
+----------
+Rename the selected item\nRename
+Rename the selected item\nRename
+----------
+Explore the selected item\nExplore
+Explore the selected item\nExplore
+----------
+Set the current directory as working directory\nSet as Work Dir
+Set the current directory as working directory\nSet as Work Dir
+----------
+Initiates a search starting from the specified directory\nFind
+Initiates a search starting from the specified directory\nFind
+----------
+Refresh directory window\nRefresh
+Refresh directory window\nRefresh
+----------
+Sync directory window\nSync
+Sync directory window\nSync
+----------
+Hide file window\nHide
+Hide file window\nHide
+----------
+Clears output window\nClear Contents
+Clears output window\nClear Contents
+----------
+Copy output window contents\nCopy Contents
+Copy output window contents\nCopy Contents
+----------
+Hide output window\nHide
+Hide output window\nHide
+----------
+Directory
+Directory
+----------
+Remote  
+Remote  
+----------
+Project  
+Project  
+----------
+MDI File Tab
+MDI File Tab
+----------
+File Window
+File Window
+----------
+Output Window
+Output Window
+----------
+Output
+Output
+----------
+No.
+No.
+----------
+Macro Name
+Macro Name
+----------
+New Macro
+New Macro
+----------
+Choose Directory:
+Choose Directory:
+----------
+Choose Directory to Search:
+Choose Directory to Search:
+----------
+Choose Destination Directory:
+Choose Destination Directory:
+----------
+Enter category name:
+Enter category name:
+----------
+Enter program arguments:
+Enter program arguments:
+----------
+Enter text to send:
+Enter text to send:
+----------
+Open Template
+Open Template
+----------
+Insert File
+Insert File
+----------
+Save As Remote
+Save As Remote
+----------
+New Project
+New Project
+----------
+Open Project
+Open Project
+----------
+Add To Project
+Add To Project
+----------
+Load Color Scheme
+Load Color Scheme
+----------
+Save Color Scheme
+Save Color Scheme
+----------
+Save User Tools
+Save User Tools
+----------
+Save User Macros
+Save User Macros
+----------
+Select File
+Select File
+----------
+Load User Tools
+Load User Tools
+----------
+Load User Macros
+Load User Macros
+----------
+- No File Available -
+- No File Available -
+----------
+- No Project Available -
+- No Project Available -
+----------
+Project Files (*.prj)|*.prj||
+Project Files (*.prj)|*.prj||
+----------
+Color Scheme Files (*.clr)|*.clr||
+Color Scheme Files (*.clr)|*.clr||
+----------
+User Tool Files (*.cmd)|*.cmd||
+User Tool Files (*.cmd)|*.cmd||
+----------
+User Macro Files (*.mac)|*.mac||
+User Macro Files (*.mac)|*.mac||
+----------
+Executable Files (*.exe;*.com;*.bat;*.cmd)|*.exe;*.com;*.bat;*.cmd|Help Files (*.hlp;*.chm)|*.hlp;*.chm|All Files (*.*)|*.*||
+Executable Files (*.exe;*.com;*.bat;*.cmd)|*.exe;*.com;*.bat;*.cmd|Help Files (*.hlp;*.chm)|*.hlp;*.chm|All Files (*.*)|*.*||
+----------
+Lang Spec Files (*.spc)|*.spc||
+Lang Spec Files (*.spc)|*.spc||
+----------
+Keywords Files (*.key)|*.key||
+Keywords Files (*.key)|*.key||
+----------
+General
+General
+----------
+Visual
+Visual
+----------
+Fonts
+Fonts
+----------
+Colors
+Colors
+----------
+Print
+Print
+----------
+File
+File
+----------
+Association
+Association
+----------
+Backup
+Backup
+----------
+FTP Backup
+FTP Backup
+----------
+Syntax Type
+Syntax Type
+----------
+Filters
+Filters
+----------
+Tools
+Tools
+----------
+FTP
+FTP
+----------
+Area
+Area
+----------
+Face Name
+Face Name
+----------
+Size
+Size
+----------
+Default
+Default
+----------
+Custom %d
+Custom %d
+----------
+File Type
+File Type
+----------
+User Tool
+User Tool
+----------
+Hot Key
+Hot Key
+----------
+Column Mode
+Column Mode
+----------
+Screen fonts
+Screen fonts
+----------
+Printer fonts
+Printer fonts
+----------
+Miscellaneous
+Miscellaneous
+----------
+General colors
+General colors
+----------
+Keyword colors
+Keyword colors
+----------
+Remove '%s' project item from the project?
+Remove '%s' project item from the project?
+----------
+Do you want to close all document windows?
+Do you want to close all document windows?
+----------
+%s\n\nDo you really want to reload this file? You will lose all your changes.
+%s\n\nDo you really want to reload this file? You will lose all your changes.
+----------
+%s\n\nThis file has been modified outside. Do you want to reload it?
+%s\n\nThis file has been modified outside. Do you want to reload it?
+----------
+Cannot find the string '%s'.
+Cannot find the string '%s'.
+----------
+%d occurrence(s) have been replaced.
+%d occurrence(s) have been replaced.
+----------
+%d occurrence(s) have been found.
+%d occurrence(s) have been found.
+----------
+Do you want to reload this document?
+Do you want to reload this document?
+----------
+Occured line overflow!\n\nSome part of this document contains more than %d characters in a line.\nYou may lose original file contents if you save this document.
+Occured line overflow!\n\nSome part of this document contains more than %d characters in a line.\nYou may lose original file contents if you save this document.
+----------
+The regular expression matches the empty string.
+The regular expression matches the empty string.
+----------
+---------- Find in Files ----------
+---------- Find in Files ----------
+----------
+> Searching for the string '%s'...
+> Searching for the string '%s'...
+----------
+> Cannot find the string '%s'.
+> Cannot find the string '%s'.
+----------
+> %d occurrence(s) have been found.
+> %d occurrence(s) have been found.
+----------
+- Skipping binary file '%s'.
+- Skipping binary file '%s'.
+----------
+- Line exceeds %d characters in '%s(%d)'.
+- Line exceeds %d characters in '%s(%d)'.
+----------
+- Cannot open file '%s'.
+- Cannot open file '%s'.
+----------
+---------- Replace All in Open Files ----------
+---------- Replace All in Open Files ----------
+----------
+%s: Cannot find the string '%s'.
+%s: Cannot find the string '%s'.
+----------
+%s: %d occurrence(s) have been replaced.
+%s: %d occurrence(s) have been replaced.
+----------
+---------- Capture Output ----------
+---------- Capture Output ----------
+----------
+> %s
+> %s
+----------
+> Terminated with exit code %d.
+> Terminated with exit code %d.
+----------
+Failed to obtain the executable path. Some features will missing, and Crimson Editor may not run correctly.
+Failed to obtain the executable path. Some features will missing, and Crimson Editor may not run correctly.
+----------
+Crimson Editor configuration file has been corrupted!\n\n- Ignore this message if it is the first installation.\n- Loading Crimson Editor default configuration...\n
+Crimson Editor configuration file has been corrupted!\n\n- Ignore this message if it is the first installation.\n- Loading Crimson Editor default configuration...\n
+----------
+Failed to apply preferences setting!\n- You need full priviledge on the system registry.
+Failed to apply preferences setting!\n- You need full priviledge on the system registry.
+----------
+Failed to switch word wrap mode!\n- Turn off column mode or merge column-splitted window to switch word wrap.\n
+Failed to switch word wrap mode!\n- Turn off column mode or merge column-splitted window to switch word wrap.\n
+----------
+Failed to compile regular expression '%s'.
+Failed to compile regular expression '%s'.
+----------
+Illegal macro definition '%s'.\nKeystroke recording canceled.
+Illegal macro definition '%s'.\nKeystroke recording canceled.
+----------
+Another process is running.\nYou need to kill the previous process first.
+Another process is running.\nYou need to kill the previous process first.
+----------
+Failed to split window into two columns!\n- You cannot split a window into two columns in word wrap mode.
+Failed to split window into two columns!\n- You cannot split a window into two columns in word wrap mode.
+----------
+Output Window is not available now.
+Output Window is not available now.
+----------
+Object link and embeding initialization failed!
+Object link and embeding initialization failed!
+----------
+File not found.\n
+File not found.\n
+----------
+%s
+%s
+----------
+File attribute check failure. Continue?
+File attribute check failure. Continue?
+----------
+Failed to save file.\n
+Failed to save file.\n
+----------
+\n- access denied (directory or read only file?)
+\n- access denied (directory or read only file?)
+----------
+\n- access denied (hidden or system file?)
+\n- access denied (hidden or system file?)
+----------
+Failed to create backup file.
+Failed to create backup file.
+----------
+Failed to open remote file.\n
+Failed to open remote file.\n
+----------
+Failed to create remote backup file.\n
+Failed to create remote backup file.\n
+----------
+Remote file transfer canceled by user.
+Remote file transfer canceled by user.
+----------
+Failed to save remote file.\n
+Failed to save remote file.\n
+----------
+Failed to reload remote file.\n
+Failed to reload remote file.\n
+----------
+Failed to get selected project item
+Failed to get selected project item
+----------
+Duplicate project item.
+Duplicate project item.
+----------
+Insert project item failed.
+Insert project item failed.
+----------
+Error in parsing project attribute.
+Error in parsing project attribute.
+----------
+Wrong project file.
+Wrong project file.
+----------
+Failed to get selected directory item.
+Failed to get selected directory item.
+----------
+List help topics\nHelp Topics
+List help topics\nHelp Topics
+----------
+Give feedback on the forums - [http://forums.emeraldeditor.com/]\nFeedback
+Give feedback on the forums - [http://forums.emeraldeditor.com/]\nFeedback
+----------
+Visit Crimson Editor homepage - [http://crimson.emeraldeditor.com/]\nVisit Homepage
+Visit Crimson Editor homepage - [http://crimson.emeraldeditor.com/]\nVisit Homepage
+----------
+Set the active document to the DOS file format\nDOS Format
+Set the active document to the DOS file format\nDOS Format
+----------
+Set the active document to the Unix file format\nUnix Format
+Set the active document to the Unix file format\nUnix Format
+----------
+Set the active document to the Mac file format\nMac Format
+Set the active document to the Mac file format\nMac Format
+----------
+Set the active document to ASCII encoding\nASCII Encoding
+Set the active document to ASCII encoding\nASCII Encoding
+----------
+Set the active document to Unicode encoding (little endian)\nUnicode Encoding (Little Endian)
+Set the active document to Unicode encoding (little endian)\nUnicode Encoding (Little Endian)
+----------
+Set the active document to Unicode encoding (big endian)\nUnicode Encoding (Big Endian)
+Set the active document to Unicode encoding (big endian)\nUnicode Encoding (Big Endian)
+----------
+Set the active document to UTF-8 encoding with byte order mark\nUTF-8 Encoding (with BOM)
+Set the active document to UTF-8 encoding with byte order mark\nUTF-8 Encoding (with BOM)
+----------
+Set the active document to UTF-8 encoding without byte order mark\nUTF-8 Encoding (w/o BOM)
+Set the active document to UTF-8 encoding without byte order mark\nUTF-8 Encoding (w/o BOM)
+----------
+Lock the active document from changes\nLock Document
+Lock the active document from changes\nLock Document
+----------
+Show the active document summary\nDocument Summary
+Show the active document summary\nDocument Summary
+----------
+Detect document syntax type automatically
+Detect document syntax type automatically
+----------
+Set the current document as plain text
+Set the current document as plain text
+----------
+Customize document syntax types
+Customize document syntax types
+----------
+Set the current document as this syntax type
+Set the current document as this syntax type
+----------
+Create a new project\nNew Project
+Create a new project\nNew Project
+----------
+Open an existing project\nOpen Project
+Open an existing project\nOpen Project
+----------
+Close the active project\nClose Project
+Close the active project\nClose Project
+----------
+Insert a new category into the project\nNew Category
+Insert a new category into the project\nNew Category
+----------
+Insert existing files into the project\nAdd to Project
+Insert existing files into the project\nAdd to Project
+----------
+Insert active file into the project\nAdd Active File to Project
+Insert active file into the project\nAdd Active File to Project
+----------
+Insert all open files into the project\nAdd All Open Files to Project
+Insert all open files into the project\nAdd All Open Files to Project
+----------
+Open selected project file for editing\nOpen Project File
+Open selected project file for editing\nOpen Project File
+----------
+Remove selected file from the project\nRemove from Project
+Remove selected file from the project\nRemove from Project
+----------
+Failed to connect remote server.\n%s
+Failed to connect remote server.\n%s
+----------
+Failed to logon remote server.\n%s
+Failed to logon remote server.\n%s
+----------
+Failed to open remote file.\n%s
+Failed to open remote file.\n%s
+----------
+Failed to rename remote file.\n%s
+Failed to rename remote file.\n%s
+----------
+An error occured during transfer a remote file.
+An error occured during transfer a remote file.
+----------
+Failed to change working directory.\n%s
+Failed to change working directory.\n%s
+----------
+Failed to change working directory.\n%s: %s
+Failed to change working directory.\n%s: %s
+----------
+Load this set of user tools
+Load this set of user tools
+----------
+Load ths set of user macros
+Load ths set of user macros
+----------
+17
+17
+----------
+10
+10
+----------
+ASP Document|ASP.SPC|ASP.KEY
+ASP Document|ASP.SPC|ASP.KEY
+----------
+Basic Program|BASIC.SPC|BASIC.KEY
+Basic Program|BASIC.SPC|BASIC.KEY
+----------
+C/C++ Program|CPLUSPLUS.SPC|CPLUSPLUS.KEY
+C/C++ Program|CPLUSPLUS.SPC|CPLUSPLUS.KEY
+----------
+Cascading Style Sheet|CSS.SPC|CSS.KEY
+Cascading Style Sheet|CSS.SPC|CSS.KEY
+----------
+Default|DEFAULT.SPC|DEFAULT.KEY
+Default|DEFAULT.SPC|DEFAULT.KEY
+----------
+Fortran Program|FORTRAN77.SPC|FORTRAN77.KEY
+Fortran Program|FORTRAN77.SPC|FORTRAN77.KEY
+----------
+HTML Document|HTML.SPC|HTML.KEY
+HTML Document|HTML.SPC|HTML.KEY
+----------
+Java Program|JAVA.SPC|JAVA.KEY
+Java Program|JAVA.SPC|JAVA.KEY
+----------
+JSP Document|JSP.SPC|JSP.KEY
+JSP Document|JSP.SPC|JSP.KEY
+----------
+LaTeX Document|LATEX.SPC|LATEX.KEY
+LaTeX Document|LATEX.SPC|LATEX.KEY
+----------
+Matlab Program|MATLAB.SPC|MATLAB.KEY
+Matlab Program|MATLAB.SPC|MATLAB.KEY
+----------
+Pascal Program|PASCAL.SPC|PASCAL.KEY
+Pascal Program|PASCAL.SPC|PASCAL.KEY
+----------
+Perl Script|PERL.SPC|PERL.KEY
+Perl Script|PERL.SPC|PERL.KEY
+----------
+PHP Document|PHP.SPC|PHP.KEY
+PHP Document|PHP.SPC|PHP.KEY
+----------
+PL/SQL Script|PLSQL.SPC|PLSQL.KEY
+PL/SQL Script|PLSQL.SPC|PLSQL.KEY
+----------
+Python Program|PYTHON.SPC|PYTHON.KEY
+Python Program|PYTHON.SPC|PYTHON.KEY
+----------
+Tcl/Tk Program|TCLTK.SPC|TCLTK.KEY
+Tcl/Tk Program|TCLTK.SPC|TCLTK.KEY
+----------
+All Files|*.*|
+All Files|*.*|
+----------
+Text Files|*.txt;*.log;*.bat;*.ini|txt
+Text Files|*.txt;*.log;*.bat;*.ini|txt
+----------
+HTML Files|*.html;*.htm;*.shtml;*.css|html
+HTML Files|*.html;*.htm;*.shtml;*.css|html
+----------
+C/C++ Files|*.c;*.cc;*.cpp;*.pc;*.h|cpp
+C/C++ Files|*.c;*.cc;*.cpp;*.pc;*.h|cpp
+----------
+Java Files|*.java;*.jav|java
+Java Files|*.java;*.jav|java
+----------
+Perl Files|*.pl;*.pm;*.perl;*.cgi|pl
+Perl Files|*.pl;*.pm;*.perl;*.cgi|pl
+----------
+Fortran Files|*.f;*.for;*.f77;*.f90;*.f95|f
+Fortran Files|*.f;*.for;*.f77;*.f90;*.f95|f
+----------
+PHP Files|*.php;*.phtml;*.php3;*.php4|php
+PHP Files|*.php;*.phtml;*.php3;*.php4|php
+----------
+JSP Files|*.jsp;*.jhtml;*.java|jsp
+JSP Files|*.jsp;*.jhtml;*.java|jsp
+----------
+LaTeX Files|*.tex;*.sty|tex
+LaTeX Files|*.tex;*.sty|tex
+----------
+Cut the current line and put it on clipboard (Not possible in Column mode)
+Cut the current line and put it on clipboard (Not possible in Column mode)
+----------
+Copy the current line to clipboard (Not possible in Column mode)
+Copy the current line to clipboard (Not possible in Column mode)
+----------
+Insert clipboard contents at the beginning of current line
+Insert clipboard contents at the beginning of current line
+----------
