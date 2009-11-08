@@ -8,22 +8,22 @@
 &Apri...\tCtrl+O
 ----------
 Open &Template...\tAlt+Shift+O
-Apri &Modello...\tAlt+Maiusc+O
+Apri &modello...\tAlt+Maiusc+O
 ----------
 &Close\tCtrl+F4
-Chi&udi\tCtrl+F4
+C&hiudi\tCtrl+F4
 ----------
 Close &Other
-Chiu&di altro
+C&hiudi tutti gli altri
 ----------
 Clos&e All
-Chiudi &tutto
+C&hiudi tutti
 ----------
 &Reload
-&Aggiorna
+&Ricarica
 ----------
 Reloa&d As...
-Aggior&na come...
+&Ricarica come...
 ----------
 &Save\tCtrl+S
 &Salva\tCtrl+S
@@ -32,16 +32,16 @@ Save &As...\tAlt+Shift+S
 Sal&va con nome...\tAlt+Maiusc+S
 ----------
 Save A&ll
-Salva &tutto
+Salva &tutti
 ----------
 &Print...\tCtrl+P
 Stam&pa...\tCtrl+P
 ----------
 Print Pre&view
-Antep&rima di stampa
+Anteprima &di stampa
 ----------
 Print Set&up...
-I&mpostazioni pagina...
+Imposta&zioni pagina...
 ----------
 &FTP
 &FTP
@@ -50,13 +50,13 @@ I&mpostazioni pagina...
 Apri file &remoto...\tCtrl+Maiusc+O
 ----------
 Save &As Remote...\tCtrl+Shift+S
-Salva file rem&oto...\tCtrl+Maiusc+S
+&Salva file remoto...\tCtrl+Maiusc+S
 ----------
 FTP &Settings...
-I&mpostazioni FTP ...
+Imposta&zioni FTP...
 ----------
 Recent F&iles
-F&ile recenti
+File re&centi
 ----------
 E&xit\tAlt+F4
 &Esci\tAlt+F4
@@ -80,10 +80,10 @@ Cu&t\tCtrl+X
 I&ncolla\tCtrl+V
 ----------
 &Delete\tDel
-&EliminatDel
+&Elimina\tCanc
 ----------
 &Append
-&Accoda agli appunti
+Acco&da agli appunti
 ----------
 Cu&t Append\tCtrl+Shift+X
 &Taglia e accoda\tCtrl+Maiusc+X
@@ -107,16 +107,16 @@ I&ncolla
 &Seleziona
 ----------
 Select &All\tCtrl+A
-Seleziona &tutto\tCtrl+A
+&Tutto\tCtrl+A
 ----------
 Select &Line\tCtrl+E
-Seleziona &riga\tCtrl+E
+&Riga\tCtrl+E
 ----------
 Select &Word\tCtrl+D
-Seleziona &parolatCtrl+D
+ &Parola\tCtrl+D
 ----------
 Select &Block\tCtrl+B
-Seleziona &blocco\tCtrl+B
+&Blocco\tCtrl+B
 ----------
 C&hange Case
 &Maiuscole/minuscole
@@ -128,7 +128,7 @@ In mai&uscolo\tCtrl+U
 In &minuscolo\tCtrl+L
 ----------
 &Capitalize\tCtrl+Shift+U
-&Prima lettera maiuscola\tCtrl+Maiusc+U
+Ini&ziale maiuscola\tCtrl+Maiusc+U
 ----------
 &Invert Case\tCtrl+Shift+L
 In&verti maiuscole/minuscole\tCtrl+Maiusc+L
@@ -140,13 +140,13 @@ Insert &Date\tAlt+Shift+D
 &Data\tAlt+Maiusc+D
 ----------
 Insert &Time\tAlt+Shift+T
-&Orario\tAlt+Maiusc+T
+&Ora\tAlt+Maiusc+T
 ----------
 Insert &File...\tAlt+Shift+F
 &File...\tAlt+Maiusc+F
 ----------
 Ad&vanced
-A&avanzate
+Avan&zate
 ----------
 &Increase Indent\tCtrl+.
 &Aumenta indentazione\tCtrl+.
@@ -158,7 +158,7 @@ D&elete Line\tAlt+Del
 &Elimina riga\tAlt+Del
 ----------
 D&uplicate Line\tAlt+Ins
-Clona &riga\tAlt+Ins
+&Duplica riga\tAlt+Ins
 ----------
 Delete &Word\tCtrl+Del
 Elimina &parola\tCtrl+Del
@@ -167,22 +167,22 @@ Delete &Prev Word\tCtrl+Back
 Elimina parola p&recedente\tCtrl+Back
 ----------
 Delete to E&nd of Line\tCtrl+Shift+Del
-Elimina &fino a fine riga\tCtrl+Shift+Del
+Elimina &fino a fine riga\tCtrl+Maiusc+Canc
 ----------
 Delete to &Begin of Line\tCtrl+Shift+Back
-Elimina da ini&zio riga\tCtrl+Shift+Back
+Elimina da ini&zio riga\tCtrl+Maiusc+Back
 ----------
 &Join Lines\tAlt+J
 &Unisci righe\tAlt+J
 ----------
 &Split Line\tAlt+K
-&Spezza riga\tAlt+K
+&Dividi riga\tAlt+K
 ----------
 &Make Comment\tCtrl+M
 Co&mmenta\tCtrl+M
 ----------
 &Release Comment\tCtrl+Shift+M
-&Rimuovi commento\tCtrl+Shift+M
+&Rimuovi commento\tCtrl+Maiusc+M
 ----------
 Column &Mode\tAlt+C
 &Modalità colonna\tAlt+C
@@ -194,7 +194,7 @@ Column &Mode\tAlt+C
 &Trova...\tCtrl+F
 ----------
 &Replace...\tCtrl+R
-&Sostituisci...\tCtrl+R
+S&ostituisci...\tCtrl+R
 ----------
 Find &Next\tF3
 Trova &successivo\tF3
@@ -212,7 +212,7 @@ Trova nei &file...\tCtrl+Maiusc+F
 &Aggiungi/rimuovi segnalibro\tCtrl+F2
 ----------
 Ne&xt Bookmark\tF2
-Segnalibro s&uccessivo\tF2
+Segnalibro &successivo\tF2
 ----------
 Pr&ev Bookmark\tShift+F2
 Segnalibro p&recedente\tMaiusc+F2
@@ -221,16 +221,16 @@ Segnalibro p&recedente\tMaiusc+F2
 &Ritorna alla posizione precedente\tCtrl+\\
 ----------
 Pairs &Begin Position\tCtrl+[
-&Retrocedi dopo la parentesi\tCtrl+[
+Vai alla parentesi ini&ziale\tCtrl+[
 ----------
 Pairs &End Position\tCtrl+]
-&Avanza prima della parentesi\tCtrl+]
+Vai alla parentesi &finale\tCtrl+]
 ----------
 &View
 &Visualizza
 ----------
 &Toolbars/Views
-&Barre degli strumenti/Mostra
+&Mostra
 ----------
 &Toolbar
 &Barra degli strumenti
@@ -251,16 +251,16 @@ Albero directory\tAlt+Maiusc+1
 Finestra &progetti\tAlt+Maiusc+3
 ----------
 &Output Window\tAlt+Shift+0
-Finestra &outputtAlt+Maiusc+0
+Finestra &output\tAlt+Maiusc+0
 ----------
 &Word Wrap\tAlt+Shift+W
-&Word Wrap\tAlt+Shift+W
+&A capo automatico\tAlt+Maiusc+W
 ----------
 Spell Chec&k\tAlt+Shift+K
 &Controllo ortografico\tAlt+Maiusc+K
 ----------
 Line &Numbers\tAlt+Shift+L
-&Numero di riga\tAlt+Maiusc+L
+&Numeri riga\tAlt+Maiusc+L
 ----------
 Column &Markers...
 &Indicatori colonna...
@@ -290,7 +290,7 @@ Personalizzato &5
 I&mposta carattere...
 ----------
 &Printer Fonts
-Carattere per la &stampa
+Caratteri &stampa
 ----------
 Line &Spacing
 In&terlinea
@@ -305,10 +305,10 @@ In&terlinea
 1&20%
 ----------
 1&50% Line Spacing
-1&50% Line Spacing
+1&50%
 ----------
 200% &Line Spacing
-200% &Line Spacing
+&200%
 ----------
 &Custom Line Spacing...
 Interlinea &personalizzata...
@@ -332,7 +332,7 @@ Tab Size [1&6]
 Tabulazione &personalizzata...
 ----------
 Set &Colors...
-mp&ostazione colori...
+Imp&ostazione colori...
 ----------
 &Others
 &Altri
@@ -341,7 +341,7 @@ Embolden &Keywords\tAlt+Shift+B
 Parole chiave in gra&ssetto\tAlt+Maiusc+B
 ----------
 Italicize &Comment\tAlt+Shift+I
-&Commenti in corsivo\tAlt+Shift+I
+&Commenti in corsivo\tAlt+Maiusc+I
 ----------
 Show &Spaces\tCtrl+Shift+W
 Mostra &spazi\tCtrl+Maiiusc+W
@@ -350,7 +350,7 @@ Show &Tab Characters\tCtrl+Shift+T
 Mostra caratteri di &tabulazione\tCtrl+Maiusc+T
 ----------
 Show Line &Break\tCtrl+Shift+B
-Mostra carattere 'a capo'\tCtrl+Shift+B
+Mostra carattere di interruzione riga\tCtrl+Maiusc+B
 ----------
 &Document
 &Documento
@@ -368,7 +368,7 @@ File di &testo
 &Personalizza...
 ----------
 &Reload Document
-&Aggiorna documento
+&Ricarica documento
 ----------
 &Reload Syntaxes
 Aggiorna &sintassi
@@ -413,16 +413,16 @@ Convert &Tabs to Spaces
 Conver&ti tabulazioni in spazi
 ----------
 Convert &Spaces to Tabs
-Converte spazi in tabulazioni
+Converti &spazi in tabulazioni
 ----------
 &Leading Spaces to Tabs
-&Leading Spaces to Tabs
+Converti lo spa&zio in iniziale in tabulazione
 ----------
 &Remove Trailing Spaces
-&Remove Trailing Spaces
+&Comprimi righe di soli spazi
 ----------
 S&ummary...
-S&ommario...
+&Proprietà...
 ----------
 &Project
 &Progetto
@@ -434,7 +434,7 @@ S&ommario...
 &Apri progetto...
 ----------
 &Close Project
-&Chiudi progetto
+C&hiudi progetto
 ----------
 N&ew Category...
 Nuova &categoria...
@@ -443,7 +443,7 @@ Nuova &categoria...
 Aggiungi al progetto...
 ----------
 Add Ac&tive File
-Aggiungi file &corrente
+Aggiungi &file corrente
 ----------
 Add A&ll Open Files
 Aggi&ungi tutti i file
@@ -455,10 +455,10 @@ Aggi&ungi tutti i file
 &Preferenze...
 ----------
 &Evaluate Line\tCtrl+Enter
-&Valuta espressione\tCtrl+Enter
+&Valuta espressione\tCtrl+Invio
 ----------
 MS-DOS &Shell\tF10
-&Shell MS-DOS\tF10
+Pro&mpt dei comandi\tF10
 ----------
 View in &Browser\tAlt+B
 Mostra nel &browser\tAlt+B
@@ -509,7 +509,7 @@ Ini&zia registrazione...
 &Termina registrazione
 ----------
 &Replay Macro\tAlt+Enter
-&Ripeti Macro\tAlt+Enter
+&Ripeti Macro\tAlt+Invio
 ----------
 &Load User Macros
 &Esegui macro
@@ -560,7 +560,7 @@ Cl&ose\tCtrl+W
 Chi&udi\tCtrl+W
 ----------
 &Last Visited\tCtrl+Tab
-Utilizzata &precedentemente\tCtrl+Tab
+Ultima finestra utilizzata\tCtrl+Tab
 ----------
 Ne&xt Window\tCtrl+F6
 Finestra &successiva\tCtrl+F6
@@ -572,10 +572,10 @@ Finestra precedente\tCtrl+F5
 &Cascata
 ----------
 Tile &Horizontal
-Tile &Horizontal
+Disponi in ori&zzontale
 ----------
 &Tile Vertical
-&Tile Vertical
+Disponi in &verticale
 ----------
 &Help
 &Aiuto
@@ -593,25 +593,25 @@ Help &Topics...
 &Informazioni su Crimson Editor...
 ----------
 &New
-&Nuova
+&Nuovo
 ----------
 &Open...
 &Apri...
 ----------
 Open &Template...
-Apri &Modello...
+Apri &modello...
 ----------
 Open &Remote...
-Apri &file remoto...
+Apri file &remoto...
 ----------
 &Close
-&Chiudi
+C&hiudi
 ----------
 &Save
 &Salva
 ----------
 Save &As...
-&Salva con nome...
+Salva con &nome...
 ----------
 Save As Re&mote...
 Salva fil&e remoto con nome...
@@ -635,7 +635,7 @@ Pr&ev Bookmark
 Segnalibro &precedente
 ----------
 Line &Numbers
-Numeri di riga
+Numeri riga
 ----------
 &Go To...
 &Vai a...
@@ -656,7 +656,7 @@ Insert &Date
 Inserisci &data
 ----------
 Insert &Time
-Inserisci &Orario
+Inserisci ora
 ----------
 Insert &File...
 Inserisci &File...
@@ -665,13 +665,13 @@ D&elete Line
 &Elimina riga
 ----------
 D&uplicate Line
-Cl&ona riga
+&Duplica riga
 ----------
 &Join Lines
 &Unisci righe
 ----------
 &Split Line
-&Dividi rga
+Di&vidi riga
 ----------
 &Delete
 &Elimina
@@ -689,7 +689,7 @@ In &maiuscolo
 I&n minuscolo
 ----------
 Capitali&ze
-&Prima lettera maiuscola
+Ini&ziale maiuscola
 ----------
 &Invert Case
 In&verti maiuscole/minuscole
@@ -734,7 +734,7 @@ Ri&nomina
 &Apri
 ----------
 Shell &Execute
-&Esegui da Shell
+&Esegui da prompt
 ----------
 Re&move from Project
 Ri&muovi dal progetto
@@ -758,34 +758,34 @@ Send &Input...
 &Inserire numero di riga (1 - 1):
 ----------
 Fi&nd what:
-&Cose da  cercare:
+&Trova:
 ----------
 Re&place with:
-Sos&tituire con:
+Sos&tituisci con:
 ----------
 Match &whole word only
-Match &whole word only
+S&olo parole intere
 ----------
 Match &case
-Match &case
+&Distingui fra maiuscole/minuscole
 ----------
 Regular &expression
 &Espressione regolare
 ----------
 &Selection
-&Selezione
+Sele&zione
 ----------
 Wh&ole file
-T&utto il file
+In t&utto il file
 ----------
 All open f&iles
-In t&utti i file aperti
+In &tutti i file aperti
 ----------
 &Find Next
-Trova &successivo
+&Trova succ.
 ----------
 Replace &All
-Sostituisci tutt&o
+Sostituisci tutt&e
 ----------
 &Up
 &Su
@@ -815,16 +815,16 @@ Sostituisci tutt&o
 &Categorie
 ----------
 Enable drag && drop text editing
-Enable drag && drop text editing
+Permetti modifiche veloci con drag && drop
 ----------
 Highlighted && shadowed colors:
-Highlighted && shadowed colors:
+Evidenziazione e ombreggiatura:
 ----------
 &Account:
 &Account:
 ----------
 &Connect
-&Connect
+&Connetti
 ----------
 &Directory:
 &Directory:
@@ -842,7 +842,7 @@ File &Type:
 &Descrizione:
 ----------
 &FTP server:
-Server &FT:
+Server &FTP:
 ----------
 &User name:
 Nome &utente:
@@ -854,7 +854,7 @@ Sav&e password
 Salva pass&word
 ----------
 &Subdirectory:
-&Subdirectory:
+&Sotto directory:
 ----------
 Ad&vanced...
 Avan&zate...
@@ -890,10 +890,10 @@ Cerca nelle &sottocartelle
 &Inserisci la password per:
 ----------
 &Encoding Type:
-Codifica:
+Codifica caratteri:
 ----------
 Reload syntaxes & active document\nReload Syntaxes
-Reload syntaxes & active document\nReload Syntaxes
+Aggiorna la sintassi del  documento corrennte\nAggiorna sintassi
 ----------
 &Enter Line Number (%d - %d):
 &Inserisci numero di riga (%d - %d):
