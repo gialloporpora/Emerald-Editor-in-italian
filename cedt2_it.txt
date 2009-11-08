@@ -1,656 +1,128 @@
-resource.h
-resource.h
-----------
-afxres.h
-afxres.h
-----------
-resource.h\0
-resource.h\0
-----------
-#include 
-#include 
-----------
-\r\n
-\r\n
-----------
-\0
-\0
-----------
-#define _AFX_NO_SPLITTER_RESOURCES\r\n
-#define _AFX_NO_SPLITTER_RESOURCES\r\n
-----------
-#define _AFX_NO_OLE_RESOURCES\r\n
-#define _AFX_NO_OLE_RESOURCES\r\n
-----------
-#define _AFX_NO_TRACKER_RESOURCES\r\n
-#define _AFX_NO_TRACKER_RESOURCES\r\n
-----------
-#define _AFX_NO_PROPERTY_RESOURCES\r\n
-#define _AFX_NO_PROPERTY_RESOURCES\r\n
-----------
-#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n
-#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n
-----------
-#ifdef _WIN32\r\n
-#ifdef _WIN32\r\n
-----------
-LANGUAGE 9, 1\r\n
-LANGUAGE 9, 1\r\n
-----------
-#pragma code_page(1252)\r\n
-#pragma code_page(1252)\r\n
-----------
-#endif //_WIN32\r\n
-#endif //_WIN32\r\n
-----------
-cedt.rc2
-cedt.rc2
-----------
-  // non-Microsoft Visual C++ edited resources\r\n
-  // non-Microsoft Visual C++ edited resources\r\n
-----------
-afxres.rc
-afxres.rc
-----------
-         // Standard components\r\n
-         // Standard components\r\n
-----------
-afxprint.rc
-afxprint.rc
-----------
-       // printing/print preview resources\r\n
-       // printing/print preview resources\r\n
-----------
-#endif\r\n
-#endif\r\n
-----------
-mainfrm.ico
-mainfrm.ico
-----------
-cedttype.ico
-cedttype.ico
-----------
-Toolbar.bmp
-Toolbar.bmp
-----------
-mdifiletab.bmp
-mdifiletab.bmp
-----------
-fwincategory.bmp
-fwincategory.bmp
-----------
-genbuttons.bmp
-genbuttons.bmp
-----------
-remoteitem.bmp
-remoteitem.bmp
-----------
-remotehost.bmp
-remotehost.bmp
-----------
-remoteopen.bmp
-remoteopen.bmp
-----------
-fwintooldir.bmp
-fwintooldir.bmp
-----------
-winbuttons.bmp
-winbuttons.bmp
-----------
-cedtlogo.bmp
-cedtlogo.bmp
-----------
-cedticon.bmp
-cedticon.bmp
-----------
-fwintoolprj.bmp
-fwintoolprj.bmp
-----------
-projectitem.bmp
-projectitem.bmp
-----------
-emerald.bmp
-emerald.bmp
-----------
-Recent File
-Recent File
-----------
-User Tools
-User Tools
-----------
-User Macros
-User Macros
-----------
-TIMER
-TIMER
-----------
-ID_TIMER_AUTO_SCROLL
-ID_TIMER_AUTO_SCROLL
-----------
-ID_TIMER_CAPTURE_OUTPUT
-ID_TIMER_CAPTURE_OUTPUT
-----------
-SEARCH
-SEARCH
-----------
-ID_SEARCH_ASK_REPLACE
-ID_SEARCH_ASK_REPLACE
-----------
-ID_SEARCH_REPLACE_THIS
-ID_SEARCH_REPLACE_THIS
-----------
-ID_SEARCH_REPALL_IN_SELECTION
-ID_SEARCH_REPALL_IN_SELECTION
-----------
-ID_SEARCH_REPALL_IN_FILE
-ID_SEARCH_REPALL_IN_FILE
-----------
-ID_SEARCH_REPALL_IN_OPEN_FILES
-ID_SEARCH_REPALL_IN_OPEN_FILES
-----------
-ID_SEARCH_REPALL_IN_FILE_OUTPUT
-ID_SEARCH_REPALL_IN_FILE_OUTPUT
-----------
-ID_SEARCH_NEXT_OCCURRENCE
-ID_SEARCH_NEXT_OCCURRENCE
-----------
-ID_SEARCH_PREV_OCCURRENCE
-ID_SEARCH_PREV_OCCURRENCE
-----------
-DOCU1
-DOCU1
-----------
-ID_DOCU_SYNTAX_TYPE0
-ID_DOCU_SYNTAX_TYPE0
-----------
-ID_DOCU_SYNTAX_TYPE1
-ID_DOCU_SYNTAX_TYPE1
-----------
-ID_DOCU_SYNTAX_TYPE2
-ID_DOCU_SYNTAX_TYPE2
-----------
-ID_DOCU_SYNTAX_TYPE3
-ID_DOCU_SYNTAX_TYPE3
-----------
-ID_DOCU_SYNTAX_TYPE4
-ID_DOCU_SYNTAX_TYPE4
-----------
-ID_DOCU_SYNTAX_TYPE5
-ID_DOCU_SYNTAX_TYPE5
-----------
-ID_DOCU_SYNTAX_TYPE6
-ID_DOCU_SYNTAX_TYPE6
-----------
-ID_DOCU_SYNTAX_TYPE7
-ID_DOCU_SYNTAX_TYPE7
-----------
-ID_DOCU_SYNTAX_TYPE8
-ID_DOCU_SYNTAX_TYPE8
-----------
-ID_DOCU_SYNTAX_TYPE9
-ID_DOCU_SYNTAX_TYPE9
-----------
-ID_DOCU_SYNTAX_TYPE10
-ID_DOCU_SYNTAX_TYPE10
-----------
-ID_DOCU_SYNTAX_TYPE11
-ID_DOCU_SYNTAX_TYPE11
-----------
-ID_DOCU_SYNTAX_TYPE12
-ID_DOCU_SYNTAX_TYPE12
-----------
-ID_DOCU_SYNTAX_TYPE13
-ID_DOCU_SYNTAX_TYPE13
-----------
-ID_DOCU_SYNTAX_TYPE14
-ID_DOCU_SYNTAX_TYPE14
-----------
-ID_DOCU_SYNTAX_TYPE15
-ID_DOCU_SYNTAX_TYPE15
-----------
-ID_DOCU_SYNTAX_TYPE16
-ID_DOCU_SYNTAX_TYPE16
-----------
-DOCU2
-DOCU2
-----------
-ID_DOCU_SYNTAX_TYPE17
-ID_DOCU_SYNTAX_TYPE17
-----------
-ID_DOCU_SYNTAX_TYPE18
-ID_DOCU_SYNTAX_TYPE18
-----------
-ID_DOCU_SYNTAX_TYPE19
-ID_DOCU_SYNTAX_TYPE19
-----------
-ID_DOCU_SYNTAX_TYPE20
-ID_DOCU_SYNTAX_TYPE20
-----------
-ID_DOCU_SYNTAX_TYPE21
-ID_DOCU_SYNTAX_TYPE21
-----------
-ID_DOCU_SYNTAX_TYPE22
-ID_DOCU_SYNTAX_TYPE22
-----------
-ID_DOCU_SYNTAX_TYPE23
-ID_DOCU_SYNTAX_TYPE23
-----------
-ID_DOCU_SYNTAX_TYPE24
-ID_DOCU_SYNTAX_TYPE24
-----------
-ID_DOCU_SYNTAX_TYPE25
-ID_DOCU_SYNTAX_TYPE25
-----------
-ID_DOCU_SYNTAX_TYPE26
-ID_DOCU_SYNTAX_TYPE26
-----------
-ID_DOCU_SYNTAX_TYPE27
-ID_DOCU_SYNTAX_TYPE27
-----------
-ID_DOCU_SYNTAX_TYPE28
-ID_DOCU_SYNTAX_TYPE28
-----------
-ID_DOCU_SYNTAX_TYPE29
-ID_DOCU_SYNTAX_TYPE29
-----------
-ID_DOCU_SYNTAX_TYPE30
-ID_DOCU_SYNTAX_TYPE30
-----------
-ID_DOCU_SYNTAX_TYPE31
-ID_DOCU_SYNTAX_TYPE31
-----------
-COMMAND
-COMMAND
-----------
-ID_COMMAND_USER_FILE0
-ID_COMMAND_USER_FILE0
-----------
-ID_COMMAND_USER_FILE1
-ID_COMMAND_USER_FILE1
-----------
-ID_COMMAND_USER_FILE2
-ID_COMMAND_USER_FILE2
-----------
-ID_COMMAND_USER_FILE3
-ID_COMMAND_USER_FILE3
-----------
-ID_COMMAND_USER_FILE4
-ID_COMMAND_USER_FILE4
-----------
-ID_COMMAND_USER_FILE5
-ID_COMMAND_USER_FILE5
-----------
-ID_COMMAND_USER_FILE6
-ID_COMMAND_USER_FILE6
-----------
-ID_COMMAND_USER_FILE7
-ID_COMMAND_USER_FILE7
-----------
-MACRO
-MACRO
-----------
-ID_MACRO_USER_FILE0
-ID_MACRO_USER_FILE0
-----------
-ID_MACRO_USER_FILE1
-ID_MACRO_USER_FILE1
-----------
-ID_MACRO_USER_FILE2
-ID_MACRO_USER_FILE2
-----------
-ID_MACRO_USER_FILE3
-ID_MACRO_USER_FILE3
-----------
-ID_MACRO_USER_FILE4
-ID_MACRO_USER_FILE4
-----------
-ID_MACRO_USER_FILE5
-ID_MACRO_USER_FILE5
-----------
-ID_MACRO_USER_FILE6
-ID_MACRO_USER_FILE6
-----------
-ID_MACRO_USER_FILE7
-ID_MACRO_USER_FILE7
-----------
-WINDOW
-WINDOW
-----------
-ID_FILE_WINDOW
-ID_FILE_WINDOW
-----------
-ID_OUTPUT_WINDOW
-ID_OUTPUT_WINDOW
-----------
-SCROLL
-SCROLL
-----------
-ID_SCROLL_SCREEN_TOP
-ID_SCROLL_SCREEN_TOP
-----------
-ID_SCROLL_SCREEN_BOTTOM
-ID_SCROLL_SCREEN_BOTTOM
-----------
-ID_SCROLL_SCREEN_CENTER
-ID_SCROLL_SCREEN_CENTER
-----------
-TAB_NULL
-TAB_NULL
-----------
-TAB_ITEM
-TAB_ITEM
-----------
-VIEW_LEFT
-VIEW_LEFT
-----------
-VIEW_CLIENT
-VIEW_CLIENT
-----------
-VIEW_SELECTED
-VIEW_SELECTED
-----------
-DIR_NULL
-DIR_NULL
-----------
-DIR_ROOT
-DIR_ROOT
-----------
-DIR_FOLDER
-DIR_FOLDER
-----------
-DIR_FILE
-DIR_FILE
-----------
-PRJ_NULL
-PRJ_NULL
-----------
-PRJ_ROOT0
-PRJ_ROOT0
-----------
-PRJ_ROOT1
-PRJ_ROOT1
-----------
-PRJ_CATEGORY
-PRJ_CATEGORY
-----------
-PRJ_LOCAL
-PRJ_LOCAL
-----------
-PRJ_REMOTE
-PRJ_REMOTE
-----------
-DUMMY
-DUMMY
-----------
-ARGUMENT
-ARGUMENT
-----------
 File Path
-File Path
+Percorso file
 ----------
 File Directory
-File Directory
+Directory
 ----------
 File Name
-File Name
+Nome file
 ----------
 File Title
-File Title
+Titolo
 ----------
 Line Number
-Line Number
+Numero riga
 ----------
 Current Word
-Current Word
+Parola corrente
 ----------
 User Input
-User Input
+Input
 ----------
 Select Path1
-Select Path1
+Seleziona percorso1
 ----------
 Select Path2
-Select Path2
+Seleziona percorso2
 ----------
 Select Directory1
-Select Directory1
+Seleziona Directory1
 ----------
 Select Directory2
-Select Directory2
-----------
-DIRECTORY
-DIRECTORY
+Seleziona Directory2
 ----------
 Browse...
-Browse...
-----------
-HEADER0
-HEADER0
+Sfoglia...
 ----------
 Page Number
-Page Number
+Numero pagina
 ----------
 Total Page
-Total Page
+Pagine totali
 ----------
 Current Date
-Current Date
+Data corrente
 ----------
 Current Time
-Current Time
-----------
-HEADER1
-HEADER1
-----------
-HEADER2
-HEADER2
-----------
-FOOTER0
-FOOTER0
-----------
-FOOTER1
-FOOTER1
-----------
-FOOTER2
-FOOTER2
-----------
-OUT_PROCESS
-OUT_PROCESS
-----------
-OUT_NULL
-OUT_NULL
-----------
-SEARCH_FIND
-SEARCH_FIND
+Ora corrente
 ----------
 Tab Character
-Tab Character
+Carattere di tabulazione
 ----------
 Any Character
-Any Character
+Qualsiasi carattere
 ----------
 Beginning of Line
-Beginning of Line
+Inizio riga
 ----------
 End of Line
-End of Line
+Fine riga
 ----------
 0 or More Matches
-0 or More Matches
+0 o più occorenze
 ----------
 1 or More Matches
-1 or More Matches
+1 o più occorrenze
 ----------
 0 or 1 Match
-0 or 1 Match
+0 o un'occorenza
 ----------
 Or
-Or
+O
 ----------
 Character in Range
-Character in Range
+Caratteri nell'intervallo
 ----------
 Character Not in Range
-Character Not in Range
+Carattere non compreso nell'intervallo
 ----------
 Whitespace
-Whitespace
+Spazio
 ----------
 Alphanumeric Character
-Alphanumeric Character
+Carattere alfanumerico
 ----------
 Alphabetic Character
-Alphabetic Character
+Lettera dell'alfabeto
 ----------
 Decimal Digit
-Decimal Digit
+Cifra decimale
 ----------
 Hexadecimal Digit
-Hexadecimal Digit
+Cifra esadecimale
 ----------
 Tagged Expression
-Tagged Expression
-----------
-SEARCH_REPLACE
-SEARCH_REPLACE
+Espressione etichettata
 ----------
 Entire Text Matched
 Entire Text Matched
 ----------
 Tagged Expression 1
-Tagged Expression 1
+Espressione 1
 ----------
 Tagged Expression 2
-Tagged Expression 2
+Espressione 2
 ----------
 Tagged Expression 3
-Tagged Expression 3
+Espressione 3
 ----------
 Tagged Expression 4
-Tagged Expression 4
+Espressione 4
 ----------
 Tagged Expression 5
-Tagged Expression 5
+Espressione 5
 ----------
 Tagged Expression 6
-Tagged Expression 6
+Espressione 6
 ----------
 Tagged Expression 7
-Tagged Expression 7
+Espressione 7
 ----------
 Tagged Expression 8
-Tagged Expression 8
+Espressione 8
 ----------
 Tagged Expression 9
-Tagged Expression 9
-----------
-0
-0
-----------
-1
-1
-----------
-2
-2
-----------
-3
-3
-----------
-4
-4
-----------
-5
-5
-----------
-6
-6
-----------
-7
-7
-----------
-8
-8
-----------
-9
-9
-----------
-A
-A
-----------
-B
-B
-----------
-C
-C
-----------
-D
-D
-----------
-E
-E
-----------
-F
-F
-----------
-G
-G
-----------
-H
-H
-----------
-I
-I
-----------
-J
-J
-----------
-K
-K
-----------
-L
-L
-----------
-M
-M
-----------
-N
-N
-----------
-O
-O
-----------
-P
-P
-----------
-Q
-Q
-----------
-R
-R
-----------
-S
-S
-----------
-T
-T
-----------
-U
-U
-----------
-V
-V
-----------
-W
-W
-----------
-X
-X
-----------
-Y
-Y
-----------
-Z
-Z
+Espressione 9
 ----------
 MS Sans Serif
 MS Sans Serif
@@ -658,44 +130,41 @@ MS Sans Serif
 Tab1
 Tab1
 ----------
-SysTabControl32
-SysTabControl32
-----------
 Go To Line
-Go To Line
+Vai alla riga
 ----------
 Replace
-Replace
+Sostituisci
 ----------
 Button
-Button
+Pulsante
 ----------
 Replace in
-Replace in
+Sostituisci in
 ----------
 Cancel
-Cancel
+Annulla
 ----------
 Button1
-Button1
+Pulsante1
 ----------
 Find
-Find
+Trova
 ----------
 Direction
-Direction
+Direzione
 ----------
 Replace this occurrence?
-Replace this occurrence?
+Sostituire questa occorrenza?
 ----------
 Replace? (Yes/No/All/Once/Stop)
-Replace? (Yes/No/All/Once/Stop)
+Sostituire? (Si/No/Tutti/Stop))
 ----------
 About Crimson Editor
-About Crimson Editor
+Informazioni su Crimson Editor
 ----------
 Static
-Static
+Statico
 ----------
 Homepage
 Homepage
@@ -704,157 +173,136 @@ Feedback
 Feedback
 ----------
 Release Notes
-Release Notes
+Note di rilascio
 ----------
 Define Macro
-Define Macro
-----------
-List1
-List1
-----------
-SysListView32
-SysListView32
+Definisci Macro
 ----------
 Preferences
-Preferences
-----------
-Tree1
-Tree1
-----------
-SysTreeView32
-SysTreeView32
+Preferenze
 ----------
 Tab size (1~64):
-Tab size (1~64):
+Tabulazione (1~64):
 ----------
 Use spaces in place of tab
-Use spaces in place of tab
+Utilizza spazi al posto di tabulazioni
 ----------
 Word wrap indentation (0~16):
-Word wrap indentation (0~16):
+Indentazione in mod. 'a capo automatico' (0~16):
 ----------
 Use fixed wrap width (16~200):
-Use fixed wrap width (16~200):
+Vai a capo dopo (16~200):
 ----------
 Open document word wrapped
-Open document word wrapped
+Aprire il documento in mod. 'a capo automatico'
 ----------
 Allow multiple instances
-Allow multiple instances
+Permettere l'apertura di istanze multiple
 ----------
 Enable auto indent
-Enable auto indent
+Attivare indentazione automatica
 ----------
 Home key goes to first position
-Home key goes to first position
+Utilizzare il tasto Home per andare a inizio documento
 ----------
 Search wraps at end of file
-Search wraps at end of file
-----------
-
-
+Cerca wrap alla fine del file
 ----------
 Associate
-Associate
+Associa
 ----------
 Managed by Crimson Editor:
-Managed by Crimson Editor:
+Gestiti da Crimson Editor
 ----------
 Restore
-Restore
+Ripristina
 ----------
 Description:
-Description:
+Descrizione:
 ----------
 Associated:
-Associated:
-----------
-...
-...
+Associati:
 ----------
 Default Icon:
-Default Icon:
+Icona predefinita:
 ----------
 Initial working directory:
-Initial working directory:
+Directory di lavoro:
 ----------
 Remote backup directory:
-Remote backup directory:
+Directory remota di backup:
 ----------
 - NULL to make backup files in [$(InstallDir)\\remote]
 - NULL to make backup files in [$(InstallDir)\\remote]
 ----------
 Create new document on startup
-Create new document on startup
+Crea un nuovo documento all'avvio
 ----------
 Reload last working files on startup
-Reload last working files on startup
+Apri i file dell'ultima sessione all'avvio
 ----------
 Convert tabs to spaces before saving
-Convert tabs to spaces before saving
+Convertire tab in spazi prima di salvare
 ----------
 Remove trailing white spaces before saving
-Remove trailing white spaces before saving
+Rimuovere gli spazi dalle righe vuote prima di salvare
 ----------
 Save files in Unix format
-Save files in Unix format
+Salvare i file in formato Unix
 ----------
 Save remote files in Unix format
-Save remote files in Unix format
+Salva i file di rete in formato Unix
 ----------
 Use Crimson Editor in Internet Explorer (View Source)
-Use Crimson Editor in Internet Explorer (View Source)
+Utilizzare Crimson Editor in IE per visualizzare il codice HTML
 ----------
 Add Crimson Editor to the right mouse button menu
-Add Crimson Editor to the right mouse button menu
+Aggiungere Crimson Editor al menu contestuale
 ----------
 (context menu) of Windows Explorer
-(context menu) of Windows Explorer
+dell'Esplora risorse di Windows
 ----------
 Do not make any backup file
-Do not make any backup file
+Non creare nessun file di backup
 ----------
 Make backup file before saving a file
-Make backup file before saving a file
+Creare una copia di backup prima di salvare il file
 ----------
 Make backup file before opening a file
-Make backup file before opening a file
+Creare una copia di backup prima di aprire un file
 ----------
 Backup extension:
-Backup extension:
+Estensione Backup:
 ----------
 - NULL to use 'bak' as default extension
-- NULL to use 'bak' as default extension
+- Scegliere NULL per usare 'back' come estensione predefinita
 ----------
 - Use '$$$' to indicate a incremental number
-- Use '$$$' to indicate a incremental number
+- Utilizzare '$$' per indicare un valore incrementale
 ----------
 Backup file name:
-Backup file name:
+Nome file di backup:
 ----------
 $(FileTitle).$(FileExt).$(BackupExt)
 $(FileTitle).$(FileExt).$(BackupExt)
 ----------
-$(FileTitle)_$(BackupExt).$(FileExt)
-$(FileTitle)_$(BackupExt).$(FileExt)
-----------
 Backup directory:
-Backup directory:
+Directory di backup:
 ----------
 - NULL to make backup file in the source directory
-- NULL to make backup file in the source directory
+- Scegliere NULL per la directory d'origine
 ----------
 Remove
-Remove
+Rimuovi
 ----------
 Up
-Up
+Su
 ----------
 Down
-Down
+Giù
 ----------
 Menu Text:
-Menu Text:
+Testo Menu:
 ----------
 Hot Key:
 Hot Key:
@@ -862,158 +310,117 @@ Hot Key:
 HotKey1
 HotKey1
 ----------
-msctls_hotkey32
-msctls_hotkey32
-----------
 Load Macros...
-Load Macros...
+Esegui Macro...
 ----------
 Save Macros...
-Save Macros...
+Salva Macro...
 ----------
 Command:
-Command:
+Comando:
 ----------
 Argument:
-Argument:
-----------
->
->
+Argomenti:
 ----------
 Initial Dir:
-Initial Dir:
+Directory iniziale:
 ----------
 Close on exit
-Close on exit
+Chiudi all'uscita
 ----------
 Use short filename (8.3)
-Use short filename (8.3)
+Usare nomi di file corti (8.3)
 ----------
 Capture output
-Capture output
+Cattura output
 ----------
 Save before execute
-Save before execute
+Salvare prima di eseguire
 ----------
 Load Tools...
-Load Tools...
+Carica comando...
 ----------
 Save Tools...
-Save Tools...
+Salva comando...
 ----------
 Lang Spec:
 Lang Spec:
 ----------
 Keywords:
-Keywords:
+Parole chiave:
 ----------
 Extensions:
-Extensions:
+Estensione:
 ----------
 Default Ext:
-Default Ext:
+Testo predefinito:
 ----------
 Background colors:
-Background colors:
+Colori di sfondo:
 ----------
 background
-background
+sfondo
 ----------
 active line
-active line
+riga corrente
 ----------
 Text colors:
-Text colors:
+Colori testo:
 ----------
 normal text
-normal text
+Testo normale
 ----------
 constant
-constant
+costante
 ----------
 /* comment */
-/* comment */
+/* comment o*/
 ----------
 string
-string
+stringa
 ----------
 delimiters
-delimiters
+delimitatori
 ----------
 $(variable)
-$(variable)
+$(variabile)
 ----------
 Keyword colors:
-Keyword colors:
+Colori parole chiave:
 ----------
-keyword0
-keyword0
-----------
-keyword1
-keyword1
-----------
-keyword2
-keyword2
-----------
-keyword3
-keyword3
-----------
-keyword4
-keyword4
-----------
-keyword5
-keyword5
-----------
-keyword6
-keyword6
-----------
-keyword7
-keyword7
-----------
-keyword8
-keyword8
-----------
-keyword9
-keyword9
 ----------
 Left margin colors:
-Left margin colors:
+Colori margine sinistro:
 ----------
 left margin
-left margin
+margine sinistro
 ----------
 line number
-line number
+numero riga
 ----------
 Range background colors:
 Range background colors:
 ----------
-range1 bkgr
-range1 bkgr
-----------
-range2 bkgr
-range2 bkgr
-----------
 highlighted
-highlighted
+evidenziato
 ----------
 shadowed
-shadowed
+ombreggiato
 ----------
 Load color scheme:
-Load color scheme:
+Usa uno schema colori:
 ----------
 Load...
-Load...
+Carica...
 ----------
 Save current color scheme as:
-Save current color scheme as:
+Salva lo schema colori corrente come:
 ----------
 Save...
-Save...
+Salva...
 ----------
 Line spacing (50~200%):
-Line spacing (50~200%):
+Interlinea (50~200%):
 ----------
 Caret width (1~100%):
 Caret width (1~100%):
@@ -1034,256 +441,202 @@ File tab max string size (12~60):
 2nd column marker at (0~200):
 ----------
 Show line numbers
-Show line numbers
+Mostra numeri di riga
 ----------
 Show selection margin
-Show selection margin
+Mostra margini della selezione
 ----------
 Highlight active line
-Highlight active line
+Evidenziare la riga corrente
 ----------
 Highlight matching pairs
-Highlight matching pairs
+Evidenziare il blocco fra parentesi
 ----------
 Embolden keywords
-Embolden keywords
+Parole chiave in grassetto
 ----------
 Italicize comment
-Italicize comment
+Commenti in corsivo
 ----------
 Show tab characters
-Show tab characters
+Mostra i caratteri di tabulazione
 ----------
 Show line break
-Show line break
+Mostra il carattere di nuova riga
 ----------
 - double click to change screen font
-- double click to change screen font
+- fare doppio clic per modificare i caratteri
 ----------
 - double click to change printer font
-- double click to change printer font
+- fare doppio clic per cambiare i caratteri di stampa
 ----------
 - double click to change miscellaneous font
-- double click to change miscellaneous font
+- fare doppio clic per cambiare altri caratteri
 ----------
 Page margin (0~100mm)
-Page margin (0~100mm)
+Margine pagina (0~100mm)
 ----------
 Left:
-Left:
+A sinistra:
 ----------
 Right:
-Right:
+A destra:
 ----------
 Top:
-Top:
+In alto:
 ----------
 Bottom:
-Bottom:
+In basso:
 ----------
 Print page header
-Print page header
+Stampa intestazione pagina
 ----------
 Center:
-Center:
+Centro:
 ----------
 Print page footer
-Print page footer
+Stampa pié di pagina
 ----------
 Print line numbers
-Print line numbers
+Stampa numeri righe
 ----------
 Print syntax highlight
-Print syntax highlight
+Evidenzia la sintassi nella stampa
 ----------
 separator
-separator
+Separatore
 ----------
 OK
 OK
 ----------
 Apply
-Apply
+Applica
 ----------
 Keep settings separated by user
 Keep settings separated by user
 ----------
 Include blank lines in comment blocks
-Include blank lines in comment blocks
+Includi rihe vuote nei blocchi di commento
 ----------
 Number of backups of FTP sites to keep (per site):
-Number of backups of FTP sites to keep (per site):
+Copie di backup da mantenere (per sito):
 ----------
 Directory to keep FTP site backups:
 Directory to keep FTP site backups:
 ----------
 Open DOS shell in active file's directory
-Open DOS shell in active file's directory
+Apri il prompt dei comandi sulla directory del file corrente
 ----------
 Dialog
 Dialog
 ----------
 Toolbar
-Toolbar
+Barra degli strumenti
 ----------
 Caption Text
-Caption Text
+Didascalia
 ----------
 Open Remote
-Open Remote
+Apri file remoto
 ----------
 Parent Directory
 Parent Directory
 ----------
 Create Directory
-Create Directory
+Crea directory
 ----------
 FTP Settings
-FTP Settings
+Impostazioni FTP
 ----------
 FTP Advanced
-FTP Advanced
+Avanzate FTP
 ----------
 Find in Files
-Find in Files
+Trova nei file
 ----------
 FTP Password
-FTP Password
+Password FTP
 ----------
 Document Summary
-Document Summary
+Sommario documento
 ----------
 Pathname:
-Pathname:
+Percorso:
 ----------
 Encoding type:
-Encoding type:
+Codifica:
 ----------
 File format:
-File format:
+Formato file:
 ----------
 File size:
-File size:
+Dimensione:
 ----------
 Line count:
-Line count:
+Numero righe:
 ----------
 Word count:
-Word count:
+Numero parole:
 ----------
 Byte count:
-Byte count:
+Byte:
 ----------
 File attribute:
-File attribute:
+Attributi file:
 ----------
 Read Only
-Read Only
+Sola lettura
 ----------
 Hidden
-Hidden
+Nascosto
 ----------
 System
-System
+Sistema
 ----------
 Last mod date:
-Last mod date:
+Data ultima modifica:
 ----------
 FTP Transfer
 FTP Transfer
 ----------
-Progress1
-Progress1
-----------
-msctls_progress32
-msctls_progress32
-----------
 Reload As
-Reload As
-----------
-rightarrow.cur
-rightarrow.cur
-----------
-arrowmacro.cur
-arrowmacro.cur
-----------
-ibeammacro.cur
-ibeammacro.cur
-----------
-\000
-\000
+Ricarica come
 ----------
 Crimson Editor
 Crimson Editor
 ----------
-\nText\nCedt\n\n\nCedt.Document\nCedt Document
-\nText\nCedt\n\n\nCedt.Document\nCedt Document
-----------
 Edit with Crimson Editor
-Edit with Crimson Editor
+Modifica con Crimson Editor
 ----------
 Ready
-Ready
-----------
-EXT
-EXT
-----------
-CAP
-CAP
-----------
-NUM
-NUM
-----------
-SCRL
-SCRL
-----------
-OVR
-OVR
-----------
-REC
-REC
-----------
-Ln ######,  Ch ######
-Ln ######,  Ch ######
-----------
-#######
-#######
-----------
-COL
-COL
-----------
-Unicode, UNIX
-Unicode, UNIX
-----------
-READ
-READ
+Pronto
 ----------
 Show or hide the toolbar\nToggle ToolBar
-Show or hide the toolbar\nToggle ToolBar
+Mostra o nasconde la barra degli strumenti\nMostra/nascondi barra degli strumenti
 ----------
 Show or hide the status bar\nToggle StatusBar
-Show or hide the status bar\nToggle StatusBar
+Mostra o nasconde la barra di stato\nMostra/nascondi barra di stato
 ----------
 Find the specified text\nFind
-Find the specified text\nFind
+Trova il testo specificato\nTrova
 ----------
 Replace the specified text with different text\nReplace
-Replace the specified text with different text\nReplace
+Sostituisce il testo specificato con altro testo\nSostituisci
 ----------
 Find the next matching text\nFind Next
-Find the next matching text\nFind Next
+Trova la prossima ricorenza del testo specificato/Trova
 ----------
 Find the previous matching text\nFind Prev
-Find the previous matching text\nFind Prev
+Trova la precedente occorenza del testo specificato nel documento\nTrova precedente
 ----------
 Search for a string in multiple files\nFind in Files
-Search for a string in multiple files\nFind in Files
+Cerca una stringa in più file\nCerca nei file
 ----------
 Move to a specified location\nGo To
-Move to a specified location\nGo To
+Va alla posizione speciticata\nVai a
 ----------
 Set or clear bookmark at current line\nToggle Bookmark
-Set or clear bookmark at current line\nToggle Bookmark
+Imposta un segnalibro sulla riga corrente\nAggiungi/rimuovi segnalibro
 ----------
 Go to next bookmark position\nNext Bookmark
 Go to next bookmark position\nNext Bookmark
@@ -1294,7 +647,7 @@ Go to previous bookmark position\nPrev Bookmark
 Go to matching brace beginning position\nPairs Begin Position
 Go to matching brace beginning position\nPairs Begin Position
 ----------
-Go to matching brace end position\nPairs End Position
+Go to matching brace end position\nPairs End Positio
 Go to matching brace end position\nPairs End Position
 ----------
 Go to previous editing position\nPrev Editing Position
@@ -1307,55 +660,52 @@ Open an existing document\nOpen
 Open an existing document\nOpen
 ----------
 Close the active document\nClose
-Close the active document\nClose
+Chiude il documento corrente\nChiudi documento
 ----------
 Save the active document\nSave
-Save the active document\nSave
+Salva il documento corrente\nSave
 ----------
 Save the active document with a new name\nSave As
-Save the active document with a new name\nSave As
+Salva il documento corrente con un nuovo nome\nSalva con nome
 ----------
 Change the printing options\nPage Setup
-Change the printing options\nPage Setup
+Modifica le opzioni di stampa\nImpostazioni pagina
 ----------
 Change the printer and printing options\nPrint Setup
 Change the printer and printing options\nPrint Setup
 ----------
 Print the active document\nPrint
-Print the active document\nPrint
+Stampa il documento corrente\nStampa
 ----------
 Display full pages\nPrint Preview
-Display full pages\nPrint Preview
-----------
-null
-null
+Mostra l'anteprima di stampa\nAnteprima di stampa
 ----------
 Save all the active documents\nSave All
-Save all the active documents\nSave All
+Salva tutti i documenti aperti\nSalva tutti
 ----------
 Open an existing document from FTP server\nOpen Remote
-Open an existing document from FTP server\nOpen Remote
+Apre un documento remoto su un server FTP\nApri file remoto
 ----------
 Save the active document to FTP server\nSave As Remote
-Save the active document to FTP server\nSave As Remote
+Salva il documento corrente sul server FTP\nSalva come file remoto
 ----------
 Set the FTP accounts\nFTP Settings
 Set the FTP accounts\nFTP Settings
 ----------
 Reload the active document\nReload
-Reload the active document\nReload
+Ricarica il documente corrente\nRicarrica
 ----------
 Open an existing document template\nOpen Template
-Open an existing document template\nOpen Template
+Apre un modello\nApri modello
 ----------
 Close all open files\nClose All
-Close all open files\nClose All
+Chiudi tutti i file aperti\nChiudi tutti
 ----------
 Reload the active document using a converter\nReload As
-Reload the active document using a converter\nReload As
+Ricarica il documento corrente applicando una conversione\nRicarica come
 ----------
 Close all other files\nClose Other
-Close all other files\nClose Other
+Chiude tutti i file aperti eccetto quello corrente\nChiudi non attivi
 ----------
 Display program information, version number and copyright\nAbout
 Display program information, version number and copyright\nAbout
@@ -1363,29 +713,23 @@ Display program information, version number and copyright\nAbout
 Quit the application; prompts to save documents\nExit
 Quit the application; prompts to save documents\nExit
 ----------
-detab key
-detab key
-----------
-escape key
-escape key
-----------
 Insert current date\nInsert Date
-Insert current date\nInsert Date
+Inserisce la data corrente\nInserisci data
 ----------
 Insert current time\nInsert Time
-Insert current time\nInsert Time
+Inserisce l'ora corrente\nInserisci ora
 ----------
 Insert a file into current cursor position\nInsert File
 Insert a file into current cursor position\nInsert File
 ----------
 Join two lines\nJoin Lines
-Join two lines\nJoin Lines
+Unisce due riche\nUnisci righe
 ----------
 Split current line\nSplit Line
 Split current line\nSplit Line
 ----------
 Delete current line\nDelete Line
-Delete current line\nDelete Line
+Cancella la riga corrente\nCancella riga
 ----------
 Duplicate current line\nDuplicate Line
 Duplicate current line\nDuplicate Line
@@ -2083,9 +1427,6 @@ The regular expression matches the empty string.
 ---------- Capture Output ----------
 ---------- Capture Output ----------
 ----------
-> %s
-> %s
-----------
 > Terminated with exit code %d.
 > Terminated with exit code %d.
 ----------
@@ -2114,13 +1455,13 @@ Failed to split window into two columns!\n- You cannot split a window into two c
 Failed to split window into two columns!\n- You cannot split a window into two columns in word wrap mode.
 ----------
 Output Window is not available now.
-Output Window is not available now.
+La finestra di output non è disponibile al momento.
 ----------
 Object link and embeding initialization failed!
 Object link and embeding initialization failed!
 ----------
 File not found.\n
-File not found.\n
+File non trovato.\n
 ----------
 %s
 %s
@@ -2129,7 +1470,7 @@ File attribute check failure. Continue?
 File attribute check failure. Continue?
 ----------
 Failed to save file.\n
-Failed to save file.\n
+Impossibile salvare il file.\n
 ----------
 \n- access denied (directory or read only file?)
 \n- access denied (directory or read only file?)
@@ -2138,19 +1479,19 @@ Failed to save file.\n
 \n- access denied (hidden or system file?)
 ----------
 Failed to create backup file.
-Failed to create backup file.
+Impossibile creare una copia di backup del file.
 ----------
 Failed to open remote file.\n
-Failed to open remote file.\n
+Impossibile aprire il file remoto.\n
 ----------
 Failed to create remote backup file.\n
-Failed to create remote backup file.\n
+Impossibile creare una copia remota di backup del file\n
 ----------
 Remote file transfer canceled by user.
-Remote file transfer canceled by user.
+È stato annullato il trasferimento del file remoto.
 ----------
 Failed to save remote file.\n
-Failed to save remote file.\n
+Impossibile salvare il file remoto.\n
 ----------
 Failed to reload remote file.\n
 Failed to reload remote file.\n
@@ -2174,7 +1515,7 @@ Failed to get selected directory item.
 Failed to get selected directory item.
 ----------
 List help topics\nHelp Topics
-List help topics\nHelp Topics
+Mostra i contenuti della Guida\nGuida
 ----------
 Give feedback on the forums - [http://forums.emeraldeditor.com/]\nFeedback
 Give feedback on the forums - [http://forums.emeraldeditor.com/]\nFeedback
@@ -2207,31 +1548,31 @@ Set the active document to UTF-8 encoding without byte order mark\nUTF-8 Encodin
 Set the active document to UTF-8 encoding without byte order mark\nUTF-8 Encoding (w/o BOM)
 ----------
 Lock the active document from changes\nLock Document
-Lock the active document from changes\nLock Document
+Blocca le modifiche al documento\nBlocca documento
 ----------
 Show the active document summary\nDocument Summary
 Show the active document summary\nDocument Summary
 ----------
 Detect document syntax type automatically
-Detect document syntax type automatically
+Determina la sintassi del documento automaticamente
 ----------
 Set the current document as plain text
-Set the current document as plain text
+Imposta il documento corrente come testo semplice
 ----------
 Customize document syntax types
-Customize document syntax types
+Personalizza il tipo di sintassi
 ----------
 Set the current document as this syntax type
-Set the current document as this syntax type
+Imposta il tipo di sintassi del documento corrente
 ----------
 Create a new project\nNew Project
-Create a new project\nNew Project
+Crea un nuovo progetto\nNuovo progetto
 ----------
 Open an existing project\nOpen Project
-Open an existing project\nOpen Project
+Apre un progetto esistente\nApri progetto
 ----------
 Close the active project\nClose Project
-Close the active project\nClose Project
+Chiude il progetto corrente\nChiudi progetto
 ----------
 Insert a new category into the project\nNew Category
 Insert a new category into the project\nNew Category
@@ -2240,37 +1581,37 @@ Insert existing files into the project\nAdd to Project
 Insert existing files into the project\nAdd to Project
 ----------
 Insert active file into the project\nAdd Active File to Project
-Insert active file into the project\nAdd Active File to Project
+Inserisce il file corrente al progetto\nAggiungi file corrente al progetto
 ----------
 Insert all open files into the project\nAdd All Open Files to Project
-Insert all open files into the project\nAdd All Open Files to Project
+Inserisce tutti i file aperti al progetto\nAggiungi tutti i file aperti al progetto
 ----------
 Open selected project file for editing\nOpen Project File
-Open selected project file for editing\nOpen Project File
+Apre il file del progetto selezionato per la modifica\nApri file 
 ----------
 Remove selected file from the project\nRemove from Project
-Remove selected file from the project\nRemove from Project
+Rimuove il file selezionato dal progetto\nRimuovi file dal progetto
 ----------
 Failed to connect remote server.\n%s
-Failed to connect remote server.\n%s
+Impossibile connettersi al server.\n%s
 ----------
 Failed to logon remote server.\n%s
-Failed to logon remote server.\n%s
+Impossibile effettuare il login al server.\n%s
 ----------
 Failed to open remote file.\n%s
-Failed to open remote file.\n%s
+Impossibile aprire il file remoto.\n%s
 ----------
 Failed to rename remote file.\n%s
-Failed to rename remote file.\n%s
+Impossibile rinominare un file remoto.\n%s
 ----------
 An error occured during transfer a remote file.
-An error occured during transfer a remote file.
+Errore durante il trasferimento di un file remoto.
 ----------
 Failed to change working directory.\n%s
-Failed to change working directory.\n%s
+Mpm + statp èpssonoòe ,pdofocare òa dorectpru do òavprp.\n%s
 ----------
 Failed to change working directory.\n%s: %s
-Failed to change working directory.\n%s: %s
+Non è stato possibile modificare la directory di lavoro.\n%s: %s
 ----------
 Load this set of user tools
 Load this set of user tools
@@ -2336,41 +1677,41 @@ Tcl/Tk Program|TCLTK.SPC|TCLTK.KEY
 Tcl/Tk Program|TCLTK.SPC|TCLTK.KEY
 ----------
 All Files|*.*|
-All Files|*.*|
+Tutti i file|*.*|
 ----------
 Text Files|*.txt;*.log;*.bat;*.ini|txt
-Text Files|*.txt;*.log;*.bat;*.ini|txt
+File di testo|*.txt;*.log;*.bat;*.ini|txt
 ----------
 HTML Files|*.html;*.htm;*.shtml;*.css|html
-HTML Files|*.html;*.htm;*.shtml;*.css|html
+File HTML|*.html;*.htm;*.shtml;*.css|html
 ----------
 C/C++ Files|*.c;*.cc;*.cpp;*.pc;*.h|cpp
-C/C++ Files|*.c;*.cc;*.cpp;*.pc;*.h|cpp
+File C/C++|*.c;*.cc;*.cpp;*.pc;*.h|cpp
 ----------
 Java Files|*.java;*.jav|java
-Java Files|*.java;*.jav|java
+File Java|*.java;*.jav|java
 ----------
 Perl Files|*.pl;*.pm;*.perl;*.cgi|pl
-Perl Files|*.pl;*.pm;*.perl;*.cgi|pl
+File Perl|*.pl;*.pm;*.perl;*.cgi|pl
 ----------
 Fortran Files|*.f;*.for;*.f77;*.f90;*.f95|f
-Fortran Files|*.f;*.for;*.f77;*.f90;*.f95|f
+File Fortran|*.f;*.for;*.f77;*.f90;*.f95|f
 ----------
 PHP Files|*.php;*.phtml;*.php3;*.php4|php
-PHP Files|*.php;*.phtml;*.php3;*.php4|php
+File PHP|*.php;*.phtml;*.php3;*.php4|php
 ----------
 JSP Files|*.jsp;*.jhtml;*.java|jsp
-JSP Files|*.jsp;*.jhtml;*.java|jsp
+File JSP|*.jsp;*.jhtml;*.java|jsp
 ----------
 LaTeX Files|*.tex;*.sty|tex
-LaTeX Files|*.tex;*.sty|tex
+File LaTeX|*.tex;*.sty|tex
 ----------
 Cut the current line and put it on clipboard (Not possible in Column mode)
-Cut the current line and put it on clipboard (Not possible in Column mode)
+Taglia la riga corrente e la copia negli appunti (non disponibile in modalità colonna)
 ----------
 Copy the current line to clipboard (Not possible in Column mode)
-Copy the current line to clipboard (Not possible in Column mode)
+Copia la riga corrente negli appunti (non disponibile in modalità colonna)
 ----------
 Insert clipboard contents at the beginning of current line
-Insert clipboard contents at the beginning of current line
+Inserisce il contenuto degli appunti all'inizio della riga corrente
 ----------
