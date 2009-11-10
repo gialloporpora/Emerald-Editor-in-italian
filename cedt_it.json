@@ -203,7 +203,6 @@
   "Java Program|JAVA.SPC|JAVA.KEY": "Programma &Java|JAVA.SPC|JAVA.KEY", 
   "Illegal macro definition '%s'.\\nKeystroke recording canceled.": "Definizione macro illegale '%s'.\\nSequenza di tasti annullata..", 
   "Switch to the next document window\\nNext Window": "Va alla prossima finestra\\nFinestra successiva", 
-  "separator": "Separatore", 
   "---------- Find in Files ----------": "---------- Trova nei file ----------", 
   "Delete &Prev Word\\tCtrl+Back": "Elimina parola p&recedente\\tCtrl+Back", 
   "Visit Crimson Editor homepage - [http://crimson.emeraldeditor.com/]\\nVisit Homepage": "Visita la homepage di Crimson Editor - [http://crimson.emeraldeditor.com/]\\nVisita homepage", 
