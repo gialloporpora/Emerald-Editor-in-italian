@@ -313,7 +313,7 @@ BEGIN
             MENUITEM SEPARATOR
             MENUITEM "I&mposta carattere...",               ID_VIEW_SET_SCREEN_FONTS
         END
-        POPUP "Caratteri &stampa"
+        POPUP "Caratteri &stampante"
         BEGIN
             MENUITEM "&Predefinito",                    ID_VIEW_PRINTER_FONT0
             MENUITEM "Personalizzato &1",                   ID_VIEW_PRINTER_FONT1
@@ -1380,7 +1380,7 @@ BEGIN
     CONTROL         "Tab1",IDC_FONTS_PANNEL,"SysTabControl32",WS_TABSTOP,7,160,177,22
     LTEXT           "- fare doppio clic per modificare i caratteri",IDC_SCREEN_FONTS_CAPTION,14,188,119,8,0,WS_EX_TRANSPARENT
     CONTROL         "List1",IDC_SCREEN_FONTS,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,14,199,166,27,WS_EX_TRANSPARENT | WS_EX_CLIENTEDGE
-    LTEXT           "- fare doppio clic per cambiare i caratteri di stampa",IDC_PRINTER_FONTS_CAPTION,14,231,118,8,0,WS_EX_TRANSPARENT
+    LTEXT           "- fare doppio clic per cambiare i caratteri per la stampa",IDC_PRINTER_FONTS_CAPTION,14,231,118,8,0,WS_EX_TRANSPARENT
     CONTROL         "List1",IDC_PRINTER_FONTS,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,15,243,166,27,WS_EX_TRANSPARENT | WS_EX_CLIENTEDGE
     LTEXT           "- fare doppio clic per cambiare altri caratteri",IDC_MISCEL_FONTS_CAPTION,14,275,143,8,0,WS_EX_TRANSPARENT
     CONTROL         "List1",IDC_MISCEL_FONTS,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,15,286,166,27,WS_EX_TRANSPARENT | WS_EX_CLIENTEDGE
@@ -2047,9 +2047,9 @@ BEGIN
     ID_VIEW_SCREEN_FONT4    "Carattere personalizzato 4\nPersonalizzato 4"
     ID_VIEW_SCREEN_FONT5    "Carattere personalizzato 5\nPersonalizzato 5"
     ID_VIEW_PRINTER_FONT0   "Carattere predefinito da usare per la stampa\nCarattere stampa predefinito"
-    ID_VIEW_PRINTER_FONT1   "Carattere stampa personalizzato 1\nCarattere stampa personalizzato 1"
-    ID_VIEW_PRINTER_FONT2   "Carattere stampa personalizzato 2\nCarattere stampa personalizzato 2"
-    ID_VIEW_PRINTER_FONT3   "Carattere stampa personalizzato 3\nCarattere stampa personalizzato 3"
+    ID_VIEW_PRINTER_FONT1   "Carattere stampante personalizzato 1\nCarattere stampante personalizzato 1"
+    ID_VIEW_PRINTER_FONT2   "Carattere stampante personalizzato 2\nCarattere stampante personalizzato 2"
+    ID_VIEW_PRINTER_FONT3   "Carattere stampante personalizzato 3\nCarattere stampante personalizzato 3"
     ID_VIEW_SET_SCREEN_FONTS "Configura il caratteri da utilizzare per la visualizzazione del documento a schermo\nImposta carattere"
     ID_VIEW_SET_PRINTER_FONTS "Configura il carattere da utilizzare per la stampa del documento\nImposta carattere"
     ID_VIEW_SET_COLORS      "Configura i colori\nImposta colori"
@@ -2313,7 +2313,7 @@ BEGIN
     IDS_PREF_SYNTAX_TYPE    "Sintassi"
     IDS_PREF_FONTS_MISC0    "Modalità colonna"
     IDS_PREF_SCREEN_FONTS   "Caratteri schermo"
-    IDS_PREF_PRINTER_FONTS  "Caratteri stampa"
+    IDS_PREF_PRINTER_FONTS  "Caratteri stampante"
     IDS_PREF_MISC_FONTS     "Altro"
 END
 

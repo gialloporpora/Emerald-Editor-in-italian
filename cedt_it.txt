@@ -290,7 +290,7 @@ Personalizzato &5
 I&mposta carattere...
 *************************************************************************
 &Printer Fonts
-Caratteri &stampa
+Caratteri &stampante
 *************************************************************************
 Line &Spacing
 In&terlinea
@@ -1289,7 +1289,7 @@ Mostra il carattere di nuova riga
 - fare doppio clic per modificare i caratteri
 *************************************************************************
 - double click to change printer font
-- fare doppio clic per cambiare i caratteri di stampa
+- fare doppio clic per cambiare i caratteri per la stampa
 *************************************************************************
 - double click to change miscellaneous font
 - fare doppio clic per cambiare altri caratteri
@@ -1847,13 +1847,13 @@ Default printer font\nDefault Printer Font
 Carattere predefinito da usare per la stampa\nCarattere stampa predefinito
 *************************************************************************
 Custom printer font 1\nCustom Printer Font1
-Carattere stampa personalizzato 1\nCarattere stampa personalizzato 1
+Carattere stampante personalizzato 1\nCarattere stampante personalizzato 1
 *************************************************************************
 Custom printer font 2\nCustom Printer Font2
-Carattere stampa personalizzato 2\nCarattere stampa personalizzato 2
+Carattere stampante personalizzato 2\nCarattere stampante personalizzato 2
 *************************************************************************
 Custom printer font 3\nCustom Printer Font3
-Carattere stampa personalizzato 3\nCarattere stampa personalizzato 3
+Carattere stampante personalizzato 3\nCarattere stampante personalizzato 3
 *************************************************************************
 Configure screen font settings\nSet Fonts
 Configura il caratteri da utilizzare per la visualizzazione del documento a schermo\nImposta carattere
@@ -2252,7 +2252,7 @@ Screen fonts
 Caratteri schermo
 *************************************************************************
 Printer fonts
-Caratteri stampa
+Caratteri stampante
 *************************************************************************
 Miscellaneous
 Altro
