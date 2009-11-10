@@ -1420,7 +1420,7 @@ BEGIN
     CONTROL         "Stampa numeri righe",IDC_PRINT_LINE_NUMBERS,"Pulsante",BS_AUTOCHECKBOX | WS_TABSTOP,21,570,74,10,WS_EX_TRANSPARENT
     CONTROL         "Evidenzia la sintassi nella stampa",IDC_PRINT_SYNTAX_HIGHLIGHT,
                     "Pulsante",BS_AUTOCHECKBOX | WS_TABSTOP,21,584,85,10,WS_EX_TRANSPARENT
-    RTEXT           "Separatore",IDC_SEPARATOR,7,103,127,8
+    RTEXT           "separator",IDC_SEPARATOR,7,103,127,8
     DEFPUSHBUTTON   "OK",IDOK,7,117,39,13
     PUSHBUTTON      "Annulla",IDCANCEL,51,117,39,13
     PUSHBUTTON      "Applica",IDC_APPLY,94,117,39,13
