@@ -331,7 +331,7 @@ BEGIN
             MENUITEM "1&50%",          ID_VIEW_LINE_SPACING150
             MENUITEM "&200%",          ID_VIEW_LINE_SPACING200
             MENUITEM SEPARATOR
-            MENUITEM "Interlinea &personalizzata...",     ID_VIEW_SET_LINE_SPACING
+            MENUITEM "&Personalizzata...",     ID_VIEW_SET_LINE_SPACING
         END
         POPUP "&Tabulazione"
         BEGIN
@@ -340,18 +340,18 @@ BEGIN
             MENUITEM "[&8]",               ID_VIEW_TAB_SIZE08
             MENUITEM "[1&6]",              ID_VIEW_TAB_SIZE16
             MENUITEM SEPARATOR
-            MENUITEM "Tabulazione &personalizzata...",         ID_VIEW_SET_TAB_SIZE
+            MENUITEM "&Personalizzata...",         ID_VIEW_SET_TAB_SIZE
         END
         MENUITEM SEPARATOR
         MENUITEM "Imp&ostazione colori...",              ID_VIEW_SET_COLORS
-        POPUP "&Altri"
+        POPUP "&Altro"
         BEGIN
             MENUITEM "Parole chiave in gra&ssetto\tAlt+Maiusc+B", ID_VIEW_EMBOLDEN_KEYWORDS
             MENUITEM "&Commenti in corsivo\tAlt+Maiusc+I", ID_VIEW_ITALICIZE_COMMENT
             MENUITEM SEPARATOR
             MENUITEM "Mostra &spazi\tCtrl+Maiiusc+W",  ID_VIEW_SHOW_SPACES
-            MENUITEM "Mostra caratteri di &tabulazione\tCtrl+Maiusc+T", ID_VIEW_SHOW_TAB_CHARS
-            MENUITEM "Mostra carattere di interruzione riga\tCtrl+Maiusc+B", ID_VIEW_SHOW_LINE_BREAK
+            MENUITEM "Mostra &tabulazioni\tCtrl+Maiusc+T", ID_VIEW_SHOW_TAB_CHARS
+            MENUITEM "Mostra interruzioni riga\tCtrl+Maiusc+B", ID_VIEW_SHOW_LINE_BREAK
         END
     END
     POPUP "&Documento"
@@ -671,7 +671,7 @@ BEGIN
         MENUITEM "&Esplora...",                 ID_DIRECTORY_ITEM_EXPLORE
         MENUITEM "&Trova...",                    ID_DIRECTORY_ITEM_FIND
         MENUITEM SEPARATOR
-        MENUITEM "Imposta come directory predefinita",            ID_DIRECTORY_ITEM_SETWORKDIR
+        MENUITEM "Imposta come director&y di lavoro",            ID_DIRECTORY_ITEM_SETWORKDIR
         MENUITEM SEPARATOR
         MENUITEM "&Aggiorna",                    ID_DIRECTORY_ITEM_REFRESH
         MENUITEM "&Nascondi",                       ID_FILE_WINDOW_HIDE
@@ -681,7 +681,7 @@ BEGIN
         MENUITEM "&Esplora...",                 ID_DIRECTORY_ITEM_EXPLORE
         MENUITEM "&Trova...",                    ID_DIRECTORY_ITEM_FIND
         MENUITEM SEPARATOR
-        MENUITEM "Imposta come directory predefinita",            ID_DIRECTORY_ITEM_SETWORKDIR
+        MENUITEM "Imposta come director&y di lavoro",            ID_DIRECTORY_ITEM_SETWORKDIR
         MENUITEM SEPARATOR
         MENUITEM "&Copia in...",                 ID_DIRECTORY_ITEM_COPY
         MENUITEM "&Sposta in...",                 ID_DIRECTORY_ITEM_MOVE
@@ -863,8 +863,8 @@ IDR_OUTPUT_WINDOW MENU
 BEGIN
     POPUP "OUT_PROCESS"
     BEGIN
-        MENUITEM "&Copia contenuti",              ID_OUTPUT_WINDOW_COPY
-        MENUITEM "&Cancella contenuti",             ID_OUTPUT_WINDOW_CLEAR
+        MENUITEM "&Copia contenuto",              ID_OUTPUT_WINDOW_COPY
+        MENUITEM "Canc&ella",             ID_OUTPUT_WINDOW_CLEAR
         MENUITEM SEPARATOR
         MENUITEM "&Invia input...",              ID_COMMAND_SEND_INPUT
         MENUITEM "&Termina processo",               ID_COMMAND_KILL_PROCESS
@@ -873,8 +873,8 @@ BEGIN
     END
     POPUP "OUT_NULL"
     BEGIN
-        MENUITEM "&Copia contenuti",              ID_OUTPUT_WINDOW_COPY
-        MENUITEM "&Cancella contenuti",             ID_OUTPUT_WINDOW_CLEAR
+        MENUITEM "&Copia contenuto",              ID_OUTPUT_WINDOW_COPY
+        MENUITEM "Canc&ella",             ID_OUTPUT_WINDOW_CLEAR
         MENUITEM SEPARATOR
         MENUITEM "&Nascondi",                       ID_OUTPUT_WINDOW_HIDE
     END
@@ -1080,7 +1080,7 @@ BEGIN
     LTEXT           "Sos&tituisci con:",IDC_STATIC,7,23,47,8
     COMBOBOX        IDC_REPLACE_STRING,60,22,140,95,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_GROUP | WS_TABSTOP
     CONTROL         "S&olo parole intere",IDC_WHOLE_WORD,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,7,41,90,10
-    CONTROL         "&Distingui fra maiuscole/minuscole",IDC_MATCH_CASE,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,7,54,53,10
+    CONTROL         "&Maiuscole/minuscole",IDC_MATCH_CASE,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,7,54,53,10
     CONTROL         "&Espressione regolare",IDC_REGULAR_EXPRESSION,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,7,67,80,10
     GROUPBOX        "Sostituisci in",IDC_STATIC,124,41,92,46,WS_GROUP
     CONTROL         "Sele&zione",IDC_REPLACE_IN0,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,136,51,57,10
@@ -1101,7 +1101,7 @@ BEGIN
     LTEXT           "&Trova:",IDC_STATIC,7,10,36,8
     COMBOBOX        IDC_FIND_STRING,48,7,152,99,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_GROUP | WS_TABSTOP
     CONTROL         "S&olo parole intere",IDC_WHOLE_WORD,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,7,27,90,10
-    CONTROL         "&Distingui fra maiuscole/minuscole",IDC_MATCH_CASE,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,7,40,53,10
+    CONTROL         "&Maiuscole/minuscole",IDC_MATCH_CASE,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,7,40,53,10
     CONTROL         "&Espressione regolare",IDC_REGULAR_EXPRESSION,"Button",BS_AUTOCHECKBOX | WS_GROUP,7,53,80,10
     GROUPBOX        "Direzione",IDC_STATIC,123,27,93,36,WS_GROUP
     CONTROL         "&Su",IDC_DIRECTION0,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,134,37,25,10
@@ -1503,7 +1503,7 @@ BEGIN
     LTEXT           "&Password:",IDC_STATIC,7,150,44,8
     EDITTEXT        IDC_PASSWORD,66,147,82,14,ES_PASSWORD | ES_AUTOHSCROLL
     CONTROL         "Salva pass&word",IDC_SAVE_PASSWORD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,154,148,61,10
-    LTEXT           "&Sotto directory:",IDC_STATIC,7,166,44,8
+    LTEXT           "&Sottodirectory:",IDC_STATIC,7,166,44,8
     EDITTEXT        IDC_DIRECTORY,66,163,149,14,ES_AUTOHSCROLL
     PUSHBUTTON      "Avan&zate...",IDC_ADVANCED,165,184,50,14
 END
@@ -1547,7 +1547,7 @@ BEGIN
     COMBOBOX        IDC_FOLDER,48,36,154,99,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_GROUP | WS_TABSTOP
     PUSHBUTTON      "...",IDC_BROWSE,206,36,12,12
     CONTROL         "S&olo parole intere",IDC_WHOLE_WORD,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,7,57,90,10
-    CONTROL         "&Distingui fra maiuscole/minuscole",IDC_MATCH_CASE,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,7,70,53,10
+    CONTROL         "&Maiuscole/minuscole",IDC_MATCH_CASE,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,7,70,53,10
     CONTROL         "&Espressione regolare",IDC_REGULAR_EXPRESSION,"Button",BS_AUTOCHECKBOX | WS_GROUP,7,82,80,10
     DEFPUSHBUTTON   "&Trova",IDC_FIND,230,7,50,14,WS_GROUP
     PUSHBUTTON      "Annulla",IDCANCEL,230,25,50,14,WS_GROUP
@@ -1590,7 +1590,7 @@ BEGIN
     CHECKBOX        "Sola lettura",IDC_ATTR_READ_ONLY,65,62,50,10
     CHECKBOX        "Nascosto",IDC_ATTR_HIDDEN,122,62,50,10
     CHECKBOX        "Sistema",IDC_ATTR_SYSTEM,179,62,50,10
-    LTEXT           "Data ultima modifica:",IDC_STATIC,7,80,53,8
+    LTEXT           "Ultima modifica:",IDC_STATIC,7,80,53,8
     EDITTEXT        IDC_LMOD_DATE,65,79,165,12,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
     DEFPUSHBUTTON   "C&hiudi",IDOK,292,77,50,14
 END
@@ -1819,7 +1819,7 @@ END
 
 STRINGTABLE 
 BEGIN
-    AFX_IDS_IDLEMESSAGE     "Pronto"
+    AFX_IDS_IDLEMESSAGE     "Disponibile"
 END
 
 STRINGTABLE 
@@ -2300,8 +2300,8 @@ END
 
 STRINGTABLE 
 BEGIN
-    IDS_PREF_FONTS_AREA     "Area"
-    IDS_PREF_FONTS_FACE_NAME "Nome faccia"
+    IDS_PREF_FONTS_AREA     "Descrizione"
+    IDS_PREF_FONTS_FACE_NAME "Tipo carattere"
     IDS_PREF_FONTS_SIZE     "Dimensione"
     IDS_PREF_FONTS_AREA0    "Predefinito"
     IDS_PREF_FONTS_AREA1    "Personalizzato %d"

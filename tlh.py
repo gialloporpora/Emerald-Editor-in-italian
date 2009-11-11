@@ -33,7 +33,7 @@ def getStrings(filename=")cedt_us.rc"):
 		"""
 	l=getAllStrings(filename)
 	# now I remove some strings that doesn't be translated,  I save them in rejected.txt file
-	regex=re.compile("\.h[\\\\0]*$|\.ico$|\.rc2*$|\.bmp$|^[\\d\\\\]+$|^.$|^#|\\\\r\\\\n|\.cur$|^[A-Z0-9_]+$|^$|^\.\.\.$")
+	regex=re.compile("\.h[\\\\0]*$|\.ico$|\.rc2*$|\.bmp$|^[\\d\\\\]+$|^.$|^#|\\\\r\\\\n|\.cur$|^[A-Z0-9_]+$|^$|^\.\.\.$|^Button[1]*$|^Static$|^separator$")
 	l1=[i for i in l if not(regex.search(i))]
 	l2=listDiff(l,l1)
 	return (l1, l2)

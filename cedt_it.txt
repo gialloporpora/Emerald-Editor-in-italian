@@ -311,7 +311,7 @@ In&terlinea
 &200%
 *************************************************************************
 &Custom Line Spacing...
-Interlinea &personalizzata...
+&Personalizzata...
 *************************************************************************
 Ta&b Size
 &Tabulazione
@@ -329,13 +329,13 @@ Tab Size [1&6]
 [1&6]
 *************************************************************************
 &Custom Tab Size...
-Tabulazione &personalizzata...
+&Personalizzata...
 *************************************************************************
 Set &Colors...
 Imp&ostazione colori...
 *************************************************************************
 &Others
-&Altri
+&Altro
 *************************************************************************
 Embolden &Keywords\tAlt+Shift+B
 Parole chiave in gra&ssetto\tAlt+Maiusc+B
@@ -347,10 +347,10 @@ Show &Spaces\tCtrl+Shift+W
 Mostra &spazi\tCtrl+Maiiusc+W
 *************************************************************************
 Show &Tab Characters\tCtrl+Shift+T
-Mostra caratteri di &tabulazione\tCtrl+Maiusc+T
+Mostra &tabulazioni\tCtrl+Maiusc+T
 *************************************************************************
 Show Line &Break\tCtrl+Shift+B
-Mostra carattere di interruzione riga\tCtrl+Maiusc+B
+Mostra interruzioni riga\tCtrl+Maiusc+B
 *************************************************************************
 &Document
 &Documento
@@ -719,7 +719,7 @@ D&ecrease Indent
 &Trova...
 *************************************************************************
 Set as &Work Dir
-Imposta come directory predefinita
+Imposta come director&y di lavoro
 *************************************************************************
 &Copy To...
 &Copia in...
@@ -791,10 +791,10 @@ Current Time
 Ora corrente
 *************************************************************************
 &Copy Contents
-&Copia contenuti
+&Copia contenuto
 *************************************************************************
 Cl&ear Contents
-&Cancella contenuti
+Canc&ella
 *************************************************************************
 Send &Input...
 &Invia input...
@@ -903,9 +903,9 @@ Sos&tituisci con:
 *************************************************************************
 Match &whole word only
 S&olo parole intere
-*************************************************************************	
+*************************************************************************
 Match &case
-&Distingui fra maiuscole/minuscole
+&Maiuscole/minuscole
 *************************************************************************
 Regular &expression
 &Espressione regolare
@@ -1418,7 +1418,7 @@ Sav&e password
 Salva pass&word
 *************************************************************************
 &Subdirectory:
-&Sotto directory:
+&Sottodirectory:
 *************************************************************************
 Ad&vanced...
 Avan&zate...
@@ -1499,7 +1499,7 @@ System
 Sistema
 *************************************************************************
 Last mod date:
-Data ultima modifica:
+Ultima modifica:
 *************************************************************************
 FTP Transfer
 FTP Transfer
@@ -1517,7 +1517,7 @@ Edit with Crimson Editor
 Modifica con Crimson Editor
 *************************************************************************
 Ready
-Pronto
+Disponibile
 *************************************************************************
 Show or hide the toolbar\nToggle ToolBar
 Mostra o nasconde la barra degli strumenti\nMostra/nascondi barra degli strumenti
@@ -2240,10 +2240,10 @@ Tools
 Strumenti
 *************************************************************************
 Area
-Area
+Descrizione
 *************************************************************************
 Face Name
-Nome faccia
+Tipo carattere
 *************************************************************************
 Size
 Dimensione
