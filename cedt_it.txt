@@ -58,6 +58,9 @@ Im&postazioni FTP...
 Recent F&iles
 File re&centi
 *************************************************************************
+Recent File
+File recente
+*************************************************************************
 E&xit\tAlt+F4
 &Esci\tAlt+F4
 *************************************************************************
@@ -221,10 +224,10 @@ Segnalibro p&recedente\tMaiusc+F2
 &Riposiziona su ultima modifica\tCtrl+\\
 *************************************************************************
 Pairs &Begin Position\tCtrl+[
-Parentesi gemella &aperta\tCtrl+'
+Parentesi &aperta gemella\tCtrl+'
 *************************************************************************
 Pairs &End Position\tCtrl+]
-Parentesi gemella &chiusa\tCtrl+ì
+Parentesi &chiusa gemella\tCtrl+ì
 *************************************************************************
 &View
 &Visualizza
@@ -1064,7 +1067,7 @@ Save remote files in Unix format
 Salvare i file remoti in formato Unix
 *************************************************************************
 Use Crimson Editor in Internet Explorer (View Source)
-Utilizza Crimson Editor per visualizzare il sorgente HTML in IE
+Utilizza Crimson Editor per visualizzare il sorgente in IE (HTML)
 *************************************************************************
 Add Crimson Editor to the right mouse button menu
 Aggiungi Crimson Editor al menu di scelta rapida
@@ -1139,7 +1142,7 @@ Close on exit
 Chiudi all'uscita
 *************************************************************************
 Use short filename (8.3)
-Usa nomi file in stile MS-DOS (8.3)
+Usa nomi corti per i file (8.3)
 *************************************************************************
 Capture output
 Cattura output
@@ -1274,7 +1277,7 @@ Caret width (1~100%):
 Larghezza cursore (1~100%):
 *************************************************************************
 - Percentage of average character width
-- percentuale media della larghezza dei caratteri
+- percentuale rifelita alla larghezza dei caratteri
 *************************************************************************
 Line number digit count (2~8):
 Cifre numero di riga (2~8):
@@ -1562,10 +1565,10 @@ Go to previous bookmark position\nPrev Bookmark
 Va alla posizione indicata dal segnalibro precedente\nSegnalibro precedente
 *************************************************************************
 Go to matching brace beginning position\nPairs Begin Position
-Va alla parentesi gemella d'apertura\nParentesi gemella aperta
+Va alla parentesi  gemella d'apertura\nParentesi aperta  gemella
 *************************************************************************
 Go to matching brace end position\nPairs End Position
-Va alla parentesi gemella di chiusura\nParentesi gemella chiusa
+Va alla parentesi gemella di chiusura\nParentesi chiusa  gemella
 *************************************************************************
 Go to previous editing position\nPrev Editing Position
 Ritorna alla posizione dell'ultima modifica effettuata\nRiposiziona su ultima modifica
