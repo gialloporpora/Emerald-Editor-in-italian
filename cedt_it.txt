@@ -242,10 +242,10 @@ Barra delle sc&hede
 Barra di stat&o
 *************************************************************************
 &Directory Window\tAlt+Shift+1
-Albero directory\tAlt+Maiusc+1
+Finestra &directory\tAlt+Maiusc+1
 *************************************************************************
 &Remote Window\tAlt+Shift+2
-&Finestra struttura &remota\tAlt+Maiusc+2
+&Finestra directory &remota\tAlt+Maiusc+2
 *************************************************************************
 &Project Window\tAlt+Shift+3
 Finestra &progetti\tAlt+Maiusc+3
@@ -266,7 +266,7 @@ Column &Markers...
 &Indicatori colonna...
 *************************************************************************
 Screen &Fonts
-&Caratteri schermo
+Caratteri sc&hermo
 *************************************************************************
 &Default
 &Predefinito
@@ -377,22 +377,22 @@ Impostazioni...
 &Blocca documento
 *************************************************************************
 &Encoding Type
-&Codifica
+&Codifica caratteri
 *************************************************************************
 &ASCII
 &ASCII
 *************************************************************************
 &Unicode (Little Endian)
-&Unicode (Little Endian)
+Unicode (&Little Endian)
 *************************************************************************
 U&nicode (Big Endian)
-U&nicode (Big Endian)
+Unicode (&Big Endian)
 *************************************************************************
 U&TF-8 (with BOM)
 U&TF-8 (con BOM)
 *************************************************************************
 UTF-&8 (w/o BOM)
-UTF-&8 (senza BOM)
+&UTF-8 (senza BOM)
 *************************************************************************
 &File Format
 &Formato file
