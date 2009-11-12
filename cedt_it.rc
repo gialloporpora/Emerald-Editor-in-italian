@@ -1964,14 +1964,14 @@ END
 
 STRINGTABLE 
 BEGIN
-    ID_MOVE_CARET_LEFT      "Sposta il cursore a sinistra"
-    ID_MOVE_CARET_RIGHT     "Sposta il cursore a destra"
-    ID_MOVE_CARET_UP        "Sposta il cursore in altro"
-    ID_MOVE_CARET_DOWN      "Sposta il cursore in basso"
-    ID_MOVE_CARET_HOME      "Sposta il cursore a inizio riga"
-    ID_MOVE_CARET_END       "Sposta il cursore alla fine della riga"
-    ID_MOVE_CARET_PRIOR     "Sposta il cursore all'indietro"
-    ID_MOVE_CARET_NEXT      "Move Caret Next"
+    ID_MOVE_CARET_LEFT      "Sposta il cursore testuale a sinistra"
+    ID_MOVE_CARET_RIGHT     "Sposta il cursore testuale a destra"
+    ID_MOVE_CARET_UP        "Sposta il cursore testuale in alto"
+    ID_MOVE_CARET_DOWN      "Sposta il cursore testuale in basso"
+    ID_MOVE_CARET_HOME      "Sposta il cursore testuale a inizio riga"
+    ID_MOVE_CARET_END       "Sposta il cursore testuale a fine riga"
+    ID_MOVE_CARET_PRIOR     "Sposta cursore testuale all'indietro"
+    ID_MOVE_CARET_NEXT      "Sposta cursore testuale in avanti"
 END
 
 STRINGTABLE 

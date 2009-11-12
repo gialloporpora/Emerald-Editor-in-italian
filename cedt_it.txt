@@ -1733,25 +1733,28 @@ Close the active window\nClose Window
 Chiude la finestra corrente\nChiudi finestra
 *************************************************************************
 Move Caret Left
-Sposta il cursore a sinistra
+Sposta il cursore testuale a sinistra
 *************************************************************************
 Move Caret Right
-Sposta il cursore a destra
+Sposta il cursore testuale a destra
 *************************************************************************
 Move Caret Up
-Sposta il cursore in altro
+Sposta il cursore testuale in alto
 *************************************************************************
 Move Caret Down
-Sposta il cursore in basso
+Sposta il cursore testuale in basso
 *************************************************************************
 Move Caret Home
-Sposta il cursore a inizio riga
+Sposta il cursore testuale a inizio riga
 *************************************************************************
 Move Caret End
-Sposta il cursore alla fine della riga
+Sposta il cursore testuale a fine riga
 *************************************************************************
 Move Caret Prior
-Sposta il cursore all'indietro
+Sposta cursore testuale all'indietro
+*************************************************************************
+Move Caret Next
+Sposta cursore testuale in avanti
 *************************************************************************
 Scroll Screen Top
 Scorre lo schermo verso l'alto
