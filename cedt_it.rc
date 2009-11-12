@@ -1160,12 +1160,12 @@ BEGIN
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,210,90,114,10,WS_EX_TRANSPARENT
     CONTROL         "Permetti l'apertura di istanze multiple",IDC_ALLOW_MULTIPLE_INSTANCE,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,210,120,94,10,WS_EX_TRANSPARENT
-    CONTROL         "Indentazione automatica",IDC_ENABLE_AUTO_INDENT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,210,133,77,10,WS_EX_TRANSPARENT
+    CONTROL         "Attiva indentazione automatica",IDC_ENABLE_AUTO_INDENT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,210,133,77,10,WS_EX_TRANSPARENT
     CONTROL         "Utilizza il tasto 'Inizio' per andare a inizio riga",IDC_HOME_KEY_GOES_TO_FIRST_POSITION,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,211,149,117,10,WS_EX_TRANSPARENT
-    CONTROL         "Ricomincia la ricerca dall'inizio quando si arriva alla fine",IDC_SEARCH_WRAP_AT_END_OF_FILE,
+    CONTROL         "Ricominciare la ricerca dall'inizio quando si arriva alla fine",IDC_SEARCH_WRAP_AT_END_OF_FILE,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,211,160,104,10,WS_EX_TRANSPARENT
-    CONTROL         "Permetti modifiche veloci con drag && drop",IDC_ENABLE_DRAG_AND_DROP_EDITING,
+    CONTROL         "&Permetti modifiche veloci con drag && drop",IDC_ENABLE_DRAG_AND_DROP_EDITING,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,211,171,115,10,WS_EX_TRANSPARENT
     LTEXT           "",IDC_ASSOC_SETTINGS_BOX,574,7,177,8,SS_SUNKEN
     LISTBOX         IDC_ASSOC_EXTENSIONS,583,19,44,75,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP,WS_EX_TRANSPARENT
@@ -1197,7 +1197,7 @@ BEGIN
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,582,298,122,10,WS_EX_TRANSPARENT
     CONTROL         "&Aprire i file dell'ultima sessione all'avvio",IDC_RELOAD_WORKING_FILES,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,582,311,131,10,WS_EX_TRANSPARENT
-    CONTROL         "Convertire tab in spazi prima di salvare",IDC_CONVERT_TABS_TO_SPACES,
+    CONTROL         "Convertire tabulazioni in spazi prima di salvare",IDC_CONVERT_TABS_TO_SPACES,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,582,327,139,10,WS_EX_TRANSPARENT
     CONTROL         "Rimuovere gli spazi vuoti superflui prima di salvare",IDC_REMOVE_TRAILING_SPACES,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,582,339,158,10,WS_EX_TRANSPARENT
@@ -1207,9 +1207,9 @@ BEGIN
     LTEXT           "",IDC_TOOL_SETTINGS_BOX,573,393,177,8,SS_SUNKEN
     CONTROL         "Utilizza Crimson Editor per visualizzare il sorgente HTML in IE",IDC_USE_IN_INTERNET_EXPLORER,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,583,409,188,10,WS_EX_TRANSPARENT
-    CONTROL         "Aggiungi Crimson Editor al menu contestuale",IDC_ADD_TO_RIGHT_MOUSE_BUTTON,
+    CONTROL         "Aggiungi Crimson Editor al menu di scelta rapida",IDC_ADD_TO_RIGHT_MOUSE_BUTTON,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,583,423,181,10,WS_EX_TRANSPARENT
-    LTEXT           "Dell'Esplora risorse di Windows (Explorer)",IDC_ADD_TO_RIGHT_MOUSE_BUTTON_DESC,595,435,113,8,0,WS_EX_TRANSPARENT
+    LTEXT           "(menu contestuale) dell'Esplora risorse di windows",IDC_ADD_TO_RIGHT_MOUSE_BUTTON_DESC,595,435,113,8,0,WS_EX_TRANSPARENT
     LTEXT           "",IDC_BACKUP_SETTINGS_BOX,575,474,177,8,SS_SUNKEN
     CONTROL         "Non creare nessun file di backup",IDC_MAKE_BACKUP_FILE0,
                     "Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,585,487,108,10,WS_EX_TRANSPARENT
@@ -1460,7 +1460,7 @@ BEGIN
     PUSHBUTTON      "",IDC_FTP_SETTINGS,275,23,14,14,BS_ICON
     LTEXT           "&Directory:",IDC_STATIC,7,26,53,8
     EDITTEXT        IDC_DIRECTORY,61,24,165,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
-    PUSHBUTTON      "Parent Directory",IDC_PARENT_DIRECTORY,239,23,14,14,BS_ICON
+    PUSHBUTTON      "Directory superiore",IDC_PARENT_DIRECTORY,239,23,14,14,BS_ICON
     PUSHBUTTON      "Crea directory",IDC_CREATE_DIRECTORY,255,23,14,14,BS_ICON
     CONTROL         "List1",IDC_FILE_LIST,"SysListView32",LVS_LIST | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,7,41,283,87,WS_EX_CLIENTEDGE
     LTEXT           "&Nome file:",IDC_STATIC,7,140,53,8

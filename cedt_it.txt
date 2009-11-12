@@ -1007,16 +1007,16 @@ Allow multiple instances
 Permetti l'apertura di istanze multiple
 *************************************************************************
 Enable auto indent
-Indentazione automatica
+Attiva indentazione automatica
 *************************************************************************
 Home key goes to first position
 Utilizza il tasto 'Inizio' per andare a inizio riga
 *************************************************************************
 Search wraps at end of file
-Ricomincia la ricerca dall'inizio quando si arriva alla fine
+Ricominciare la ricerca dall'inizio quando si arriva alla fine
 *************************************************************************
 Enable drag && drop text editing
-Permetti modifiche veloci con drag && drop
+&Permetti modifiche veloci con drag && drop
 *************************************************************************
 Associate
 Associa
@@ -1052,7 +1052,7 @@ Reload last working files on startup
 &Aprire i file dell'ultima sessione all'avvio
 *************************************************************************
 Convert tabs to spaces before saving
-Convertire tab in spazi prima di salvare
+Convertire tabulazioni in spazi prima di salvare
 *************************************************************************
 Remove trailing white spaces before saving
 Rimuovere gli spazi vuoti superflui prima di salvare
@@ -1067,10 +1067,10 @@ Use Crimson Editor in Internet Explorer (View Source)
 Utilizza Crimson Editor per visualizzare il sorgente HTML in IE
 *************************************************************************
 Add Crimson Editor to the right mouse button menu
-Aggiungi Crimson Editor al menu contestuale
+Aggiungi Crimson Editor al menu di scelta rapida
 *************************************************************************
 (context menu) of Windows Explorer
-Dell'Esplora risorse di Windows (Explorer)
+(menu contestuale) dell'Esplora risorse di windows
 *************************************************************************
 Do not make any backup file
 Non creare nessun file di backup
@@ -1391,7 +1391,7 @@ Apri file remoto
 &Directory:
 *************************************************************************
 Parent Directory
-Parent Directory
+Directory superiore
 *************************************************************************
 Create Directory
 Crea directory
