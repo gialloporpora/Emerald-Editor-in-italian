@@ -23,7 +23,7 @@ C&hiudi tutti
 &Ricarica
 *************************************************************************
 Reloa&d As...
-&Ricarica come...
+Ricarica c&ome...
 *************************************************************************
 &Save\tCtrl+S
 &Salva\tCtrl+S
@@ -47,13 +47,13 @@ Imposta&zioni pagina...
 &FTP
 *************************************************************************
 &Open Remote...\tCtrl+Shift+O
-Apri file &remoto...\tCtrl+Maiusc+O
+&Apri file&remoto...\tCtrl+Maiusc+O
 *************************************************************************
 Save &As Remote...\tCtrl+Shift+S
 &Salva file remoto...\tCtrl+Maiusc+S
 *************************************************************************
 FTP &Settings...
-Imposta&zioni FTP...
+Im&postazioni FTP...
 *************************************************************************
 Recent F&iles
 File re&centi
@@ -83,7 +83,7 @@ I&ncolla\tCtrl+V
 &Elimina\tCanc
 *************************************************************************
 &Append
-Acco&da agli appunti
+Accoda agli a&&ppunti
 *************************************************************************
 Cu&t Append\tCtrl+Shift+X
 &Taglia e accoda\tCtrl+Maiusc+X
@@ -92,7 +92,7 @@ Cu&t Append\tCtrl+Shift+X
 &Copia e accoda\tCtrl+Maiusc+C
 *************************************************************************
 &Line Oriented
-&Operazioni sulle righe
+Operazioni sulle righ&he
 *************************************************************************
 Cu&t
 &Taglia
@@ -185,10 +185,10 @@ Co&mmenta\tCtrl+M
 &Rimuovi commento\tCtrl+Maiusc+M
 *************************************************************************
 Column &Mode\tAlt+C
-&Modalità colonna\tAlt+C
+M&odalità colonna\tAlt+C
 *************************************************************************
 &Search
-&Cerca
+C&erca
 *************************************************************************
 &Find...\tCtrl+F
 &Trova...\tCtrl+F
@@ -209,22 +209,22 @@ Trova nei &file...\tCtrl+Maiusc+F
 &Vai a...\tCtrl+G
 *************************************************************************
 &Toggle Bookmark\tCtrl+F2
-&Aggiungi/rimuovi segnalibro\tCtrl+F2
+Aggiungi/rimuovi segnali&bro\tCtrl+F2
 *************************************************************************
 Ne&xt Bookmark\tF2
-Segnalibro &successivo\tF2
+Segnalibro s&uccessivo\tF2
 *************************************************************************
 Pr&ev Bookmark\tShift+F2
 Segnalibro p&recedente\tMaiusc+F2
 *************************************************************************
 &Prev Editing Position\tCtrl+\\
-&Ritorna alla posizione precedente\tCtrl+\\
+&Riposiziona su ultima modifica\tCtrl+\\
 *************************************************************************
 Pairs &Begin Position\tCtrl+[
-Vai alla parentesi ini&ziale\tCtrl+[
+Parentesi gemella &aperta\tCtrl+'
 *************************************************************************
 Pairs &End Position\tCtrl+]
-Vai alla parentesi &finale\tCtrl+]
+Parentesi gemella &chiusa\tCtrl+ì
 *************************************************************************
 &View
 &Visualizza
@@ -287,7 +287,7 @@ Custom &5
 Personalizzato &5
 *************************************************************************
 &Set Fonts...
-I&mposta carattere...
+Im&postazioni...
 *************************************************************************
 &Printer Fonts
 Caratteri &stampante
@@ -365,13 +365,13 @@ Mostra interruzioni riga\tCtrl+Maiusc+B
 File di &testo
 *************************************************************************
 &Customize...
-&Personalizza...
+Impostazioni...
 *************************************************************************
 &Reload Document
 &Ricarica documento
 *************************************************************************
 &Reload Syntaxes
-Aggiorna &sintassi
+&Aggiorna sintassi
 *************************************************************************
 &Lock Document
 &Blocca documento
@@ -407,7 +407,7 @@ UTF-&8 (senza BOM)
 &Mac (solo CR)
 *************************************************************************
 &Tabs && Spaces
-&Spazi e tabulazione
+Spazi e &tabulazioni
 *************************************************************************
 Convert &Tabs to Spaces
 Conver&ti tabulazioni in spazi
@@ -416,7 +416,7 @@ Convert &Spaces to Tabs
 Converti &spazi in tabulazioni
 *************************************************************************
 &Leading Spaces to Tabs
-Converti lo spa&zio in iniziale in tabulazione
+Converti spa&zi in iniziali in tabulazioni
 *************************************************************************
 &Remove Trailing Spaces
 &Rimuovi gli spazi vuoti superflui
@@ -464,10 +464,13 @@ View in &Browser\tAlt+B
 Mostra nel &browser\tAlt+B
 *************************************************************************
 &Load User Tools
-&Esegui comando
+Ca&rica comando personalizzato
+*************************************************************************
+User Tools
+Comandi
 *************************************************************************
 &Conf. User Tools...
-&Configura comando
+&Configura comandi...
 *************************************************************************
 &1 - Empty -\tCtrl+1
 &1 - non disponibile -\tCtrl+1
@@ -512,7 +515,10 @@ Ini&zia registrazione...
 &Ripeti macro\tAlt+Invio
 *************************************************************************
 &Load User Macros
-&Esegui macro
+Ca&rica macro personalizzata
+*************************************************************************
+User Macros
+Macro
 *************************************************************************
 &Conf. User Macros...
 &Configura macro...
@@ -743,16 +749,16 @@ Ri&muovi dal progetto
 &Sincronizza
 *************************************************************************
 File Path
-Percorso:
+Percorso file
 *************************************************************************
 File Directory
-Directory:
+Directory file
 *************************************************************************
 File Name
 Nome file
 *************************************************************************
 File Title
-Titolo
+Titolo file
 *************************************************************************
 Line Number
 Numero riga
@@ -794,7 +800,7 @@ Ora corrente
 &Copia contenuto
 *************************************************************************
 Cl&ear Contents
-Canc&ella
+Canc&ella tutto
 *************************************************************************
 Send &Input...
 &Invia input...
@@ -848,64 +854,61 @@ Hexadecimal Digit
 Cifra esadecimale
 *************************************************************************
 Tagged Expression
-Ricorda occorrenza
+Ricorda corrispondenza
 *************************************************************************
 Entire Text Matched
-Qualunque cosa
+Qualsiasi cosa
 *************************************************************************
 Tagged Expression 1
-Occorrenza 1
+Corrispondenza 1
 *************************************************************************
 Tagged Expression 2
-Occorrenza 2
+Corrispondenza 2
 *************************************************************************
 Tagged Expression 3
-Occorrenza 3
+Corrispondenza 3
 *************************************************************************
 Tagged Expression 4
-Occorrenza 4
+Corrispondenza 4
 *************************************************************************
 Tagged Expression 5
-Occorrenza 5
+Corrispondenza 5
 *************************************************************************
 Tagged Expression 6
-Occorrenza 6
+Corrispondenza 6
 *************************************************************************
 Tagged Expression 7
-Occorrenza 7
+Corrispondenza 7
 *************************************************************************
 Tagged Expression 8
-Occorrenza 8
+Corrispondenza 8
 *************************************************************************
 Tagged Expression 9
-Occorrenza 9
+Corrispondenza 9
 *************************************************************************
 MS Sans Serif
 MS Sans Serif
-*************************************************************************
-Tab1
-Tab1
 *************************************************************************
 Go To Line
 Vai alla riga
 *************************************************************************
 &Enter Line Number (1 - 1):
-&Inserire numero di riga (1 - 1):
+&Inserisci numero riga (1 - 1):
 *************************************************************************
 Replace
 Sostituisci
 *************************************************************************
 Fi&nd what:
-&Trova:
+T&rova:
 *************************************************************************
 Re&place with:
-Sos&tituisci con:
+Sostituisci &con:
 *************************************************************************
 Match &whole word only
 S&olo parole intere
 *************************************************************************
 Match &case
-&Maiuscole/minuscole
+&Distingui Maiuscole/minuscole
 *************************************************************************
 Regular &expression
 &Espressione regolare
@@ -914,19 +917,19 @@ Replace in
 Sostituisci in
 *************************************************************************
 &Selection
-Sele&zione
+Testo sele&zionato
 *************************************************************************
 Wh&ole file
-In t&utto il file
+&File corrente
 *************************************************************************
 All open f&iles
-In &tutti i file aperti
+File a&perti
 *************************************************************************
 &Find Next
 &Trova
 *************************************************************************
 Replace &All
-Sostituisci tutt&e
+&Sostituisci tutte
 *************************************************************************
 Cancel
 Annulla
@@ -995,25 +998,25 @@ Use spaces in place of tab
 Utilizza spazi al posto di tabulazioni
 *************************************************************************
 Word wrap indentation (0~16):
-Indentazione in mod. 'a capo automatico' (0~16):
+Indentazione in mod. A capo automatico (0~16):
 *************************************************************************
 Use fixed wrap width (16~200):
 Vai a capo dopo (16~200):
 *************************************************************************
 Open document word wrapped
-Aprire il documento in mod. 'a capo automatico'
+Apri il documento inmodalità A capo automatico
 *************************************************************************
 Allow multiple instances
-Permettere l'apertura di istanze multiple
+Permetti l'apertura di istanze multiple
 *************************************************************************
 Enable auto indent
-Attivare indentazione automatica
+Indentazione automatica
 *************************************************************************
 Home key goes to first position
-Utilizzare il tasto 'Inizio' per andare a inizio riga
+Utilizza il tasto 'Inizio' per andare a inizio riga
 *************************************************************************
 Search wraps at end of file
-Ricominciare la ricerca dall'inizio quando si arriva alla fine del documento
+Ricomincia la ricerca dall'inizio quando si arriva alla fine
 *************************************************************************
 Enable drag && drop text editing
 Permetti modifiche veloci con drag && drop
@@ -1031,7 +1034,7 @@ Description:
 Descrizione:
 *************************************************************************
 Associated:
-Associati:
+Associati a:
 *************************************************************************
 Default Icon:
 Icona predefinita:
@@ -1043,13 +1046,13 @@ Remote backup directory:
 Directory remota di backup:
 *************************************************************************
 - NULL to make backup files in [$(InstallDir)\\remote]
-- scegliere  NULL per  effettuare i backup in  [$(InstallDir)\\remote]
+- Lasciare vuoto per  effettuare i backup in  [$(InstallDir)\\remote]
 *************************************************************************
 Create new document on startup
 Creare un nuovo documento all'avvio
 *************************************************************************
 Reload last working files on startup
-Aprire i file dell'ultima sessione all'avvio
+&Aprire i file dell'ultima sessione all'avvio
 *************************************************************************
 Convert tabs to spaces before saving
 Convertire tab in spazi prima di salvare
@@ -1061,16 +1064,16 @@ Save files in Unix format
 Salvare i file in formato Unix
 *************************************************************************
 Save remote files in Unix format
-Salvare i file di rete in formato Unix
+Salvare i file remoti in formato Unix
 *************************************************************************
 Use Crimson Editor in Internet Explorer (View Source)
-Utilizzare Crimson Editor in IE per visualizzare il codice HTML
+Utilizza Crimson Editor per visualizzare il sorgente HTML in IE
 *************************************************************************
 Add Crimson Editor to the right mouse button menu
-Aggiungere Crimson Editor al menu contestuale
+Aggiungi Crimson Editor al menu contestuale
 *************************************************************************
 (context menu) of Windows Explorer
-dell'Esplora risorse di Windows
+Dell'Esplora risorse di Windows (Explorer)
 *************************************************************************
 Do not make any backup file
 Non creare nessun file di backup
@@ -1085,7 +1088,7 @@ Backup extension:
 Estensione Backup:
 *************************************************************************
 - NULL to use 'bak' as default extension
-- Scegliere NULL per usare 'back' come estensione predefinita
+- Lasciare vuoto per usare 'back' come estensione predefinita
 *************************************************************************
 - Use '$$$' to indicate a incremental number
 - Utilizzare '$$' per indicare un valore incrementale
@@ -1100,7 +1103,7 @@ Backup directory:
 Directory di backup:
 *************************************************************************
 - NULL to make backup file in the source directory
-- Scegliere NULL per la directory d'origine
+- Lasciare vuoto per utilizzare la directory d'origine
 *************************************************************************
 Remove
 Rimuovi
@@ -1112,7 +1115,7 @@ Down
 Giù
 *************************************************************************
 Menu Text:
-Testo Menu:
+Descrizione:
 *************************************************************************
 Hot Key:
 Hotkey:
@@ -1121,7 +1124,7 @@ HotKey1
 Hokey1
 *************************************************************************
 Load Macros...
-Esegui macro...
+Carica macro...
 *************************************************************************
 Save Macros...
 Salva macro...
@@ -1139,7 +1142,7 @@ Close on exit
 Chiudi all'uscita
 *************************************************************************
 Use short filename (8.3)
-Usare nomi file in stile MS-DOS (8.3)
+Usa nomi file in stile MS-DOS (8.3)
 *************************************************************************
 Capture output
 Cattura output
@@ -1238,7 +1241,13 @@ line number
 numero riga
 *************************************************************************
 Range background colors:
-Colore sfondo intervalli:
+Sfondo intervalli di codice:
+*************************************************************************
+range1 bkgr
+sfondo intervallo1
+*************************************************************************
+range2 bkgr
+sfondo intervallo2
 *************************************************************************
 Highlighted && shadowed colors:
 Evidenziazione e ombreggiatura:
@@ -1286,13 +1295,13 @@ Show line numbers
 Mostra numeri di riga
 *************************************************************************
 Show selection margin
-Mostra margini della selezione
+Mostra margini selezione
 *************************************************************************
 Highlight active line
-Evidenziare la riga corrente
+Evidenzia riga corrente
 *************************************************************************
 Highlight matching pairs
-Evidenziare i blocchi fra parentesi
+Evidenzia blocchi fra parentesi
 *************************************************************************
 Embolden keywords
 Parole chiave in grassetto
@@ -1301,10 +1310,10 @@ Italicize comment
 Commenti in corsivo
 *************************************************************************
 Show tab characters
-Mostra i caratteri di tabulazione
+Mostra tabulazioni
 *************************************************************************
 Show line break
-Mostra il carattere di nuova riga
+Mostra interruzioni riga
 *************************************************************************
 - double click to change screen font
 - fare doppio clic per modificare i caratteri
@@ -1340,10 +1349,10 @@ Print page footer
 Stampa pié di pagina
 *************************************************************************
 Print line numbers
-Stampa numeri righe
+Stampa numeri riga
 *************************************************************************
 Print syntax highlight
-Evidenzia la sintassi nella stampa
+&Evidenzia la sintassi
 *************************************************************************
 Apply
 Applica
@@ -1427,13 +1436,13 @@ FTP Advanced
 Avanzate FTP
 *************************************************************************
 Server &type:
-Tipo di &server:
+Tipo &server:
 *************************************************************************
 Use &WinInet
 Usa &WinInet
 *************************************************************************
 Passive FTP &mode
-&Modalità FTP passiva
+&Modalità passiva
 *************************************************************************
 Port &number:
 &Porta:
@@ -1519,6 +1528,9 @@ Modifica con Crimson Editor
 Ready
 Disponibile
 *************************************************************************
+Ln ######,  Ch ######
+Rg ######,  Cl ######
+*************************************************************************
 Show or hide the toolbar\nToggle ToolBar
 Mostra o nasconde la barra degli strumenti\nMostra/nascondi barra degli strumenti
 *************************************************************************
@@ -1553,13 +1565,13 @@ Go to previous bookmark position\nPrev Bookmark
 Va alla posizione indicata dal segnalibro precedente\nSegnalibro precedente
 *************************************************************************
 Go to matching brace beginning position\nPairs Begin Position
-Va alla parentesi che apre il blocco corrente\nVa alla parentesi iniziale
+Va alla parentesi gemella d'apertura\nParentesi gemella aperta
 *************************************************************************
 Go to matching brace end position\nPairs End Position
-Va alla parentesi che chiude il blocco corrente\nVa alla parentesi finale
+Va alla parentesi gemella di chiusura\nParentesi gemella chiusa
 *************************************************************************
 Go to previous editing position\nPrev Editing Position
-Ritorna alla posizione di modifica\nRitorna alla posizione iniziale
+Ritorna alla posizione dell'ultima modifica effettuata\nRiposiziona su ultima modifica
 *************************************************************************
 Create a new document\nNew
 Crea un nuovo documento\nNuovo
@@ -1580,7 +1592,7 @@ Change the printing options\nPage Setup
 Modifica le opzioni di stampa\nImpostazioni pagina
 *************************************************************************
 Change the printer and printing options\nPrint Setup
-Modifica le impostazione di stampa\nImpostazioni di stampa
+Modifica le impostazioni di stampa\nImpostazioni di stampa
 *************************************************************************
 Print the active document\nPrint
 Stampa il documento corrente\nStampa
@@ -1832,7 +1844,7 @@ Show or hide the output window\nOutput Window
 Mostra o nasconde la finestra output\nMostra/Nascondi finestra output
 *************************************************************************
 Toggle word wrap\nWord Wrap
-Attiva o disattiva la modalità 'a capo automatico'\nA capo automatico
+Attiva o disattiva la modalità A capo automatico\nA capo automatico
 *************************************************************************
 Enable spell checker\nSpell Check
 Attiva il controllo ortografico\nControllo ortografico
@@ -2102,7 +2114,7 @@ Output
 Output
 *************************************************************************
 &Enter Line Number (%d - %d):
-&Inserisci numero di riga (%d - %d):
+&Inserisci numero riga (%d - %d):
 *************************************************************************
 No.
 No.
@@ -2276,10 +2288,10 @@ Miscellaneous
 Altro
 *************************************************************************
 General colors
-Colori principali
+Generale
 *************************************************************************
 Keyword colors
-Colori parole chiave
+Parole chiave
 *************************************************************************
 Remove '%s' project item from the project?
 Rimuovere l'elemento '%s' dal progetto?
@@ -2357,7 +2369,7 @@ Failed to apply preferences setting!\n- You need full priviledge on the system r
 Impossibile applicare le modifiche alle preferenze.\nÈ necessario possedere pieno accesso al registro di sistema.
 *************************************************************************
 Failed to switch word wrap mode!\n- Turn off column mode or merge column-splitted window to switch word wrap.\n
-Impossibile passare alla modalità 'A capo automatico'.\n Disattiva la modalità Colonna o riunisci tutte le finestre divise per utilizzare la modalità 'A capo automatico'.\n
+Impossibile passare alla modalità A capo automatico.\n Disattiva la modalità Colonna o riunisci tutte le finestre divise per utilizzare la modalità A capo automatico.\n
 *************************************************************************
 Failed to compile regular expression '%s'.
 Impossibile compilare l'espressione regolare '%s'.
@@ -2558,7 +2570,7 @@ HTML Document|HTML.SPC|HTML.KEY
 Documento HTML|HTML.SPC|HTML.KEY
 *************************************************************************
 Java Program|JAVA.SPC|JAVA.KEY
-Programma &Java|JAVA.SPC|JAVA.KEY
+Programma Java|JAVA.SPC|JAVA.KEY
 *************************************************************************
 JSP Document|JSP.SPC|JSP.KEY
 Documento JSP|JSP.SPC|JSP.KEY
