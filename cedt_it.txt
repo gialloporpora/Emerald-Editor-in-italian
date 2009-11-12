@@ -641,7 +641,7 @@ Pr&ev Bookmark
 Segnalibro &precedente
 *************************************************************************
 Line &Numbers
-Numeri riga
+&Numeri di riga
 *************************************************************************
 &Go To...
 &Vai a...
@@ -740,7 +740,7 @@ Ri&nomina
 &Apri
 *************************************************************************
 Shell &Execute
-&Esegui da prompt
+&Esegui
 *************************************************************************
 Re&move from Project
 Ri&muovi dal progetto
@@ -833,7 +833,7 @@ Or
 O
 *************************************************************************
 Character in Range
-Caratteri nell'intervallo
+Carattere nell'intervallo
 *************************************************************************
 Character Not in Range
 Carattere non compreso nell'intervallo
@@ -857,7 +857,7 @@ Tagged Expression
 Ricorda corrispondenza
 *************************************************************************
 Entire Text Matched
-Qualsiasi cosa
+Tutto il testo
 *************************************************************************
 Tagged Expression 1
 Corrispondenza 1
@@ -885,9 +885,6 @@ Corrispondenza 8
 *************************************************************************
 Tagged Expression 9
 Corrispondenza 9
-*************************************************************************
-MS Sans Serif
-MS Sans Serif
 *************************************************************************
 Go To Line
 Vai alla riga
@@ -1742,7 +1739,7 @@ Move Caret Right
 Sposta il cursore a destra
 *************************************************************************
 Move Caret Up
-Soposta il cursore in alto
+Sposta il cursore in altro
 *************************************************************************
 Move Caret Down
 Sposta il cursore in basso
@@ -2453,13 +2450,13 @@ Visit Crimson Editor homepage - [http://crimson.emeraldeditor.com/]\nVisit Homep
 Visita la homepage di Crimson Editor - [http://crimson.emeraldeditor.com/]\nVisita homepage
 *************************************************************************
 Set the active document to the DOS file format\nDOS Format
-Imposta il formato del file a DOS\nFormato DOS
+Imposta il formato del file in stile DOS\nFormato DOS
 *************************************************************************
 Set the active document to the Unix file format\nUnix Format
-Imposta il formato del file a Unix\nFormato Unix
+Imposta il formato del file in stile Unix\nFormato Unix
 *************************************************************************
 Set the active document to the Mac file format\nMac Format
-Imposta il formato del file a Mac\nFormato Mac
+Imposta il formato del file in stile Mac\nFormato Mac
 *************************************************************************
 Set the active document to ASCII encoding\nASCII Encoding
 Imposta la codifica caratteri del documento a ASCII\nASCII

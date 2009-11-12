@@ -599,7 +599,7 @@ BEGIN
         MENUITEM "&Segnalibro successivo",              ID_SEARCH_NEXT_BOOKMARK
         MENUITEM "Segnalibro &precedente",              ID_SEARCH_PREV_BOOKMARK
         MENUITEM SEPARATOR
-        MENUITEM "Numeri riga",               ID_VIEW_LINE_NUMBERS
+        MENUITEM "&Numeri di riga",               ID_VIEW_LINE_NUMBERS
         MENUITEM "&Vai a...",                   ID_SEARCH_GO_TO
     END
     POPUP "VIEW_CLIENT"
@@ -682,7 +682,7 @@ BEGIN
     POPUP "DIR_FILE"
     BEGIN
         MENUITEM "&Apri",                       ID_DIRECTORY_ITEM_OPEN
-        MENUITEM "&Esegui da prompt",              ID_DIRECTORY_ITEM_EXECUTE
+        MENUITEM "&Esegui",              ID_DIRECTORY_ITEM_EXECUTE
         MENUITEM SEPARATOR
         MENUITEM "&Copia in...",                 ID_DIRECTORY_ITEM_COPY
         MENUITEM "&Sposta in...",                 ID_DIRECTORY_ITEM_MOVE
@@ -733,7 +733,7 @@ BEGIN
     POPUP "PRJ_LOCAL"
     BEGIN
         MENUITEM "&Apri",                       ID_PROJECT_ITEM_OPEN
-        MENUITEM "&Esegui da prompt",              ID_PROJECT_ITEM_EXECUTE
+        MENUITEM "&Esegui",              ID_PROJECT_ITEM_EXECUTE
         MENUITEM SEPARATOR
         MENUITEM "Ri&muovi dal progetto",        ID_PROJECT_ITEM_REMOVE
         MENUITEM SEPARATOR
@@ -882,7 +882,7 @@ BEGIN
         MENUITEM "0 o un'occorenza",                ID_FIND_TEXT_ZERO_OR_ONE
         MENUITEM SEPARATOR
         MENUITEM "O",                          ID_FIND_TEXT_OR
-        MENUITEM "Caratteri nell'intervallo",          ID_FIND_TEXT_IN_RANGE
+        MENUITEM "Carattere nell'intervallo",          ID_FIND_TEXT_IN_RANGE
         MENUITEM "Carattere non compreso nell'intervallo",      ID_FIND_TEXT_NOT_IN_RANGE
         MENUITEM SEPARATOR
         MENUITEM "spazio o tabulazione",                  ID_FIND_TEXT_WHITE_SPACE
@@ -896,7 +896,7 @@ BEGIN
     POPUP "SEARCH_REPLACE"
     BEGIN
         MENUITEM "Tabulazione",               ID_REPLACE_TEXT_TAB_CHAR
-        MENUITEM "Qualsiasi cosa",         ID_REPLACE_TEXT_TAGGED_EXP0
+        MENUITEM "Tutto il testo",         ID_REPLACE_TEXT_TAGGED_EXP0
         MENUITEM SEPARATOR
         MENUITEM "Corrispondenza 1",         ID_REPLACE_TEXT_TAGGED_EXP1
         MENUITEM "Corrispondenza 2",         ID_REPLACE_TEXT_TAGGED_EXP2
@@ -1966,7 +1966,7 @@ STRINGTABLE
 BEGIN
     ID_MOVE_CARET_LEFT      "Sposta il cursore a sinistra"
     ID_MOVE_CARET_RIGHT     "Sposta il cursore a destra"
-    ID_MOVE_CARET_UP        "Soposta il cursore in alto"
+    ID_MOVE_CARET_UP        "Sposta il cursore in altro"
     ID_MOVE_CARET_DOWN      "Sposta il cursore in basso"
     ID_MOVE_CARET_HOME      "Sposta il cursore a inizio riga"
     ID_MOVE_CARET_END       "Sposta il cursore alla fine della riga"
@@ -2405,9 +2405,9 @@ END
 
 STRINGTABLE 
 BEGIN
-    ID_DOCU_FORMAT_DOS      "Imposta il formato del file a DOS\nFormato DOS"
-    ID_DOCU_FORMAT_UNIX     "Imposta il formato del file a Unix\nFormato Unix"
-    ID_DOCU_FORMAT_MAC      "Imposta il formato del file a Mac\nFormato Mac"
+    ID_DOCU_FORMAT_DOS      "Imposta il formato del file in stile DOS\nFormato DOS"
+    ID_DOCU_FORMAT_UNIX     "Imposta il formato del file in stile Unix\nFormato Unix"
+    ID_DOCU_FORMAT_MAC      "Imposta il formato del file in stile Mac\nFormato Mac"
     ID_DOCU_ENCODING_ASCII  "Imposta la codifica caratteri del documento a ASCII\nASCII"
     ID_DOCU_ENCODING_UNICODE_LE 
                             "Imposta la codifica del documento a Unicode (Little endian)\nUnicode (Little Endian)"
