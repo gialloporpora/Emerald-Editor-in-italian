@@ -278,8 +278,8 @@ BEGIN
             MENUITEM "Barra delle sc&hede",              ID_VIEW_FILE_TAB
             MENUITEM "Barra di stat&o",                 ID_VIEW_STATUS_BAR
             MENUITEM SEPARATOR
-            MENUITEM "Albero directory\tAlt+Maiusc+1", ID_VIEW_DIRECTORY
-            MENUITEM "&Finestra struttura &remota\tAlt+Maiusc+2", ID_VIEW_REMOTE
+            MENUITEM "Finestra &directory\tAlt+Maiusc+1", ID_VIEW_DIRECTORY
+            MENUITEM "&Finestra directory &remota\tAlt+Maiusc+2", ID_VIEW_REMOTE
             MENUITEM "Finestra &progetti\tAlt+Maiusc+3", ID_VIEW_PROJECT
             MENUITEM "Finestra &output\tAlt+Maiusc+0", ID_VIEW_OUTPUT
         END
@@ -290,7 +290,7 @@ BEGIN
         MENUITEM "&Numeri riga\tAlt+Maiusc+L",  ID_VIEW_LINE_NUMBERS
         MENUITEM "&Indicatori colonna...",          ID_VIEW_COLUMN_MARKERS
         MENUITEM SEPARATOR
-        POPUP "&Caratteri schermo"
+        POPUP "Caratteri sc&hermo"
         BEGIN
             MENUITEM "&Predefinito",                    ID_VIEW_SCREEN_FONT0
             MENUITEM "Personalizzato &1",                   ID_VIEW_SCREEN_FONT1
@@ -357,13 +357,13 @@ BEGIN
         MENUITEM "&Aggiorna sintassi",            ID_SYNTAX_RELOAD
         MENUITEM "&Blocca documento",              ID_DOCU_LOCK
         MENUITEM SEPARATOR
-        POPUP "&Codifica"
+        POPUP "&Codifica caratteri"
         BEGIN
             MENUITEM "&ASCII",                      ID_DOCU_ENCODING_ASCII
-            MENUITEM "&Unicode (Little Endian)",    ID_DOCU_ENCODING_UNICODE_LE
-            MENUITEM "U&nicode (Big Endian)",       ID_DOCU_ENCODING_UNICODE_BE
+            MENUITEM "Unicode (&Little Endian)",    ID_DOCU_ENCODING_UNICODE_LE
+            MENUITEM "Unicode (&Big Endian)",       ID_DOCU_ENCODING_UNICODE_BE
             MENUITEM "U&TF-8 (con BOM)",           ID_DOCU_ENCODING_UTF8_WBOM
-            MENUITEM "UTF-&8 (senza BOM)",            ID_DOCU_ENCODING_UTF8_XBOM
+            MENUITEM "&UTF-8 (senza BOM)",            ID_DOCU_ENCODING_UTF8_XBOM
         END
         POPUP "&Formato file"
         BEGIN
