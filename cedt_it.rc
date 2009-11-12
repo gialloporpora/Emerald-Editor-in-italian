@@ -1337,7 +1337,7 @@ BEGIN
     LTEXT           "",IDC_LINE_SPACING_BOX,203,230,177,8,SS_SUNKEN
     LTEXT           "Interlinea (50~200%):",IDC_LINE_SPACING_CAPTION,207,243,77,8,0,WS_EX_TRANSPARENT
     EDITTEXT        IDC_LINE_SPACING,314,239,40,14,ES_RIGHT | ES_AUTOHSCROLL,WS_EX_TRANSPARENT
-    LTEXT           "Larghezza carattere (1~100%):",IDC_CARET_WIDTH_CAPTION,207,255,69,8,0,WS_EX_TRANSPARENT
+    LTEXT           "Larghezza cursore (1~100%):",IDC_CARET_WIDTH_CAPTION,207,255,69,8,0,WS_EX_TRANSPARENT
     EDITTEXT        IDC_CARET_WIDTH,314,252,40,14,ES_RIGHT | ES_AUTOHSCROLL,WS_EX_TRANSPARENT
     LTEXT           "- percentuale media della larghezza dei caratteri",IDC_CARET_WIDTH_DESC,210,268,133,8,0,WS_EX_TRANSPARENT
     LTEXT           "",IDC_LINE_NUMBER_BOX,198,286,177,8,SS_SUNKEN
@@ -1970,7 +1970,7 @@ BEGIN
     ID_MOVE_CARET_DOWN      "Sposta il cursore in basso"
     ID_MOVE_CARET_HOME      "Sposta il cursore a inizio riga"
     ID_MOVE_CARET_END       "Sposta il cursore alla fine della riga"
-    ID_MOVE_CARET_PRIOR     "Move Caret Prior"
+    ID_MOVE_CARET_PRIOR     "Sposta il cursore all'indietro"
     ID_MOVE_CARET_NEXT      "Move Caret Next"
 END
 

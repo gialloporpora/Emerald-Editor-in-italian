@@ -1271,7 +1271,7 @@ Line spacing (50~200%):
 Interlinea (50~200%):
 *************************************************************************
 Caret width (1~100%):
-Larghezza carattere (1~100%):
+Larghezza cursore (1~100%):
 *************************************************************************
 - Percentage of average character width
 - percentuale media della larghezza dei caratteri
@@ -1751,10 +1751,7 @@ Move Caret End
 Sposta il cursore alla fine della riga
 *************************************************************************
 Move Caret Prior
-Move Caret Prior
-*************************************************************************
-Move Caret Next
-Move Caret Next
+Sposta il cursore all'indietro
 *************************************************************************
 Scroll Screen Top
 Scorre lo schermo verso l'alto
