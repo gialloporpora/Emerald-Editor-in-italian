@@ -1205,7 +1205,7 @@ BEGIN
     CONTROL         "Salvare i file remoti in formato Unix",IDC_SAVE_REMOTE_FILES_UNIX,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,582,366,119,10,WS_EX_TRANSPARENT
     LTEXT           "",IDC_TOOL_SETTINGS_BOX,573,393,177,8,SS_SUNKEN
-    CONTROL         "Utilizza Crimson Editor per visualizzare il sorgente HTML in IE",IDC_USE_IN_INTERNET_EXPLORER,
+    CONTROL         "Utilizza Crimson Editor per visualizzare il sorgente in IE (HTML)",IDC_USE_IN_INTERNET_EXPLORER,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,583,409,188,10,WS_EX_TRANSPARENT
     CONTROL         "Aggiungi Crimson Editor al menu di scelta rapida",IDC_ADD_TO_RIGHT_MOUSE_BUTTON,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,583,423,181,10,WS_EX_TRANSPARENT
