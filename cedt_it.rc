@@ -426,7 +426,7 @@ BEGIN
         MENUITEM SEPARATOR
         MENUITEM "&Ripeti macro\tAlt+Invio",    ID_MACRO_REPLAY
         MENUITEM SEPARATOR
-        POPUP "Ca&rica macro personalizzata"
+        POPUP "Carica macro& personalizzata"
         BEGIN
             MENUITEM "Macro",                 ID_MACRO_USER_FILE0, GRAYED
         END
@@ -1147,23 +1147,23 @@ FONT 8, "MS Sans Serif", 0, 0, 0x1
 BEGIN
     LTEXT           "&Categorie",IDC_CATEGORIES_CAPTION,7,7,36,8
     CONTROL         "Tree1",IDC_CATEGORIES,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | TVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,7,18,99,80,WS_EX_CLIENTEDGE
-    LTEXT           "Tabulazione (1~64):",IDC_TAB_SIZE_CAPTION,211,25,81,8,0,WS_EX_TRANSPARENT
+    LTEXT           "&Tabulazione (1~64):",IDC_TAB_SIZE_CAPTION,211,25,81,8,0,WS_EX_TRANSPARENT
     EDITTEXT        IDC_TAB_SIZE,318,23,40,14,ES_RIGHT | ES_AUTOHSCROLL,WS_EX_TRANSPARENT
-    CONTROL         "Utilizza spazi al posto di tabulazioni",IDC_USE_SPACES_IN_PLACE_OF_TAB,
+    CONTROL         "&Utilizza spazi al posto di tabulazioni",IDC_USE_SPACES_IN_PLACE_OF_TAB,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,211,37,104,10,WS_EX_TRANSPARENT
-    LTEXT           "Indentazione in mod. A capo automatico (0~16):",IDC_WRAP_INDENTATION_CAPTION,210,66,104,8,0,WS_EX_TRANSPARENT
+    LTEXT           "&Indentazione in mod. A capo automatico (0~16):",IDC_WRAP_INDENTATION_CAPTION,210,66,104,8,0,WS_EX_TRANSPARENT
     EDITTEXT        IDC_WRAP_INDENTATION,319,63,40,14,ES_RIGHT | ES_AUTOHSCROLL,WS_EX_TRANSPARENT
-    CONTROL         "Vai a capo dopo (16~200):",IDC_FIXED_WRAP_WIDTH_CHECK,
+    CONTROL         "&Vai a capo dopo (16~200):",IDC_FIXED_WRAP_WIDTH_CHECK,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,210,79,113,10,WS_EX_TRANSPARENT
     EDITTEXT        IDC_FIXED_WRAP_WIDTH,319,79,40,14,ES_RIGHT | ES_AUTOHSCROLL,WS_EX_TRANSPARENT
-    CONTROL         "Apri il documento inmodalità A capo automatico",IDC_OPEN_DOCUMENT_WORD_WRAPPED,
+    CONTROL         "Apri il &documento inmodalità A capo automatico",IDC_OPEN_DOCUMENT_WORD_WRAPPED,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,210,90,114,10,WS_EX_TRANSPARENT
-    CONTROL         "Permetti l'apertura di istanze multiple",IDC_ALLOW_MULTIPLE_INSTANCE,
+    CONTROL         "Permetti l'apertura di istan&ze multiple",IDC_ALLOW_MULTIPLE_INSTANCE,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,210,120,94,10,WS_EX_TRANSPARENT
-    CONTROL         "Attiva indentazione automatica",IDC_ENABLE_AUTO_INDENT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,210,133,77,10,WS_EX_TRANSPARENT
-    CONTROL         "Utilizza il tasto 'Inizio' per andare a inizio riga",IDC_HOME_KEY_GOES_TO_FIRST_POSITION,
+    CONTROL         "A&ttiva indentazione automatica",IDC_ENABLE_AUTO_INDENT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,210,133,77,10,WS_EX_TRANSPARENT
+    CONTROL         "Utilizza il tasto 'Inizio' pe&r andare a inizio riga",IDC_HOME_KEY_GOES_TO_FIRST_POSITION,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,211,149,117,10,WS_EX_TRANSPARENT
-    CONTROL         "Ricominciare la ricerca dall'inizio quando si arriva alla fine",IDC_SEARCH_WRAP_AT_END_OF_FILE,
+    CONTROL         "Ricomi&nciare la ricerca dall'inizio quando si arriva alla fine",IDC_SEARCH_WRAP_AT_END_OF_FILE,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,211,160,104,10,WS_EX_TRANSPARENT
     CONTROL         "&Permetti modifiche veloci con drag && drop",IDC_ENABLE_DRAG_AND_DROP_EDITING,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,211,171,115,10,WS_EX_TRANSPARENT
@@ -1335,33 +1335,33 @@ BEGIN
     LTEXT           "Salva lo schema colori corrente come:",IDC_SAVE_COLOR_SCHEME_CAPTION,207,777,100,8,0,WS_EX_TRANSPARENT
     PUSHBUTTON      "Salva...",IDC_SAVE_COLOR_SCHEME,315,774,50,14,0,WS_EX_TRANSPARENT
     LTEXT           "",IDC_LINE_SPACING_BOX,203,230,177,8,SS_SUNKEN
-    LTEXT           "Interlinea (50~200%):",IDC_LINE_SPACING_CAPTION,207,243,77,8,0,WS_EX_TRANSPARENT
+    LTEXT           "I&nterlinea (50~200%):",IDC_LINE_SPACING_CAPTION,207,243,77,8,0,WS_EX_TRANSPARENT
     EDITTEXT        IDC_LINE_SPACING,314,239,40,14,ES_RIGHT | ES_AUTOHSCROLL,WS_EX_TRANSPARENT
-    LTEXT           "Larghezza cursore (1~100%):",IDC_CARET_WIDTH_CAPTION,207,255,69,8,0,WS_EX_TRANSPARENT
+    LTEXT           "&Larghezza cursore (1~100%):",IDC_CARET_WIDTH_CAPTION,207,255,69,8,0,WS_EX_TRANSPARENT
     EDITTEXT        IDC_CARET_WIDTH,314,252,40,14,ES_RIGHT | ES_AUTOHSCROLL,WS_EX_TRANSPARENT
     LTEXT           "- percentuale rifelita alla larghezza dei caratteri",IDC_CARET_WIDTH_DESC,210,268,133,8,0,WS_EX_TRANSPARENT
     LTEXT           "",IDC_LINE_NUMBER_BOX,198,286,177,8,SS_SUNKEN
-    LTEXT           "Cifre numero di riga (2~8):",IDC_LINE_NUMBER_DIGITS_CAPTION,206,300,95,8,0,WS_EX_TRANSPARENT
+    LTEXT           "Ci&fre numero di riga (2~8):",IDC_LINE_NUMBER_DIGITS_CAPTION,206,300,95,8,0,WS_EX_TRANSPARENT
     EDITTEXT        IDC_LINE_NUMBER_DIGITS,314,297,40,14,ES_RIGHT | ES_AUTOHSCROLL,WS_EX_TRANSPARENT
-    LTEXT           "Lunghezza massima dei titoli delle schede (12~60):",IDC_FILE_TAB_LENGTH_CAPTION,206,314,102,8,0,WS_EX_TRANSPARENT
+    LTEXT           "Lung&hezza massima dei titoli delle schede (12~60):",IDC_FILE_TAB_LENGTH_CAPTION,206,314,102,8,0,WS_EX_TRANSPARENT
     EDITTEXT        IDC_FILE_TAB_LENGTH,314,311,40,14,ES_RIGHT | ES_AUTOHSCROLL,WS_EX_TRANSPARENT
     LTEXT           "",IDC_COLUMN_MARKERS_BOX,198,334,177,8,SS_SUNKEN
-    CONTROL         "Primo indicatore colonna a (0~200):",IDC_COLUMN_MARKER1_CHECK,
+    CONTROL         "&1° indicatore colonna a (0~200):",IDC_COLUMN_MARKER1_CHECK,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,206,348,109,10,WS_EX_TRANSPARENT
     EDITTEXT        IDC_COLUMN_MARKER1_POS,314,348,40,14,ES_RIGHT | ES_AUTOHSCROLL,WS_EX_TRANSPARENT
-    CONTROL         "Secondo indicatore colonna a (0~200):",IDC_COLUMN_MARKER2_CHECK,
+    CONTROL         "2° indicatore colonna a (0~200):",IDC_COLUMN_MARKER2_CHECK,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,206,362,110,10,WS_EX_TRANSPARENT
     EDITTEXT        IDC_COLUMN_MARKER2_POS,314,361,40,14,ES_RIGHT | ES_AUTOHSCROLL,WS_EX_TRANSPARENT
     LTEXT           "",IDC_VISUAL_OPTIONS_BOX,198,385,177,8,SS_SUNKEN
-    CONTROL         "Mostra numeri di riga",IDC_SHOW_LINE_NUMBERS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,202,401,77,10,WS_EX_TRANSPARENT
-    CONTROL         "Mostra margini selezione",IDC_SHOW_SELECTION_MARGIN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,286,401,89,10,WS_EX_TRANSPARENT
-    CONTROL         "Evidenzia riga corrente",IDC_HIGHLIGHT_ACTIVE_LINE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,202,414,80,10,WS_EX_TRANSPARENT
-    CONTROL         "Evidenzia blocchi fra parentesi",IDC_ENABLE_PAIRS_MATCHING,
+    CONTROL         "Most&ra numeri di riga",IDC_SHOW_LINE_NUMBERS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,202,401,77,10,WS_EX_TRANSPARENT
+    CONTROL         "Mostra margin&i selezione",IDC_SHOW_SELECTION_MARGIN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,286,401,89,10,WS_EX_TRANSPARENT
+    CONTROL         "&Evidenzia riga corrente",IDC_HIGHLIGHT_ACTIVE_LINE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,202,414,80,10,WS_EX_TRANSPARENT
+    CONTROL         "Evidenzia &blocchi fra parentesi",IDC_ENABLE_PAIRS_MATCHING,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,286,414,94,10,WS_EX_TRANSPARENT
-    CONTROL         "Parole chiave in grassetto",IDC_EMBOLDEN_KEYWORDS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,202,430,80,10,WS_EX_TRANSPARENT
-    CONTROL         "Commenti in corsivo",IDC_ITALICIZE_COMMENT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,286,429,71,10,WS_EX_TRANSPARENT
-    CONTROL         "Mostra tabulazioni",IDC_SHOW_TAB_CHARS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,202,441,83,10,WS_EX_TRANSPARENT
-    CONTROL         "Mostra interruzioni riga",IDC_SHOW_LINE_BREAK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,286,441,67,10,WS_EX_TRANSPARENT
+    CONTROL         "&Parole chiave in grassetto",IDC_EMBOLDEN_KEYWORDS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,202,430,80,10,WS_EX_TRANSPARENT
+    CONTROL         "&Commenti in corsivo",IDC_ITALICIZE_COMMENT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,286,429,71,10,WS_EX_TRANSPARENT
+    CONTROL         "&Mostra tabulazioni",IDC_SHOW_TAB_CHARS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,202,441,83,10,WS_EX_TRANSPARENT
+    CONTROL         "Mostra interr&uzioni riga",IDC_SHOW_LINE_BREAK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,286,441,67,10,WS_EX_TRANSPARENT
     LTEXT           "",IDC_TAB_SIZE_BOX,197,7,177,8,SS_SUNKEN
     LTEXT           "",IDC_WORD_WRAP_BOX,199,53,177,8,SS_SUNKEN
     LTEXT           "",IDC_GENERAL_OPTIONS_BOX,199,107,177,10,SS_SUNKEN
@@ -1412,9 +1412,9 @@ BEGIN
     DEFPUSHBUTTON   "OK",IDOK,7,117,39,13
     PUSHBUTTON      "Annulla",IDCANCEL,51,117,39,13
     PUSHBUTTON      "Applica",IDC_APPLY,94,117,39,13
-    CONTROL         "Mantenere le impostazioni specifiche per utente",IDC_SEPARATE_SETTINGS_BY_USER,
+    CONTROL         "&Mantenere le impostazioni specifiche per utente",IDC_SEPARATE_SETTINGS_BY_USER,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,211,183,117,10,WS_EX_TRANSPARENT
-    CONTROL         "Includi righe vuote nei blocchi di commento",IDC_COMMENT_BLANK_LINES,
+    CONTROL         "Includi righe vuote nei &blocchi di commento",IDC_COMMENT_BLANK_LINES,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,211,194,126,10,WS_EX_TRANSPARENT
     LTEXT           "",IDC_FTP_BACKUP_BOX,574,703,177,8,SS_SUNKEN
     CONTROL         "Copie di backup da mantenere (per sito):",IDC_FTP_BACKUP_NUM_CAPTION,
