@@ -1,9 +1,84 @@
 import re, sys
 import simplejson
-SEP="*************************************************************************"
-
 DEFAULT_LANG="it"
 DEFAULT_ENCODING=sys.getfilesystemencoding()
+
+
+class humanFile():
+	def __init__(self, filename, sep0="\n*************************************************************************\n", sep1="\n", fileencoding=DEFAULT_ENCODING):
+		self. filename=filename
+		self.sep0=sep0
+		self.sep1=sep1
+		self.encoding=fileencoding
+		self._content=self.open()
+		
+	def __len__(self):
+		return len(self.getDict())
+
+	def open(self):
+		""" Open the file as a normal file, it return the content of the file """
+		try:
+			f=open(self.filename, "r")
+			s=f.read()
+			f.close()
+		except IOError:
+			s=""
+		return s
+		
+	def getContent(self):
+		return self._content
+		
+	def _clear(self):
+		self._content=""
+		
+	def _push(self, data):
+		for i in data:
+			self._content+="%s%s%s%s" %(i,self.sep1, data[i], self.sep0)
+		
+	def getDict(self):
+		""" Open the file and return the content in a dictionary """
+		d={}
+		for  i in self._content.split(self.sep0):	
+			items=i.strip().split(self.sep1)
+			if len(items)==2: d[items[0]]=items[1]
+		return d
+
+	def writejson(self, data):
+		""" This function write a dictionary in a human readable file. The original data in file are deleted """
+		f=open(self.filename, "w")
+		self._clear()
+		self._push(data)
+		self.save()
+
+
+	def writeList(self, ls, data={}, clone=True):
+		""" Save a list into a file, the dictionary is used to assign the second value. 
+		If the dictionary not contains the key specified in list, its value could be:
+		if clone is True (default) the second value is exactlly the first, key and value are the same, 
+		if clone is False the value is 'not translated'. 
+		It returns None if all string have been translated, a list of untraslated strings instead """
+		self._clear()
+		not_translated=[]
+		for item in ls:
+			if data.has_key(item):value=data[item]
+			else:
+				not_translated.append(item)
+				if clone: value= item
+				else: value="not translated"
+			self._push({item:value})
+		self.save()
+		return not_translated
+			
+	def save(self):
+		""" Save the file """
+		from types import UnicodeType
+		f=open(self.filename, "w")
+		s=self._content
+		if type(s)==UnicodeType:s=s.encode(self.encoding)
+		f.write(s)
+		f.close()
+
+
 
 def listDiff(list1, list2):
 	diffList=[]
@@ -41,51 +116,24 @@ def getStrings(filename=")cedt_us.rc"):
 
 def writeHumanFiles():
 	filename="cedt_%s.txt" %DEFAULT_LANG
-	f=open(filename,"w")
-	s=""
+	f=humanFile(filename,)
 	(ls1, ls2)=getStrings()
 	try:
 		d=getPermanentDict()
 	except:
 			d={}
-	not_translated=[]
-	for i in ls1:
-		if d.has_key(i):
-			j=d[i]
-			s+="%s\n%s\n%s\n" %(i,j,SEP)
-		else: 
-			not_translated.append(i)
-	s=s.encode(DEFAULT_ENCODING)
-	f.write(s)
-	f.close()
-	filename="cedt2_%s.txt" %DEFAULT_LANG
-	f=open(filename,"w")
-	s=""
-	for i in not_translated:
-		s+="%s\n%s\n%s\n" %(i,i,SEP)
-	s=s.encode(DEFAULT_ENCODING)	
-	f.write(s)
-	f.close()	
-	f=open("rejected.txt","w")
-	s=""
-	for i in ls2:
-		s+="%s\n%s\n%s\n" %(i,i,SEP)
-	s=s.encode(DEFAULT_ENCODING)
-	f.write(s)
-	f.close()
-		
+	not_translated=f.writeList(ls1,d)
+	g=humanFile("not_translated.txt")
+	g.writeList(not_translated, {}, False)
+	h=humanFile("rejected.txt")
+	h.writeList(ls2, {})
+	return (len(f), len(g), len(h))
+
 		
 
-def getDict():
-	filename="cedt_%s.txt" %DEFAULT_LANG
-	f=open(filename,"r")
-	s=f.read()
-	f.close()
-	d={}
-	for  i in s.split(SEP):
-		items=i.strip().split("\n")
-		if len(items)==2: d[items[0]]=items[1]
-	return d
+
+
+
 def getPermanentDict():
 	filename="cedt_%s.json" %DEFAULT_LANG
 	f=open(filename,"r")
@@ -96,7 +144,9 @@ def getPermanentDict():
 def saveDict():
 	filename="cedt_%s.json" %DEFAULT_LANG
 	f=open(filename,"w")
-	d=getDict()
+	filename="cedt_%s.txt" %DEFAULT_LANG
+	g=humanFile(filename)
+	d=g.getDict()
 	simplejson.dump(d, f, indent=2, encoding=DEFAULT_ENCODING)
 	f.close()
 
@@ -148,14 +198,19 @@ if __name__ == '__main__':
 		action=args[1].upper()
 		if  (action=="FORCEUPDATE"):
 			downloadRC()
-			writeHumanFiles()
-		elif (action=="UPDATE"): writeHumanFiles()
+			info=writeHumanFiles()
+		elif (action=="UPDATE"): info=writeHumanFiles()
 		elif action=="BUILD":	
 			saveDict()
 		elif action=="TRANSLATE":
 				updateRC()
 		else: print "Bad action..."
-
+	try:
+		print "- You have translated %s\n" %info[0]
+		print "%s new strings to translate\n" %info[1]
+		print "%s strings have been automatically rejected\n\n" %info[2]
+	except:
+		pass
 			
 		
 		
