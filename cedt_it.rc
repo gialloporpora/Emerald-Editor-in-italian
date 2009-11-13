@@ -266,8 +266,8 @@ BEGIN
         BEGIN
             MENUITEM "&Riposiziona su ultima modifica\tCtrl+\\", ID_SEARCH_PREV_EDIT
             MENUITEM SEPARATOR
-            MENUITEM "Parentesi &aperta gemella\tCtrl+'", ID_SEARCH_PAIRS_BEGIN
-            MENUITEM "Parentesi &chiusa gemella\tCtrl+ì", ID_SEARCH_PAIRS_END
+            MENUITEM "Parentesi &aperta gemella\tCtrl+Maiusc+8", ID_SEARCH_PAIRS_BEGIN
+            MENUITEM "Pairs &End Position\tCtrl+]", ID_SEARCH_PAIRS_END
         END
     END
     POPUP "&Visualizza"
@@ -929,9 +929,9 @@ BEGIN
     "2",            ID_COMMAND_EXECUTE2,    VIRTKEY, CONTROL, NOINVERT
     "2",            ID_MACRO_REPLAY2,       VIRTKEY, ALT, NOINVERT
     "2",            ID_VIEW_REMOTE,         VIRTKEY, SHIFT, ALT, NOINVERT
-    VK_OEM_4,       ID_SEARCH_PAIRS_BEGIN,  VIRTKEY, CONTROL, NOINVERT
+    "8",       ID_SEARCH_PAIRS_BEGIN,  VIRTKEY, SHIFT, CONTROL, NOINVERT
     VK_OEM_5,       ID_SEARCH_PREV_EDIT,    VIRTKEY, CONTROL, NOINVERT
-    VK_OEM_6,       ID_SEARCH_PAIRS_END,    VIRTKEY, CONTROL, NOINVERT
+    "9",       ID_SEARCH_PAIRS_END,    VIRTKEY, SHIFT, C	ONTROL, NOINVERT
     "3",            ID_COMMAND_EXECUTE3,    VIRTKEY, CONTROL, NOINVERT
     "3",            ID_MACRO_REPLAY3,       VIRTKEY, ALT, NOINVERT
     "3",            ID_VIEW_PROJECT,        VIRTKEY, SHIFT, ALT, NOINVERT
@@ -1585,7 +1585,7 @@ END
 
 IDD_FTP_TRANSFER DIALOG  0, 0, 179, 23
 STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "FTP Transfer"
+CAPTION "Trasferimento file"
 FONT 8, "MS Sans Serif"
 BEGIN
     CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",WS_BORDER,4,4,113,14

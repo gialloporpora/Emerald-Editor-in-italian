@@ -224,9 +224,9 @@ Segnalibro p&recedente\tMaiusc+F2
 &Riposiziona su ultima modifica\tCtrl+\\
 *************************************************************************
 Pairs &Begin Position\tCtrl+[
-Parentesi &aperta gemella\tCtrl+'
+Parentesi &aperta gemella\tCtrl+Maiusc+8
 *************************************************************************
-Pairs &End Position\tCtrl+]
+Pairs &End Position\tCtrl+Maiusc+9
 Parentesi &chiusa gemella\tCtrl+ì
 *************************************************************************
 &View
@@ -1571,7 +1571,7 @@ Last mod date:
 Ultima modifica:
 *************************************************************************
 FTP Transfer
-FTP Transfer
+Trasferimento file
 *************************************************************************
 Progress1
 Progress1

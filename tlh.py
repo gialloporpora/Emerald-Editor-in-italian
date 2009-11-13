@@ -1,4 +1,5 @@
 import re, sys
+from os import path
 import simplejson
 DEFAULT_LANG="it"
 DEFAULT_ENCODING=sys.getfilesystemencoding()
@@ -42,13 +43,20 @@ class humanFile():
 			items=i.strip().split(self.sep1)
 			if len(items)==2: d[items[0]]=items[1]
 		return d
-
-	def writejson(self, data):
-		""" This function write a dictionary in a human readable file. The original data in file are deleted """
-		f=open(self.filename, "w")
-		self._clear()
-		self._push(data)
+	def importfromJSON(self, filename):
+		""" Import a JSON data (only dictionary, for the moment, all data stored are deleted """
+		self.clear()
+		f=open(filename,"r")
+		data=simplejson.load(f, encoding=self.encoding)
+		self.push(data)
+		f.close()
 		self.save()
+		
+	def exporttoJSON(self, filename="data.json"):
+		""" Export the content of the file in a JSOn file """
+		f=open(filename,"w")
+		simplejson.dump(self.getDict(), f, indent=2, encoding=self.encoding)
+		f.close()
 
 
 	def writeList(self, ls, data={}, clone=True):
@@ -92,6 +100,23 @@ def downloadRC():
 	"""
 	from urllib import urlretrieve
 	urlretrieve("http://svn.emeraldeditor.com/viewvc.cgi/CrimsonEditor/trunk/res/cedt_us.rc?view=co", "cedt_us.rc")
+	
+def getStrings2(filename="cedt_us.rc"):
+	""" Better extraction of strings from file """
+	f=open(filename,"r")
+	s=f.read()
+	f.close()
+	l=s.split("STRINGTABLE")
+	del(l[0])
+	s=""
+	for i in l:
+		s+=i.split("END")[0]
+	regex=re.compile('"([^"]*)"')
+	return regex.findall(s)
+	return regex.findall(s)
+	
+		
+	
 def getAllStrings(filename="cedt_us.rc"):
 	""" Extract all quoted strings from file """
 	f=open("cedt_us.rc","r")
@@ -142,13 +167,10 @@ def getPermanentDict():
 	return data
 
 def saveDict():
-	filename="cedt_%s.json" %DEFAULT_LANG
-	f=open(filename,"w")
-	filename="cedt_%s.txt" %DEFAULT_LANG
-	g=humanFile(filename)
-	d=g.getDict()
-	simplejson.dump(d, f, indent=2, encoding=DEFAULT_ENCODING)
-	f.close()
+	jsonfile="cedt_%s.json" %DEFAULT_LANG
+	humanfile="cedt_%s.txt" %DEFAULT_LANG
+	f=humanFile(humanfile)
+	f.exporttoJSON(jsonfile)
 
 def updateRC():
 	d=getPermanentDict()
@@ -159,6 +181,11 @@ def updateRC():
 		original='"%s"' %i		
 		translated='"%s"' %d[i]
 		s=s.replace(original, translated)
+	if  path.exists("sticky.txt"):
+		f=humanFile("sticky.txt")
+		d=f.getDict()
+		for i in d:
+			s=s.replace(i, d[i])
 	filename="cedt_%s.rc" %DEFAULT_LANG
 	f=open(filename,"w")
 	s=s.encode(DEFAULT_ENCODING)
@@ -206,9 +233,9 @@ if __name__ == '__main__':
 				updateRC()
 		else: print "Bad action..."
 	try:
-		print "- You have translated %s\n" %info[0]
-		print "%s new strings to translate\n" %info[1]
-		print "%s strings have been automatically rejected\n\n" %info[2]
+		print "\t- You have translated %s\n" %info[0]
+		print "\t -%s new strings to translate\n" %info[1]
+		print "\t-%s strings have been automatically rejected\n\n" %info[2]
 	except:
 		pass
 			
