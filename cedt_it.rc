@@ -885,7 +885,7 @@ BEGIN
         MENUITEM "Carattere nell'intervallo",          ID_FIND_TEXT_IN_RANGE
         MENUITEM "Carattere non compreso nell'intervallo",      ID_FIND_TEXT_NOT_IN_RANGE
         MENUITEM SEPARATOR
-        MENUITEM "spazio o tabulazione",                  ID_FIND_TEXT_WHITE_SPACE
+        MENUITEM "Spazio o tabulazione",                  ID_FIND_TEXT_WHITE_SPACE
         MENUITEM "Carattere alfanumerico",      ID_FIND_TEXT_ALNUM_CHAR
         MENUITEM "Lettera dell'alfabeto",        ID_FIND_TEXT_ALPHA_CHAR
         MENUITEM "Cifra decimale",               ID_FIND_TEXT_DEC_DIGIT
@@ -2336,7 +2336,7 @@ BEGIN
     IDS_OUT_SEARCH_TITLE    "---------- Trova nei file ----------"
     IDS_OUT_SEARCH_BEGIN    "> ricerca della stringa '%s'..."
     IDS_OUT_SEARCH_NOT_FOUND "> Impossibile trovare la stringa '%s'."
-    IDS_OUT_SEARCH_RESULT   "> Sono state trovate %d coddirpondenze."
+    IDS_OUT_SEARCH_RESULT   "> Sono state trovate %d corrispondenze."
     IDS_OUT_SEARCH_SKIP_BINARY "- Saltati i file binari '%s'."
     IDS_OUT_SEARCH_LINE_EXCEED "- La riga supera i %d caratteri  in '%s(%d)'."
     IDS_OUT_SEARCH_CANNOT_OPEN "- Impossibile aprire il file '%s'."

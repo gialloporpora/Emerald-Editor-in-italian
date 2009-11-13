@@ -2432,7 +2432,7 @@ L'espressione regolare corrisponde alla stringa vuota.
 > Impossibile trovare la stringa '%s'.
 *************************************************************************
 > %d occurrence(s) have been found.
-> Sono state trovate %d coddirpondenze.
+> Sono state trovate %d corrispondenze.
 *************************************************************************
 - Skipping binary file '%s'.
 - Saltati i file binari '%s'.

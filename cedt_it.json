@@ -638,7 +638,7 @@
   "Ad&vanced": "Avan&zate", 
   "Cut the selection and put it on the Clipboard\\nCut": "Taglia la selezione e la mette negli appunti\\nTaglia", 
   "Failed to open remote file.\\n": "Impossibile aprire il file remoto.\\n", 
-  "> %d occurrence(s) have been found.": "> Sono state trovate %d coddirpondenze.", 
+  "> %d occurrence(s) have been found.": "> Sono state trovate %d corrispondenze.", 
   "Column &Mode\\tAlt+C": "M&odalit\u00e0 colonna\\tAlt+C", 
   "Failed to logon remote server.\\n%s": "\u00c8 fallito il login al server remoto.\\n%s", 
   "Find &Next\\tF3": "Trova &successivo\\tF3", 
