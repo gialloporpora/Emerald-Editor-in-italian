@@ -1,0 +1,6 @@
+VK_OEM_4,       ID_SEARCH_PAIRS_BEGIN,  VIRTKEY, CONTROL, NOINVERT
+"8",       ID_SEARCH_PAIRS_BEGIN,  VIRTKEY, SHIFT, CONTROL, NOINVERT
+*************************************************************************
+VK_OEM_6,       ID_SEARCH_PAIRS_END,    VIRTKEY, CONTROL, NOINVERT
+"9",       ID_SEARCH_PAIRS_END,    VIRTKEY, SHIFT, C	ONTROL, NOINVERT
+*************************************************************************
