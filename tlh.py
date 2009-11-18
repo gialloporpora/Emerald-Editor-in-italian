@@ -197,8 +197,17 @@ def updateRC():
 		
 
 		
+def duplicates(l):
+	d={}
+	track={}
+	for i in l:
+		track[i]=i
+	for i in track:
+		if l.count(i)>1: d[i]=l.count(i)
+	return d
+			
 		
-
+	
 def unique(l):
 	d={}
 	for i in l:

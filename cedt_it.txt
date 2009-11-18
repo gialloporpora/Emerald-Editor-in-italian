@@ -226,8 +226,8 @@ Segnalibro p&recedente\tMaiusc+F2
 Pairs &Begin Position\tCtrl+[
 Parentesi &aperta gemella\tCtrl+Maiusc+8
 *************************************************************************
-Pairs &End Position\tCtrl+Maiusc+9
-Parentesi &chiusa gemella\tCtrl+ì
+Pairs &End Position\tCtrl+]
+Pairs &End Position\tCtrl+]
 *************************************************************************
 &View
 &Visualizza
